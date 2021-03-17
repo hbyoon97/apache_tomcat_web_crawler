@@ -172,7 +172,14 @@ public class Crawler {
 	 */
 	public void crawlLoop(InvertedIndex index) {
 		int count = 0;
-
+		
+		// To map the first link (i.e. https://www.cse.ust.hk/)
+		Link source_link = URLqueue.get(0);
+		Vector<String> head_link = new Vector<String>();
+		head_link.add(source_link.url);
+		docMapping(head_link, index);
+		
+		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
 			if (count++ == 2) break; // stop criteria
@@ -203,8 +210,14 @@ public class Crawler {
 				printPageInfo(res, doc, focus, count);
 				printWordsAndLinks(focus, words, links);
 
+				// Creating URL and dDcID Mapping
 				docMapping(links, index);
+				
+				// Creating Word and WordID Mapping
 				wordMapping(words, index);
+				
+				// Creating Parent-Child Relationship
+				parentChild(focus.url, links, index);
 				
 			} catch (Exception e){ 
 				System.out.println(e);
@@ -231,6 +244,17 @@ public class Crawler {
 			try {
 				String newWord = "wordMapping_" + word;
 				index.addWordMappingEntry(newWord);
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void parentChild(String p_url,Vector<String> children, InvertedIndex index) {
+		for(String child_url: children) {
+			try {
+				index.addPCRelation(p_url,child_url);
 			} catch (RocksDBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -277,4 +301,3 @@ public class Crawler {
 	}
 }
 
-	

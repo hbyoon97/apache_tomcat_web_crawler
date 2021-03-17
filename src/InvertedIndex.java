@@ -89,6 +89,31 @@ public class InvertedIndex
         }
     }    
     
+    // Get the docID by the URL (e.g. https://www.cse.ust.hk/ returns "doc0")
+    public String getDocID(String url) throws RocksDBException {
+    	String new_url = "docMapping_" + url;
+    	byte[] content = db.get(new_url.getBytes());
+    	return new String(content);
+    }
+    
+    public void addPCRelation(String p_url, String c_url) throws RocksDBException{
+    	String parentID = "PCR_" + getDocID(p_url);
+    	String childID = getDocID(c_url);
+    	byte[] content = db.get(parentID.getBytes());
+    	if(content != null){
+            //append
+    		String old_child = new String(content);
+    		if (!old_child.contains(childID)) {
+    			content = (new String(content) + " " + childID).getBytes();
+    		}
+            
+        } else {
+            //create new key value pair
+            content = (childID).getBytes();
+        }   
+        db.put(parentID.getBytes(), content);
+    }
+    
     public void clear() throws RocksDBException {
     	RocksIterator iter = db.newIterator();
         for(iter.seekToFirst(); iter.isValid(); iter.next()){
