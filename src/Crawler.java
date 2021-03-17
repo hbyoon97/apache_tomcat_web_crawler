@@ -29,7 +29,7 @@ class Link{
 	int level;
 	Link (String url, int level) {  
 	    this.url = url;
-	    this.level = level; 
+	    this.level = level;
 	}  
 }
 
@@ -158,7 +158,9 @@ public class Crawler {
 		int index = 1;
 		for(String link: links) {
 			System.out.println(String.format("Child Link %d: %s", index++, link));
-			if(this.urls.contains(link)) continue;
+			if(this.urls.contains(link)) {
+				continue;
+			}
 			this.URLqueue.add(new Link(link, focus.level + 1)); // add links
 		}
 
@@ -168,12 +170,12 @@ public class Crawler {
 	
 	/** Use a URLqueue to manage crawl tasks.
 	 */
-	public void crawlLoop() {
+	public void crawlLoop(InvertedIndex index) {
 		int count = 0;
 
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 1) break; // stop criteria
+			if (count++ == 5) break; // stop criteria
 			if (this.urls.contains(focus.url)) continue;   // ignore pages that has been visited
 			/* start to crawl on the page */
 			try {
@@ -190,17 +192,17 @@ public class Crawler {
 					if(str.matches("[\\u4E00-\\u9FA5]+")) 
 						iter.remove();
 				} 
+				
+				wordMapping(words, index);
 
 				//stemming before passing
-				System.out.println(new File(".").getAbsoluteFile());
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
 				stopStem.importSource(words);
 		        words = stopStem.StemWord();
-		        stopStem.printStemmedWord();
+		        Collections.sort(words);
 				
 				printPageInfo(res, doc, focus, count);
 				printWordsAndLinks(focus, words, links);
-				
 
 			} catch (Exception e){ 
 				System.out.println(e);
@@ -210,7 +212,40 @@ public class Crawler {
 		
 	}
 	
-	public static void main (String[] args) {
+	public void docMapping(InvertedIndex index){
+		int count = 0;
+		for(String url: urls) {
+			try {
+				String newUrl = "docMapping_" + url;
+				index.addDocMappingEntry(newUrl, count++);
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void wordMapping(Vector<String> words, InvertedIndex index) {
+		int count = 0;
+		for(String word: words) {
+			try {
+				String newWord = "wordMapping_" + word;
+				index.addWordMappingEntry(newWord, count++);
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	/** Use a URLqueue to manage crawl tasks.
+	 */
+	public void forwardIndex() {
+		
+	}
+	
+	public static InvertedIndex RocksDBConnection() {
+		 InvertedIndex index = null;
 		 try{
              // a static method that loads the RocksDB C++ library
              RocksDB.loadLibrary();
@@ -218,17 +253,26 @@ public class Crawler {
              // modify the path to your database
              String path = "db";
 
-             InvertedIndex index = new InvertedIndex(path);
-             index.printAll();
+             index = new InvertedIndex(path);
+//             index.printAll();
+ 
          }
          catch(RocksDBException e)
          {
              System.err.println(e.toString());
          }
-		 
+		 return index;
+	}
+	
+	public static void main (String[] args) throws RocksDBException {
+		InvertedIndex index = RocksDBConnection(); 
+		index.clear();
 		String url = "https://www.cse.ust.hk/";
 		Crawler crawler = new Crawler(url);
-		crawler.crawlLoop();
+		crawler.crawlLoop(index);
+		crawler.docMapping(index);
+		index.printAll();
+//		crawler.forwardIndex();
 		System.out.println("\nSuccessfully Returned");
 	}
 }

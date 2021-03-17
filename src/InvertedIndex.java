@@ -26,6 +26,27 @@ public class InvertedIndex
         // creat and open the database
         this.db = RocksDB.open(options, dbPath);
     }
+    
+    public void addDocMappingEntry(String url, int docID) throws RocksDBException{
+    	byte[] content = db.get(url.getBytes());
+  
+        //create new key value pair
+        content = ("doc" + docID).getBytes();
+        
+        db.put(url.getBytes(), content);
+    }
+    
+    public void addWordMappingEntry(String word, int wordID) throws RocksDBException{
+    	byte[] content = db.get(word.getBytes());
+  
+    	if(content != null){
+            return;
+        } else {
+            //create new key value pair
+            content = ("word" + wordID).getBytes();
+        }   
+        db.put(word.getBytes(), content);
+    }
 
     public void addEntry(String word, int x, int y) throws RocksDBException
     {
@@ -56,9 +77,16 @@ public class InvertedIndex
         RocksIterator iter = db.newIterator();
         for(iter.seekToFirst(); iter.isValid(); iter.next()){
 
-            System.out.println(new String(iter.key()) + "=" + new String(iter.value()));
+            System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
         }
     }    
+    
+    public void clear() throws RocksDBException {
+    	RocksIterator iter = db.newIterator();
+        for(iter.seekToFirst(); iter.isValid(); iter.next()){
+            db.remove(new String(iter.key()).getBytes());
+        }
+    }
     
     public static void main(String[] args)
     {
@@ -66,28 +94,29 @@ public class InvertedIndex
         {
             // a static method that loads the RocksDB C++ library.
             RocksDB.loadLibrary();
-
+            
             // modify the path to your database
             String path = "/home/tommyyoon/eclipse-workspace/comp4321-project/db";
 
             InvertedIndex index = new InvertedIndex(path);
     
-            index.addEntry("cat", 2, 6);
-            index.addEntry("dog", 1, 33);
-            System.out.println("First print");
-            index.printAll();
-            
-            index.addEntry("cat", 8, 3);
-            index.addEntry("dog", 6, 73);
-            index.addEntry("dog", 8, 83);
-            index.addEntry("dog", 10, 5);
-            index.addEntry("cat", 11, 106);
-            System.out.println("Second print");
-            index.printAll();
-            
-            index.delEntry("dog");
-            System.out.println("Third print");
-            index.printAll();
+//            index.addEntry("cat", 2, 6);
+//            index.addEntry("dog", 1, 33);
+//            System.out.println("First print");
+//            index.printAll();
+//            
+//            index.addEntry("cat", 8, 3);
+//            index.addEntry("dog", 6, 73);
+//            index.addEntry("dog", 8, 83);
+//            index.addEntry("dog", 10, 5);
+//            index.addEntry("cat", 11, 106);
+//            System.out.println("Second print");
+//            index.printAll();
+//            
+//            index.delEntry("dog");
+//            System.out.println("Third print");
+//            index.printAll();
+            index.clear();
         }
         catch(RocksDBException e)
         {
