@@ -6,6 +6,8 @@ ITSC:
 */
 
 import java.util.*;
+import java.util.Map.Entry;
+
 import org.jsoup.Jsoup;
 import org.jsoup.Connection;
 import org.jsoup.Connection.Response;
@@ -150,9 +152,11 @@ public class Crawler {
 	
 	/** Print all info about the focused page
 	 */
-	public void printWordsAndLinks(Link focus, Vector<String> words, Vector<String> links) {	
+	public void printWordsAndLinks(Link focus, Set<Entry<String, Integer>> keywordFreqPair, Vector<String> links) {	
 		System.out.println("\nWords:");
-		System.out.println(words);
+		 for (Entry<String, Integer> entry : keywordFreqPair) {
+	        	System.out.print(entry.getKey() + " " + entry.getValue() + " ");
+	        }
 		System.out.printf("\n\nLinks:\n");
 		
 		int index = 1;
@@ -192,8 +196,6 @@ public class Crawler {
 					if(str.matches("[\\u4E00-\\u9FA5]+")) 
 						iter.remove();
 				} 
-				
-				wordMapping(words, index);
 
 				//stemming before passing
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
@@ -201,8 +203,15 @@ public class Crawler {
 		        words = stopStem.StemWord();
 		        Collections.sort(words);
 				
+		        wordMapping(words, index);
+				
+				Set<Entry<String, Integer>> keywordFreqPair = forwardIndex(focus.url, words, index);
+		        
 				printPageInfo(res, doc, focus, count);
-				printWordsAndLinks(focus, words, links);
+				System.out.println(words);
+				printWordsAndLinks(focus, keywordFreqPair, links);
+				
+				
 
 			} catch (Exception e){ 
 				System.out.println(e);
@@ -238,10 +247,29 @@ public class Crawler {
 		}
 	}
 	
-	/** Use a URLqueue to manage crawl tasks.
+	/** forward indexer
+	 * @throws RocksDBException 
 	 */
-	public void forwardIndex() {
+	public Set<Entry<String, Integer>> forwardIndex(String url, Vector<String> words, InvertedIndex index) throws RocksDBException {
+		//forward_docID -> (word, freq)
+		 Map<String, Integer> wordAndCount = new HashMap<String, Integer>();
 		
+		 for (String word : words) {
+			 Integer count = wordAndCount.get(word);
+			
+            if (count == null) {
+                wordAndCount.put(word, 1);
+            } else {
+                wordAndCount.put(word, ++count);
+            }
+        }
+
+        // Print duplicate elements from array in Java
+        Set<Entry<String, Integer>> entrySet = wordAndCount.entrySet();
+        for (Entry<String, Integer> entry : entrySet) {
+        	index.forward(url, entry.getKey(), entry.getValue());
+        }
+        return entrySet;
 	}
 	
 	public static InvertedIndex RocksDBConnection() {
@@ -272,7 +300,6 @@ public class Crawler {
 		crawler.crawlLoop(index);
 		crawler.docMapping(index);
 		index.printAll();
-//		crawler.forwardIndex();
 		System.out.println("\nSuccessfully Returned");
 	}
 }
