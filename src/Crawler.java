@@ -175,7 +175,7 @@ public class Crawler {
 
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 5) break; // stop criteria
+			if (count++ == 2) break; // stop criteria
 			if (this.urls.contains(focus.url)) continue;   // ignore pages that has been visited
 			/* start to crawl on the page */
 			try {
@@ -193,7 +193,6 @@ public class Crawler {
 						iter.remove();
 				} 
 				
-				wordMapping(words, index);
 
 				//stemming before passing
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
@@ -204,6 +203,9 @@ public class Crawler {
 				printPageInfo(res, doc, focus, count);
 				printWordsAndLinks(focus, words, links);
 
+				docMapping(links, index);
+				wordMapping(words, index);
+				
 			} catch (Exception e){ 
 				System.out.println(e);
 				System.out.println(focus.url);
@@ -212,12 +214,11 @@ public class Crawler {
 		
 	}
 	
-	public void docMapping(InvertedIndex index){
-		int count = 0;
-		for(String url: urls) {
+	public void docMapping(Vector<String> links,InvertedIndex index){
+		for(String url: links) {
 			try {
 				String newUrl = "docMapping_" + url;
-				index.addDocMappingEntry(newUrl, count++);
+				index.addDocMappingEntry(newUrl);
 			} catch (RocksDBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -226,11 +227,10 @@ public class Crawler {
 	}
 	
 	public void wordMapping(Vector<String> words, InvertedIndex index) {
-		int count = 0;
 		for(String word: words) {
 			try {
 				String newWord = "wordMapping_" + word;
-				index.addWordMappingEntry(newWord, count++);
+				index.addWordMappingEntry(newWord);
 			} catch (RocksDBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -270,7 +270,7 @@ public class Crawler {
 		String url = "https://www.cse.ust.hk/";
 		Crawler crawler = new Crawler(url);
 		crawler.crawlLoop(index);
-		crawler.docMapping(index);
+//		crawler.docMapping(index);
 		index.printAll();
 //		crawler.forwardIndex();
 		System.out.println("\nSuccessfully Returned");
