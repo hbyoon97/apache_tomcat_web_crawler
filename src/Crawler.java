@@ -192,7 +192,7 @@ public class Crawler {
 				} 
 
 				//stemming before passing
-//				System.out.println(new File(".").getAbsoluteFile());
+				System.out.println(new File(".").getAbsoluteFile());
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
 				stopStem.importSource(words);
 		        words = stopStem.StemWord();
@@ -216,7 +216,7 @@ public class Crawler {
              RocksDB.loadLibrary();
 
              // modify the path to your database
-             String path = "/home/tommyyoon/eclipse-workspace/comp4321-project/db";
+             String path = "db";
 
              InvertedIndex index = new InvertedIndex(path);
              index.printAll();
