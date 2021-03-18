@@ -100,6 +100,20 @@ public class InvertedIndex
     	return new String(content);
     }
     
+    public String getURLbyDocID(String docID) throws RocksDBException{
+    	RocksIterator iter = db.newIterator();
+    	String url = "";
+    	for (iter.seekToFirst(); iter.isValid(); iter.next()){
+    		String value = new String(iter.value());
+    		if(value.equals(docID)) {
+    			url = new String(iter.key());
+    			url = url.replace("docMapping_","");
+    			break;
+    		}
+    	}
+    	return url;
+    }
+    
     // Get the wordID by the word 
     public String getWordID(String word) throws RocksDBException {
     	String new_word = "wordMapping_" + word;
@@ -133,6 +147,25 @@ public class InvertedIndex
             content = (childID).getBytes();
         }   
         db.put(parentID.getBytes(), content);
+    }
+    
+    public String getPCRelation(String p_url) throws RocksDBException{
+    	String result = new String();
+    	String parentID = "PCR_" + getDocID(p_url);
+    	byte[] content = db.get(parentID.getBytes());
+    	if(content != null){
+    		String new_content = new String(content);
+    		String[] children = new_content.split(" ");
+    		int count = 0;
+    		for (String child: children){
+    			count++;
+    			result = result + "Child Link " + String.valueOf(count) + ": " + getURLbyDocID(child) + "\n";
+    		}
+    		return result;
+    	}else {
+    		return "";
+    	}
+
     }
     
     public void clear() throws RocksDBException {

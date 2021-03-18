@@ -13,7 +13,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.util.Map.Entry;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import org.jsoup.HttpStatusException;
 import java.lang.RuntimeException;
@@ -331,6 +333,45 @@ public class Crawler {
 		 return index;
 	}
 	
+	public String getInfo(InvertedIndex index, String url) {
+		// get the page title
+		String result = "Page Title: " + "\n";
+
+		// get the url
+		result = result + "URL: " + url + "\n";
+
+		// get last modification date
+		result = result + "Last Modification Date: ";
+
+		// get page size
+		result = result + ", Size of page: " + "\n";
+
+		// get forward indexing keyword freq
+		result = result + "Keyword Freq1" + "\n";
+
+		// get the child link
+		try {
+			result = result + index.getPCRelation(url);
+		}catch(Exception e) {
+		}
+
+		return result;
+	}
+
+	public void outputTXT(String content){
+		try {
+		    BufferedWriter writer = new BufferedWriter(new FileWriter("./spider_result.txt"));
+		    writer.write(content);
+		    writer.close();
+		    System.out.println("Result txt file output successfully");
+
+		}
+		catch(IOException e)
+		{
+			 System.err.println(e.toString());
+		}
+}
+	
 	public static void main (String[] args) {
 		InvertedIndex index = RocksDBConnection();
 		String url = "https://www.cse.ust.hk/";
@@ -343,6 +384,8 @@ public class Crawler {
 			e.printStackTrace();
 		}
 		System.out.println("\nSuccessfully Returned");
+		String final_output = crawler.getInfo(index,"https://www.cse.ust.hk/");
+		crawler.outputTXT(final_output);
 	}
 }
 
