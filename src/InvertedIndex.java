@@ -107,6 +107,16 @@ public class InvertedIndex
     	return new String(content);
     }
     
+    // Get last-modified
+//    public String getLastModified(String url) throws RocksDBException{
+//    	String str = "metadata_" + getDocID(url);
+//    	byte[] content = db.get(str.getBytes());
+//    	String contentStr = content.toString();
+//    	System.out.println("contentStr" + contentStr);
+//    	String[] parts = contentStr.split(":");
+//    	return parts[0];
+//    }
+    
     public void addPCRelation(String p_url, String c_url) throws RocksDBException{
     	String parentID = "PCR_" + getDocID(p_url);
     	String childID = getDocID(c_url);
@@ -162,6 +172,19 @@ public class InvertedIndex
     	db.put(str.getBytes(), content);
     }
     
+   public void metadata(String url, String lm, int size, String lang, int level) throws RocksDBException{
+	   String str = "metadata_" + getDocID(url);
+	   byte[] content = db.get(str.getBytes());
+	   if(content != null) {
+   		//append
+   		content = (new String(content) + " " + lm + ":" + size + ":" + lang).getBytes();
+   	} else {
+   		//create new inverted_wordID -> docID freq
+   		content = (lm + ":" + size + ":" + lang).getBytes();
+   	}
+   	db.put(str.getBytes(), content);
+   }
+   
     public static void main(String[] args)
     {
         try

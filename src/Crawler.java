@@ -59,15 +59,16 @@ public class Crawler {
 	 * @return {Response} res
 	 * @throws HttpStatusException for non-existing pages
 	 * @throws IOException
+	 * @throws RocksDBException 
 	 */
-	public Response getResponse(String url) throws HttpStatusException, IOException {
-		if (this.urls.contains(url)) {
+	public Response getResponse(Link focus, InvertedIndex index) throws HttpStatusException, IOException {
+		if (this.urls.contains(focus.url)) {
 			throw new RevisitException(); // if the page has been visited, break the function
 		 }
 		
 		// Connection conn = Jsoup.connect(url).followRedirects(false);
 		// the default body size is 2Mb, to attain unlimited page, use the following.
-		Connection conn = Jsoup.connect(url).maxBodySize(0).followRedirects(false).ignoreHttpErrors(true);
+		Connection conn = Jsoup.connect(focus.url).maxBodySize(0).followRedirects(false).ignoreHttpErrors(true);
 		Response res;
 		
 		try {
@@ -84,20 +85,25 @@ public class Crawler {
 				 }
 			 }
 			 else {
-				 this.urls.add(url);
+				 this.urls.add(focus.url);
 			 }
 		} catch (HttpStatusException e) {
 			throw e;
 		}
 		/* Get the metadata from the result */
-		// String lastModified = res.header("last-modified");
-		 int size = res.bodyAsBytes().length;
-		 String htmlLang = res.parse().select("html").first().attr("lang");
-		 String bodyLang = res.parse().select("body").first().attr("lang");
-		 String lang = htmlLang + bodyLang;
-		// System.out.printf("Last Modified: %s\n", lastModified);
-		// System.out.printf("Size: %d Bytes\n", size);
-		// System.out.printf("Language: %s\n", lang);
+		String lastModified = res.header("last-modified");
+		if(lastModified == null) lastModified = "null";
+		int size = res.bodyAsBytes().length;
+		String htmlLang = res.parse().select("html").first().attr("lang");
+		String bodyLang = res.parse().select("body").first().attr("lang");
+		String lang = htmlLang + bodyLang;
+		
+		try {
+			index.metadata(focus.url, lastModified, size, lang, focus.level);
+		} catch (RocksDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return res;
 	}
 
@@ -185,7 +191,7 @@ public class Crawler {
 			if (count++ == 30) break; // stop criteria
 			/* start to crawl on the page */
 			try {
-				Response res = this.getResponse(focus.url);
+				Response res = this.getResponse(focus, index);
 				Document doc = res.parse();
 
 				Vector<String> words = this.extractWords(doc);
