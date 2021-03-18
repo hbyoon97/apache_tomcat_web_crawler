@@ -140,8 +140,7 @@ public class Crawler {
 	
 	/** Print all info about the focused page
 	 */
-	public void printPageInfo(Response res, Document doc, Link focus, int count) {		
-		System.out.println(count);
+	public void printPageInfo(Response res, Document doc, Link focus, int count) {
 		System.out.println("Page title: " + doc.title());
 		System.out.println("URL: " + focus.url);
 		System.out.printf("Last Modified: %s\t", res.header("last-modified"));
@@ -180,7 +179,6 @@ public class Crawler {
 		Vector<String> head_link = new Vector<String>();
 		head_link.add(source_link.url);
 		docMapping(head_link, index);
-		
 		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);

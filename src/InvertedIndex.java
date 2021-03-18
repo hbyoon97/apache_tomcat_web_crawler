@@ -122,7 +122,8 @@ public class InvertedIndex
     }
     
     public void forward(String url, String word, int count) throws RocksDBException{
-    	String str = "forward_" + url;
+    	String str = getDocID(url);
+    	str = "forward_" + str;
     	byte[] content = db.get(str.getBytes());
     	if(content != null){
             //append
