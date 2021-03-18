@@ -182,7 +182,7 @@ public class Crawler {
 		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 2) break; // stop criteria
+			if (count++ == 3) break; // stop criteria
 			if (this.urls.contains(focus.url)) continue;   // ignore pages that has been visited
 			/* start to crawl on the page */
 			try {
