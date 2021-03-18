@@ -190,7 +190,7 @@ public class Crawler {
 		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 30) break; // stop criteria
+			if (count++ == 3) break; // stop criteria
 			/* start to crawl on the page */
 			try {
 				Response res = this.getResponse(focus, index);
@@ -333,28 +333,36 @@ public class Crawler {
 		 return index;
 	}
 	
-	public String getInfo(InvertedIndex index, String url) {
-		// get the page title
-		String result = "Page Title: " + "\n";
+	public String getInfo(InvertedIndex index) {
 
-		// get the url
-		result = result + "URL: " + url + "\n";
-
-		// get last modification date
-		result = result + "Last Modification Date: ";
-
-		// get page size
-		result = result + ", Size of page: " + "\n";
-
-		// get forward indexing keyword freq
-		result = result + "Keyword Freq1" + "\n";
-
-		// get the child link
+		String result = "";
 		try {
-			result = result + index.getPCRelation(url);
-		}catch(Exception e) {
+			Vector<String> urls = index.getURLList();
+			for(String url: urls) {
+				// get the page title
+				result = result + "Page Title: " + "\n";
+		
+				// get the url
+				result = result + "URL: " + url + "\n";
+		
+				// get last modification date
+				result = result + "Last Modification Date: ";
+		
+				// get page size
+				result = result + ", Size of page: " + "\n";
+				
+				// get forward indexing keyword freq
+				result = result + "\nKeyword:\n" + index.getForward(url) + "\n";
+				
+				// get the child link
+				result = result + index.getPCRelation(url);
+				
+				result = result + "------------------------------------------------------------------\n";
+			}
+		}catch(RocksDBException e) 
+		{
+			System.err.println(e.toString());
 		}
-
 		return result;
 	}
 
@@ -384,7 +392,7 @@ public class Crawler {
 			e.printStackTrace();
 		}
 		System.out.println("\nSuccessfully Returned");
-		String final_output = crawler.getInfo(index,"https://www.cse.ust.hk/");
+		String final_output = crawler.getInfo(index);
 		crawler.outputTXT(final_output);
 	}
 }

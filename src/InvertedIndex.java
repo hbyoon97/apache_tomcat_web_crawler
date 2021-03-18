@@ -9,6 +9,7 @@ Email:
 import org.rocksdb.RocksDB;
 
 import java.util.Set;
+import java.util.Vector;
 import java.util.Map.Entry;
 
 import org.rocksdb.Options;
@@ -131,6 +132,34 @@ public class InvertedIndex
 //    	return parts[0];
 //    }
     
+    public Vector<String> getURLList()throws RocksDBException {
+    	Vector<String> urlsList = new Vector<String>();
+    	RocksIterator iter = db.newIterator();
+    	for (iter.seekToFirst(); iter.isValid(); iter.next()){
+    		String parent = new String(iter.key());
+    		
+    		// Check only Parent-Child Relationship
+    		if(parent.contains("PCR_")) {
+    			parent = parent.replace("PCR_","");
+    			// Get back the url by the docID
+    			parent = getURLbyDocID(parent);
+    			// Add parent to URL List if no exist
+    			if(!urlsList.contains(parent)) {
+    				urlsList.add(parent);
+    			}
+//    			// Add child to URL List if no exist
+//    			String value = new String(iter.value());
+//    			String[] children = value.split(" ");
+//    			for (String child:children) {
+//    				if(!urls.contains(child)) {
+//        				urls.add(child);
+//        			}
+//    			}
+    		}   	
+    	}
+    	return urlsList;
+    }
+    
     public void addPCRelation(String p_url, String c_url) throws RocksDBException{
     	String parentID = "PCR_" + getDocID(p_url);
     	String childID = getDocID(c_url);
@@ -187,6 +216,24 @@ public class InvertedIndex
             content = (word + ":" + String.valueOf(count)).getBytes();
         }   
         db.put(str.getBytes(), content);
+    }
+    
+    public String getForward(String url)throws RocksDBException{
+    	String str = getDocID(url);
+    	str = "forward_" + str;
+    	byte[] content = db.get(str.getBytes());
+    	String result = "";
+    	if(content != null){
+            //append
+    		String new_content = new String(content);
+    		String[] keywordPair = new_content.split(" ");
+    		for(String pair: keywordPair) {
+    			String keyword = pair.split(":")[0];
+    			String freq = pair.split(":")[1];
+    			result = result + keyword + " " + freq + "; ";
+    		}
+        }
+        return result + "\n";
     }
     
     public void invert(String url, String word, int freq) throws RocksDBException {
