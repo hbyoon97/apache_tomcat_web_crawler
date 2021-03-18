@@ -59,15 +59,16 @@ public class Crawler {
 	 * @return {Response} res
 	 * @throws HttpStatusException for non-existing pages
 	 * @throws IOException
+	 * @throws RocksDBException 
 	 */
-	public Response getResponse(String url) throws HttpStatusException, IOException {
-		if (this.urls.contains(url)) {
+	public Response getResponse(Link focus, InvertedIndex index) throws HttpStatusException, IOException {
+		if (this.urls.contains(focus.url)) {
 			throw new RevisitException(); // if the page has been visited, break the function
 		 }
 		
 		// Connection conn = Jsoup.connect(url).followRedirects(false);
 		// the default body size is 2Mb, to attain unlimited page, use the following.
-		Connection conn = Jsoup.connect(url).maxBodySize(0).followRedirects(false).ignoreHttpErrors(true);
+		Connection conn = Jsoup.connect(focus.url).maxBodySize(0).followRedirects(false).ignoreHttpErrors(true);
 		Response res;
 		
 		try {
@@ -84,20 +85,25 @@ public class Crawler {
 				 }
 			 }
 			 else {
-				 this.urls.add(url);
+				 this.urls.add(focus.url);
 			 }
 		} catch (HttpStatusException e) {
 			throw e;
 		}
 		/* Get the metadata from the result */
-		// String lastModified = res.header("last-modified");
-		 int size = res.bodyAsBytes().length;
-		 String htmlLang = res.parse().select("html").first().attr("lang");
-		 String bodyLang = res.parse().select("body").first().attr("lang");
-		 String lang = htmlLang + bodyLang;
-		// System.out.printf("Last Modified: %s\n", lastModified);
-		// System.out.printf("Size: %d Bytes\n", size);
-		// System.out.printf("Language: %s\n", lang);
+		String lastModified = res.header("last-modified");
+		if(lastModified == null) lastModified = "null";
+		int size = res.bodyAsBytes().length;
+		String htmlLang = res.parse().select("html").first().attr("lang");
+		String bodyLang = res.parse().select("body").first().attr("lang");
+		String lang = htmlLang + bodyLang;
+		
+		try {
+			index.metadata(focus.url, lastModified, size, lang, focus.level);
+		} catch (RocksDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return res;
 	}
 
@@ -140,8 +146,7 @@ public class Crawler {
 	
 	/** Print all info about the focused page
 	 */
-	public void printPageInfo(Response res, Document doc, Link focus, int count) {		
-		System.out.println(count);
+	public void printPageInfo(Response res, Document doc, Link focus, int count) {
 		System.out.println("Page title: " + doc.title());
 		System.out.println("URL: " + focus.url);
 		System.out.printf("Last Modified: %s\t", res.header("last-modified"));
@@ -153,7 +158,7 @@ public class Crawler {
 	public void printWordsAndLinks(Link focus, Set<Entry<String, Integer>> keywordFreqPair, Vector<String> links) {	
 		System.out.println("\nWords:");
 		 for (Entry<String, Integer> entry : keywordFreqPair) {
-	        	System.out.print(entry.getKey() + " " + entry.getValue() + " ");
+	        	System.out.print(entry.getKey() + " " + entry.getValue() + "; ");
 	        }
 		System.out.printf("\n\nLinks:\n");
 		
@@ -181,14 +186,12 @@ public class Crawler {
 		head_link.add(source_link.url);
 		docMapping(head_link, index);
 		
-		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 3) break; // stop criteria
-			if (this.urls.contains(focus.url)) continue;   // ignore pages that has been visited
+			if (count++ == 30) break; // stop criteria
 			/* start to crawl on the page */
 			try {
-				Response res = this.getResponse(focus.url);
+				Response res = this.getResponse(focus, index);
 				Document doc = res.parse();
 
 				Vector<String> words = this.extractWords(doc);
@@ -201,7 +204,6 @@ public class Crawler {
 					if(str.matches("[\\u4E00-\\u9FA5]+")) 
 						iter.remove();
 				} 
-				
 
 				//stemming before passing
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
@@ -213,12 +215,15 @@ public class Crawler {
 				
 				printPageInfo(res, doc, focus, count);
 				printWordsAndLinks(focus, keywordFreqPair, links);
-
-				// Creating URL and dDcID Mapping
+				
+				// Creating URL and docID Mapping
 				docMapping(links, index);
 				
 				// Creating Word and WordID Mapping
 				wordMapping(words, index);
+				
+				// Creating Inverted File
+				invertedIndexing(focus.url, keywordFreqPair, index);
 				
 				// Creating Parent-Child Relationship
 				parentChild(focus.url, links, index);
@@ -229,6 +234,17 @@ public class Crawler {
 			}
 		}
 		
+	}
+	
+	public void invertedIndexing(String url, Set<Entry<String, Integer>> keywordFreqPair, InvertedIndex index) {
+        for (Entry<String, Integer> entry : keywordFreqPair) {
+			try {
+				index.invert(url, entry.getKey(), entry.getValue());
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        }
 	}
 	
 	public void docMapping(Vector<String> links,InvertedIndex index){
@@ -268,7 +284,7 @@ public class Crawler {
 	
 	/** forward indexer
 	 */
-	public Set<Entry<String, Integer>> forwardIndex(String url, Vector<String> words, InvertedIndex index) throws RocksDBException {
+	public Set<Entry<String, Integer>> forwardIndex(String url, Vector<String> words, InvertedIndex index) {
 		//forward_docID -> (word, freq)
 		 Map<String, Integer> wordAndCount = new HashMap<String, Integer>();
 
@@ -282,14 +298,20 @@ public class Crawler {
             }
         }
 
-        // Print duplicate elements from array in Java
         Set<Entry<String, Integer>> entrySet = wordAndCount.entrySet();
         for (Entry<String, Integer> entry : entrySet) {
-        	index.forward(url, entry.getKey(), entry.getValue());
+        	try {
+				index.forward(url, entry.getKey(), entry.getValue());
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
         }
         return entrySet;
 	}
 	
+	/** rocksdb connection helper
+	 */
 	public static InvertedIndex RocksDBConnection() {
 		 InvertedIndex index = null;
 		 try{
@@ -300,8 +322,7 @@ public class Crawler {
              String path = "db";
 
              index = new InvertedIndex(path);
-//             index.printAll();
- 
+             index.clear();
          }
          catch(RocksDBException e)
          {
@@ -310,13 +331,17 @@ public class Crawler {
 		 return index;
 	}
 	
-	public static void main (String[] args) throws RocksDBException {
-		InvertedIndex index = RocksDBConnection(); 
-		index.clear();
+	public static void main (String[] args) {
+		InvertedIndex index = RocksDBConnection();
 		String url = "https://www.cse.ust.hk/";
 		Crawler crawler = new Crawler(url);
 		crawler.crawlLoop(index);
-		index.printAll();
+		try {
+			index.printAll();
+		} catch (RocksDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println("\nSuccessfully Returned");
 	}
 }
