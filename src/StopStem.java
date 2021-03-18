@@ -67,7 +67,7 @@ public class StopStem {
 
         StopStem stopStem = new StopStem("stopwords-en.txt");
 
-        String[] testString = { "Modification", "Hello", " Stop", "fucking", "?", "番緊?", "#$!@$@!" };
+        String[] testString = { "Modification", "Hello", " Stop", "?", "番緊?", "#$!@$@!" };
         List<String> testList = Arrays.asList(testString);
         Vector<String> testing = new Vector<String>(testList);
 

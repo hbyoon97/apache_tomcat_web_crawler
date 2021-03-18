@@ -172,10 +172,17 @@ public class Crawler {
 	 */
 	public void crawlLoop(InvertedIndex index) {
 		int count = 0;
-
+		
+		// To map the first link (i.e. https://www.cse.ust.hk/)
+		Link source_link = URLqueue.get(0);
+		Vector<String> head_link = new Vector<String>();
+		head_link.add(source_link.url);
+		docMapping(head_link, index);
+		
+		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 5) break; // stop criteria
+			if (count++ == 3) break; // stop criteria
 			if (this.urls.contains(focus.url)) continue;   // ignore pages that has been visited
 			/* start to crawl on the page */
 			try {
@@ -193,7 +200,6 @@ public class Crawler {
 						iter.remove();
 				} 
 				
-				wordMapping(words, index);
 
 				//stemming before passing
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
@@ -204,6 +210,15 @@ public class Crawler {
 				printPageInfo(res, doc, focus, count);
 				printWordsAndLinks(focus, words, links);
 
+				// Creating URL and dDcID Mapping
+				docMapping(links, index);
+				
+				// Creating Word and WordID Mapping
+				wordMapping(words, index);
+				
+				// Creating Parent-Child Relationship
+				parentChild(focus.url, links, index);
+				
 			} catch (Exception e){ 
 				System.out.println(e);
 				System.out.println(focus.url);
@@ -212,12 +227,11 @@ public class Crawler {
 		
 	}
 	
-	public void docMapping(InvertedIndex index){
-		int count = 0;
-		for(String url: urls) {
+	public void docMapping(Vector<String> links,InvertedIndex index){
+		for(String url: links) {
 			try {
 				String newUrl = "docMapping_" + url;
-				index.addDocMappingEntry(newUrl, count++);
+				index.addDocMappingEntry(newUrl);
 			} catch (RocksDBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -226,11 +240,21 @@ public class Crawler {
 	}
 	
 	public void wordMapping(Vector<String> words, InvertedIndex index) {
-		int count = 0;
 		for(String word: words) {
 			try {
 				String newWord = "wordMapping_" + word;
-				index.addWordMappingEntry(newWord, count++);
+				index.addWordMappingEntry(newWord);
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void parentChild(String p_url,Vector<String> children, InvertedIndex index) {
+		for(String child_url: children) {
+			try {
+				index.addPCRelation(p_url,child_url);
 			} catch (RocksDBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -270,11 +294,10 @@ public class Crawler {
 		String url = "https://www.cse.ust.hk/";
 		Crawler crawler = new Crawler(url);
 		crawler.crawlLoop(index);
-		crawler.docMapping(index);
+//		crawler.docMapping(index);
 		index.printAll();
 //		crawler.forwardIndex();
 		System.out.println("\nSuccessfully Returned");
 	}
 }
 
-	

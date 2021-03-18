@@ -50,7 +50,7 @@
   persist_stats_to_disk=false
   WAL_size_limit_MB=0
   bgerror_resume_retry_interval=1000000
-  wal_dir=/home/tommyyoon/eclipse-workspace/comp4321-project/db
+  wal_dir=db
   log_file_time_to_roll=0
   keep_log_file_num=1000
   WAL_ttl_seconds=0

@@ -15,6 +15,8 @@ public class InvertedIndex
 {
     private RocksDB db;
     private Options options;
+    private int wordNextID;
+    private int docNextID;
 
     InvertedIndex(String dbPath) throws RocksDBException
     {
@@ -22,28 +24,35 @@ public class InvertedIndex
         // that determines the behaviour of the database.
         this.options = new Options();
         this.options.setCreateIfMissing(true);
+        this.wordNextID = 0;
+        this.docNextID = 0;
 
         // creat and open the database
         this.db = RocksDB.open(options, dbPath);
     }
     
-    public void addDocMappingEntry(String url, int docID) throws RocksDBException{
+    public void addDocMappingEntry(String url) throws RocksDBException{
     	byte[] content = db.get(url.getBytes());
-  
-        //create new key value pair
-        content = ("doc" + docID).getBytes();
-        
+    	
+    	if(content != null){
+            return;
+        } else {
+	        //create new key value pair
+	        content = ("doc" + this.docNextID).getBytes();
+	        this.docNextID++;
+        }
         db.put(url.getBytes(), content);
     }
     
-    public void addWordMappingEntry(String word, int wordID) throws RocksDBException{
+    public void addWordMappingEntry(String word) throws RocksDBException{
     	byte[] content = db.get(word.getBytes());
   
     	if(content != null){
             return;
         } else {
             //create new key value pair
-            content = ("word" + wordID).getBytes();
+            content = ("word" + this.wordNextID).getBytes();
+            this.wordNextID++;
         }   
         db.put(word.getBytes(), content);
     }
@@ -76,10 +85,34 @@ public class InvertedIndex
         // ADD YOUR CODES HERE
         RocksIterator iter = db.newIterator();
         for(iter.seekToFirst(); iter.isValid(); iter.next()){
-
             System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
         }
     }    
+    
+    // Get the docID by the URL (e.g. https://www.cse.ust.hk/ returns "doc0")
+    public String getDocID(String url) throws RocksDBException {
+    	String new_url = "docMapping_" + url;
+    	byte[] content = db.get(new_url.getBytes());
+    	return new String(content);
+    }
+    
+    public void addPCRelation(String p_url, String c_url) throws RocksDBException{
+    	String parentID = "PCR_" + getDocID(p_url);
+    	String childID = getDocID(c_url);
+    	byte[] content = db.get(parentID.getBytes());
+    	if(content != null){
+            //append
+    		String old_child = new String(content);
+    		if (!old_child.contains(childID)) {
+    			content = (new String(content) + " " + childID).getBytes();
+    		}
+            
+        } else {
+            //create new key value pair
+            content = (childID).getBytes();
+        }   
+        db.put(parentID.getBytes(), content);
+    }
     
     public void clear() throws RocksDBException {
     	RocksIterator iter = db.newIterator();
@@ -96,7 +129,7 @@ public class InvertedIndex
             RocksDB.loadLibrary();
             
             // modify the path to your database
-            String path = "/home/tommyyoon/eclipse-workspace/comp4321-project/db";
+            String path = "/Users/anthonykwok/Documents/Academic/HKUST/Year 2020-2021 (DSCT Yr 3)/2021 Spring Semester Course/COMP4321/Project/comp4321-project/db";
 
             InvertedIndex index = new InvertedIndex(path);
     
