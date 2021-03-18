@@ -152,7 +152,7 @@ public class Crawler {
 	public void printWordsAndLinks(Link focus, Set<Entry<String, Integer>> keywordFreqPair, Vector<String> links) {	
 		System.out.println("\nWords:");
 		 for (Entry<String, Integer> entry : keywordFreqPair) {
-	        	System.out.print(entry.getKey() + " " + entry.getValue() + " ");
+	        	System.out.print(entry.getKey() + " " + entry.getValue() + "; ");
 	        }
 		System.out.printf("\n\nLinks:\n");
 		
@@ -182,8 +182,7 @@ public class Crawler {
 		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 3) break; // stop criteria
-			if (this.urls.contains(focus.url)) continue;   // ignore pages that has been visited
+			if (count++ == 30) break; // stop criteria
 			/* start to crawl on the page */
 			try {
 				Response res = this.getResponse(focus.url);
@@ -199,7 +198,6 @@ public class Crawler {
 					if(str.matches("[\\u4E00-\\u9FA5]+")) 
 						iter.remove();
 				} 
-				
 
 				//stemming before passing
 				StopStem stopStem = new StopStem("lib/stopwords-en.txt");
@@ -211,12 +209,15 @@ public class Crawler {
 				
 				printPageInfo(res, doc, focus, count);
 				printWordsAndLinks(focus, keywordFreqPair, links);
-
-				// Creating URL and dDcID Mapping
+				
+				// Creating URL and docID Mapping
 				docMapping(links, index);
 				
 				// Creating Word and WordID Mapping
 				wordMapping(words, index);
+				
+				// Creating Inverted File
+				invertedIndexing(focus.url, keywordFreqPair, index);
 				
 				// Creating Parent-Child Relationship
 				parentChild(focus.url, links, index);
@@ -227,6 +228,17 @@ public class Crawler {
 			}
 		}
 		
+	}
+	
+	public void invertedIndexing(String url, Set<Entry<String, Integer>> keywordFreqPair, InvertedIndex index) {
+        for (Entry<String, Integer> entry : keywordFreqPair) {
+			try {
+				index.invert(url, entry.getKey(), entry.getValue());
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        }
 	}
 	
 	public void docMapping(Vector<String> links,InvertedIndex index){
@@ -266,7 +278,7 @@ public class Crawler {
 	
 	/** forward indexer
 	 */
-	public Set<Entry<String, Integer>> forwardIndex(String url, Vector<String> words, InvertedIndex index) throws RocksDBException {
+	public Set<Entry<String, Integer>> forwardIndex(String url, Vector<String> words, InvertedIndex index) {
 		//forward_docID -> (word, freq)
 		 Map<String, Integer> wordAndCount = new HashMap<String, Integer>();
 
@@ -280,14 +292,20 @@ public class Crawler {
             }
         }
 
-        // Print duplicate elements from array in Java
         Set<Entry<String, Integer>> entrySet = wordAndCount.entrySet();
         for (Entry<String, Integer> entry : entrySet) {
-        	index.forward(url, entry.getKey(), entry.getValue());
+        	try {
+				index.forward(url, entry.getKey(), entry.getValue());
+			} catch (RocksDBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
         }
         return entrySet;
 	}
 	
+	/** rocksdb connection helper
+	 */
 	public static InvertedIndex RocksDBConnection() {
 		 InvertedIndex index = null;
 		 try{
@@ -298,8 +316,7 @@ public class Crawler {
              String path = "db";
 
              index = new InvertedIndex(path);
-//             index.printAll();
- 
+             index.clear();
          }
          catch(RocksDBException e)
          {
@@ -308,13 +325,17 @@ public class Crawler {
 		 return index;
 	}
 	
-	public static void main (String[] args) throws RocksDBException {
-		InvertedIndex index = RocksDBConnection(); 
-		index.clear();
+	public static void main (String[] args) {
+		InvertedIndex index = RocksDBConnection();
 		String url = "https://www.cse.ust.hk/";
 		Crawler crawler = new Crawler(url);
 		crawler.crawlLoop(index);
-		index.printAll();
+		try {
+			index.printAll();
+		} catch (RocksDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println("\nSuccessfully Returned");
 	}
 }

@@ -7,6 +7,10 @@ Email:
 */
 
 import org.rocksdb.RocksDB;
+
+import java.util.Set;
+import java.util.Map.Entry;
+
 import org.rocksdb.Options;
 import org.rocksdb.RocksDBException;  
 import org.rocksdb.RocksIterator;
@@ -96,6 +100,13 @@ public class InvertedIndex
     	return new String(content);
     }
     
+    // Get the wordID by the word 
+    public String getWordID(String word) throws RocksDBException {
+    	String new_word = "wordMapping_" + word;
+    	byte[] content = db.get(new_word.getBytes());
+    	return new String(content);
+    }
+    
     public void addPCRelation(String p_url, String c_url) throws RocksDBException{
     	String parentID = "PCR_" + getDocID(p_url);
     	String childID = getDocID(c_url);
@@ -127,12 +138,28 @@ public class InvertedIndex
     	byte[] content = db.get(str.getBytes());
     	if(content != null){
             //append
-            content = (new String(content) + " " + word + String.valueOf(count)).getBytes();
+            content = (new String(content) + " " + word + ":" +String.valueOf(count)).getBytes();
         } else {
             //create new key value pair
-            content = (word + String.valueOf(count)).getBytes();
+            content = (word + ":" + String.valueOf(count)).getBytes();
         }   
         db.put(str.getBytes(), content);
+    }
+    
+    public void invert(String url, String word, int freq) throws RocksDBException {
+    	String docID = getDocID(url);
+    	String wordID = getWordID(word);
+    	String str = "inverted_" + wordID;
+    	
+    	byte[] content = db.get(str.getBytes());
+    	if(content != null) {
+    		//append
+    		content = (new String(content) + " " + docID + ":" + freq).getBytes();
+    	} else {
+    		//create new inverted_wordID -> docID freq
+    		content = (docID + ":" + freq).getBytes();
+    	}
+    	db.put(str.getBytes(), content);
     }
     
     public static void main(String[] args)
