@@ -252,17 +252,32 @@ public class InvertedIndex
     	db.put(str.getBytes(), content);
     }
     
-   public void metadata(String url, String lm, int size, String lang, int level) throws RocksDBException{
+   public void metadata(String url, String title, String lm, int size, String lang, int level) throws RocksDBException{
 	   String str = "metadata_" + getDocID(url);
 	   byte[] content = db.get(str.getBytes());
 	   if(content != null) {
    		//append
-   		content = (new String(content) + " " + lm + ":" + size + ":" + lang).getBytes();
+   		content = (new String(content) + " " + title + ":" + lm + ":" + size + ":" + lang).getBytes();
    	} else {
    		//create new inverted_wordID -> docID freq
-   		content = (lm + ":" + size + ":" + lang).getBytes();
+   		content = (title + ":" + lm + ":" + size + ":" + lang).getBytes();
    	}
    	db.put(str.getBytes(), content);
+   }
+   
+   public Vector<String> getMetadata(String url) throws RocksDBException{
+	   Vector<String> result = new Vector<String>();
+	   String str = "metadata_" + getDocID(url);
+	   byte[] content = db.get(str.getBytes());
+	   if(content != null) {
+		   String data = new String(content);
+		   String[] metadata =data.split(":");
+		   for (String d:metadata) {
+			   result.add(d);
+		   }
+	   }
+	   
+	   return result;
    }
    
     public static void main(String[] args)

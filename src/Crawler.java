@@ -96,12 +96,13 @@ public class Crawler {
 		String lastModified = res.header("last-modified");
 		if(lastModified == null) lastModified = "null";
 		int size = res.bodyAsBytes().length;
+		String title = res.parse().title();
 		String htmlLang = res.parse().select("html").first().attr("lang");
 		String bodyLang = res.parse().select("body").first().attr("lang");
 		String lang = htmlLang + bodyLang;
 		
 		try {
-			index.metadata(focus.url, lastModified, size, lang, focus.level);
+			index.metadata(focus.url, title, lastModified, size, lang, focus.level);
 		} catch (RocksDBException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -190,7 +191,7 @@ public class Crawler {
 		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 3) break; // stop criteria
+			if (count++ == 30) break; // stop criteria
 			/* start to crawl on the page */
 			try {
 				Response res = this.getResponse(focus, index);
@@ -339,20 +340,22 @@ public class Crawler {
 		try {
 			Vector<String> urls = index.getURLList();
 			for(String url: urls) {
+				Vector<String> metadata = index.getMetadata(url);
+				
 				// get the page title
-				result = result + "Page Title: " + "\n";
+				result = result + "Page Title: " + metadata.get(0) + "\n";
 		
 				// get the url
 				result = result + "URL: " + url + "\n";
 		
 				// get last modification date
-				result = result + "Last Modification Date: ";
+				result = result + "Last Modification Date: " + metadata.get(1);
 		
 				// get page size
-				result = result + ", Size of page: " + "\n";
+				result = result + ", Size of page: " + metadata.get(2) + "\n";
 				
 				// get forward indexing keyword freq
-				result = result + "\nKeyword:\n" + index.getForward(url) + "\n";
+				result = result + index.getForward(url);
 				
 				// get the child link
 				result = result + index.getPCRelation(url);

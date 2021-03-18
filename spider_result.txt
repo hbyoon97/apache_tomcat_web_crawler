@@ -1,10 +1,37 @@
-Page Title: 
+Page Title: Department of Computer Science and Engineering - HKUST
+URL: https://www.cse.ust.hk/
+Last Modification Date: null, Size of page: 47054
+nowcast 2; about 5; academ 5; instagram 2; analysi 3; lifehkust 1; iot 2; music 2; ctf 2; jan 2; visual 2; approxim 2; runner 4; nextgener 2; pinpoint 3; 13 1; 14 1; undergradu 8; 15 1; distinguish 2; gener 3; 18 1; ai 2; realiti 2; secur 2; kong 6; 2 1; mission 2; 3 1; humanrobot 2; 7 2; spatiotempor 3; az 1; juli 1; privaci 2; 20 1; qualiti 2; 22 3; 23 3; 24 1; fact 2; 27 3; 28 3; ahead 1; engag 5; ambient 2; sun 1; elect 2; augment 3; technologymedi 2; how 2; 1st 2; by 1; hkust 6; direc 1; industri 2; machin 6; devic 2; a 8; set 2; learn 13; g 2; staff 4; right 2; team 2; facilit 3; the 4; qian 2; fast 2; partner 2; assist 3; imag 4; chiw 2; open 2; spotlight 1; thu 1; reserv 2; elearn 2; project 2; mepsbot 3; research 14; 3d 1; view 3; postgradu 8; school 2; contact 4; won 2; tim 2; remedi 2; talk 2; up 4; us 4; area 2; practic 2; last 1; test 3; wong 2; vision 3; activ 2; support 2; faculti 6; next 1; synthes 2; robolawy 3; mood 2; for 1; video 3; univers 3; peopl 4; smarter 2; comput 5; admis 2; nov 4; softwar 3; queri 2; medal 2; seeker 2; live 2; wai 1; center 2; teach 2; perform 2; 2021 7; graduat 2; raymond 2; 2020 14; earli 2; forum 8; michael 2; 2018 1; 2017 2; china 2; 2015 1; realm 2; step 2; employ 2; big 5; career 1; copyright 2; seminar 2; spatialtempor 2; visibl 2; program 2; zhang 2; mon 1; vulner 2; decemb 1; model 2; technologi 6; write 3; applic 2; in 1; contract 3; understand 6; modul 2; 28th 2; manag 2; destin 2; push 2; hong 6; studi 2; toward 3; system 3; light 4; indoor 2; pwc 2; feder 3; engin 6; librari 1; 20210205 1; januari 2; optim 4; crowdsourc 2; interac 2; local 2; smart 4; youtub 2; alumni 6; assur 2; world 2; mai 4; locat 4; peer 2; wed 1; member 2; event 4; map 2; biofeedback 2; chatbot 2; stress 2; more 3; facebook 4; 2nd 2; health 2; prof 6; academi 2; citi 2; fellow 2; foster 3; placem 2; fake 2; quick 2; firebird 2; data 5; prefer 3; lab 2; cloud 2; find 5; limit 2; medicin 2; enrich 2; hackadai 2; depart 2; net 1; sitemap 2; webinar 2; all 2; new 7; sens 4; profil 3; hkustcs 2; workshop 4; real 2; gigapixel 2; welcom 2; precipit 2; recruit 2; updat 1; sensor 2; position 2; job 4; scienc 4; code 3; student 4; coda 3; link 2; mental 2; linkedin 2; novemb 6; platform 2; simpler 2; network 2; transform 2; award 2; public 3; and 1; design 2; februari 2; of 2; predict 3; render 2; facil 2; process 2; gale 2; tackl 2; wechat 2; follow 2; panoram 3; analyt 2; cse 4; previou 1; build 2; pg 2; cheng 2; user 3; congreg 2; 
+Child Link 1: https://hkust.edu.hk/news
+Child Link 2: https://hkust.edu.hk/academics/list
+Child Link 3: https://hkust.edu.hk/lifehkust
+Child Link 4: https://library.ust.hk/
+Child Link 5: https://hkust.edu.hk/visit
+Child Link 6: https://hkustcareers.ust.hk/
+Child Link 7: https://facultyprofiles.ust.hk/
+Child Link 8: https://hkust.edu.hk/about
+Child Link 9: https://seng.ust.hk/
+Child Link 10: https://hkust.edu.hk/
+Child Link 11: https://seng.ust.hk/news/20200707/prof-pedro-sander-expands-his-passion-computer-graphics
+Child Link 12: https://seng.ust.hk/news/20201117/prof-chen-kai-designs-next-generation-ai-computing-hub-and-sets-new-paradigm
+Child Link 13: https://www.techinasia.com/weseer-smarter-censorship-china
+Child Link 14: https://epublish.ust.hk/cgi-bin/eng/story.php?id=96&catid=97&keycode=88b7aae0ae45ddb0e6e000ee2682721a&token=17b43a00aeb0f8f8f08df16ae664909f
+Child Link 15: https://pgnews.ust.hk/feb-2017-feature-stories-part-2
+Child Link 16: https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
+Child Link 17: https://calendar.ust.hk/events/engineering-undergraduate-study-webinar
+Child Link 18: https://livevideo.ust.hk/home/index_s08.html
+Child Link 19: https://seng.ust.hk/news/20210203/prof-raymond-wong-chi-wing-awarded-michael-g-gale-medal-distinguished-teaching
+Child Link 20: https://seng.ust.hk/news/20210112/dean-engineering-and-chair-professors-elected-fellows-hong-kong-academy-engineering
+Child Link 21: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 22: https://www.facebook.com/hkust/
+Child Link 23: https://www.instagram.com/hkust/
+Child Link 24: https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
+Child Link 25: https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+------------------------------------------------------------------
+Page Title: News | The Hong Kong University of Science and Technology
 URL: https://hkust.edu.hk/news
-Last Modification Date: , Size of page: 
-
-Keyword:
+Last Modification Date: null, Size of page: 79750
 inform 2; cultur 2; thought 2; govern 2; year 1; about 2; bring 1; academ 8; bai 3; your 1; lifehkust 2; 國產5g手機急加價 1; fit 2; offer 1; mathemat 1; dental 1; strateg 2; barron 1; rank 2; adjunct 1; brand 4; app 2; chiral 1; serv 1; undergradu 4; ag 2; gener 1; 20201223 2; an 3; click 1; molecul 1; conserv 2; 20201221 2; accept 1; covid19 2; kong 6; senior 2; strategist 1; mission 2; creativ 1; az 4; privaci 2; hang 2; access 2; fact 2; global 4; elect 1; announc 1; polici 4; vaccin 1; search 3; eboard 2; 科企湧美otc市場 1; hkust 27; vprd 1; close 1; resourc 4; calendar 2; a 8; art 3; b 1; intern 2; set 1; learn 3; staff 2; innov 4; right 2; team 1; co 1; figur 2; stori 5; the 6; infrastructur 2; thi 1; interview 2; novel 1; christin 1; conglomer 1; featur 1; reserv 2; 20210304 2; offic 6; 20210307 1; 20210306 1; lif 1; 20210308 2; research 18; countri 1; technolog 2; plaqu 1; postgradu 2; school 19; cheung 1; contact 2; scholarship 2; club 4; talk 1; wast 1; discov 1; ec 2; powerpoint 2; us 3; advertis 1; digit 1; info 1; area 2; 20210311 2; brows 2; transpar 1; chines 1; unlock 1; recogni 2; outreach 2; 2001 1; 2000 1; develop 10; diseas 2; consent 1; look 1; vision 2; ey 1; success 2; activ 2; birthrat 1; faculti 4; young 1; 2012 1; for 2; 2011 1; back 1; 2010 1; mileston 2; focu 2; univers 9; content 2; life 3; we 1; peopl 1; 2009 1; button 1; 2008 1; 2007 1; admis 6; 2006 1; 2005 1; 2004 1; 2003 1; 2002 1; molecular 1; human 4; interdisciplinari 5; internation 1; live 4; wai 1; eng 2; mask 1; collabor 1; asia 2; gba 1; teach 2; 2021 1; 2020 1; bond 2; home 1; target 1; insur 2; myport 2; 2019 1; keimai 1; 2018 1; 2017 1; knowledg 4; what 1; 2016 1; china 1; urban 2; 2015 1; 2014 1; popul 2; 2013 1; fung 1; comment 4; financi 2; nanci 1; 晶片極缺 1; directori 2; jockei 4; stem 3; 20210224 2; scholarli 2; career 1; copyright 2; donat 2; hk 1; select 2; challeng 2; properti 1; khale 1; envr 1; program 10; hope 1; entrepreneuri 6; nae 1; 專家低端市場遇瓶頸削競爭力 1; faq 2; ia 4; technologi 6; greater 3; if 2; plan 2; profession 1; give 1; yuexiu 3; hkustgz 1; partnership 1; in 1; work 1; 20210119 2; ip 1; defi 1; is 1; manag 5; odd 1; hong 6; lung 2; studi 4; experi 1; opportun 3; everchang 1; coverag 1; aid 2; engin 6; educ 6; librari 2; woman 1; loh 1; natur 2; pascal 1; institut 10; skip 1; pint 1; our 3; alumni 1; tom 1; world 1; fall 1; mechan 1; web 2; get 3; have 1; member 1; event 2; membran 1; map 2; bread 1; centuri 2; chair 3; more 3; entrepreneurship 6; mba 1; prof 8; letaief 1; lifestyl 2; multimedia 2; site 1; soscecon 1; foster 1; 應對氣候變化美中合作面臨重重障礙 1; hk80m 1; strongest 1; advanc 6; first 1; twentyfirst 2; cooki 4; pleas 2; main 1; drug 1; that 1; major 1; find 1; talent 1; ust 2; assoc 1; commun 3; econom 1; depart 4; chronic 2; sitemap 2; group 2; traffic 1; administr 4; all 3; inven 2; lau 2; new 12; read 2; profil 2; kind 1; format 1; ideat 2; templat 2; transfer 2; campu 6; person 1; 叶玉如院士科研经费过境等促进两地科技合作 1; tast 2; topic 1; guidelin 8; exchang 2; produc 1; sustain 4; scienc 14; execu 2; physiochem 1; websit 2; student 13; busi 6; continu 1; why 1; media 6; vincent 1; award 3; public 6; albert 1; leadership 4; park 1; on 1; extraordinari 1; hk100 1; social 8; chief 1; endeavor 1; control 3; categori 3; follow 2; hkustgzeventsvisitgivingalumnicar 1; differ 1; breadcrumb 1; mean 1; analyz 1; growth 1; further 1; visit 3; 
-
 Child Link 1: https://gz.ust.hk
 Child Link 2: https://calendar.ust.hk
 Child Link 3: https://giving.ust.hk/en/index.php
@@ -57,13 +84,306 @@ Child Link 49: https://www.linkedin.com/school/hkust
 Child Link 50: https://www.instagram.com/hkust/
 Child Link 51: https://www.youtube.com/user/HKUST
 ------------------------------------------------------------------
-Page Title: 
+Page Title: Home | The Hong Kong University of Science and Technology
+URL: https://hkust.edu.hk/
+Last Modification Date: null, Size of page: 116409
+govern 2; html5 1; potenti 1; bring 1; intellig 2; academ 12; bai 2; your 4; stride 1; fit 4; offer 2; robot 1; complex 1; maledenomin 1; rank 4; itemshortenddai 1; happen 2; posit 2; serv 2; ag 3; impact 2; 20172018 2; click 1; cours 2; conserv 3; covid19 6; senior 2; 2 1; itemshortstartmonth 2; 7 1; az 4; nascent 1; chapter 1; 1000 1; leisur 1; civic 1; polici 7; vaccin 2; search 3; eboard 2; by 1; hkust 40; close 1; connect 1; a 7; mind 1; set 1; learn 5; founder 1; yunfei 3; staff 2; right 2; figur 2; the 8; materi 1; infrastructur 2; meet 1; thi 2; affili 1; reserv 2; rigor 1; offic 7; itemshortendmonth 1; confront 1; contribut 1; 20210308 2; forc 1; do 1; good 1; forg 1; postgradu 3; startup 1; contact 2; scholarship 2; club 5; powerpoint 2; digit 2; info 3; area 3; brows 1; chines 1; practic 1; test 1; need 2; diseas 3; consent 1; scholar 1; profound 1; vision 2; 3565 1; success 2; activ 4; faculti 4; 10th 1; young 1; for 2; contribu 1; compani 1; univers 11; content 2; prevent 1; dine 1; solv 3; journei 2; skill 3; sportshkust 1; 20200518 1; promot 1; human 8; interdisciplinari 7; live 6; eng 2; collabor 1; societi 1; asia 1; particip 1; 2021 1; breed 2; myport 2; special 1; 2019 2; with 1; environment 1; china 1; there 1; well 1; directori 2; scholarli 2; career 1; copyright 2; expert 1; hk 1; select 2; breadth 1; challeng 6; zhang 3; approach 2; artifici 1; outstand 1; ia 5; itemshortstartdai 2; portal 2; if 3; sky 1; creat 1; partnership 3; shape 1; tomorrow 2; understand 2; classroom 2; defi 2; it 1; manag 7; spearhead 1; exchangeout 1; odd 2; hong 4; system 2; field 1; experi 2; aid 2; issu 2; wider 1; librari 2; woman 3; aim 1; natur 3; institut 12; skip 1; pint 1; summer 1; world 7; known 1; top 2; have 3; map 2; surround 1; bread 1; centuri 2; discoveri 2; health 1; entrepreneurship 9; spinoff 1; mba 2; notic 1; multimedia 2; 300 1; pleas 2; main 1; solution 1; ust 2; limit 1; commun 6; itemcategori 1; chronic 3; sitemap 2; traffic 1; administr 4; all 4; inven 3; new 11; textbook 1; read 3; drove 1; todai 1; aspir 2; ideat 2; sort 1; professor 1; tast 2; no 1; websit 2; student 19; blend 1; busi 8; mental 1; media 5; fundament 1; hous 2; and 1; design 1; leadership 5; possibl 1; row 1; encourag 1; social 13; endeavor 1; tackl 1; foremost 1; control 4; transport 1; hkustgzeventsvisitgivingalumnicar 1; 220 1; amen 1; analyz 1; sport 1; inform 6; cultur 3; thought 3; nation 1; maintain 1; about 5; 20201230 1; lifehkust 4; envelop 1; 350 1; decad 1; evidencebas 1; strateg 4; strengthen 1; brand 4; app 2; qs 1; vibrant 1; undergradu 5; 15 1; varieti 1; evolv 1; accept 1; kong 4; mission 2; creativ 2; privaci 2; acquir 1; access 2; cut 1; fact 2; global 16; kei 1; announc 5; 1st 1; curios 1; resourc 6; calendar 2; think 3; art 2; neurosci 1; launch 1; innov 3; entrepreneur 1; stori 4; emerg 1; principl 1; fourth 1; 40 1; unman 2; research 14; no1 1; technolog 2; school 24; har 1; insati 1; wast 1; sector 1; us 2; advertis 1; cater 1; recogni 1; outreach 3; develop 7; region 1; physic 1; support 3; higher 1; notabl 1; visionari 1; 20212028 1; color 1; breakthrough 2; idea 1; scientist 1; kid 1; awar 1; mileston 2; focu 3; multifacet 1; video 1; life 6; we 11; peopl 1; button 1; scientif 1; admis 11; common 1; appli 2; wai 1; presid 1; wide 1; healthi 1; center 2; teach 1; start 1; graduat 1; bond 1; target 1; decisionmak 1; equal 1; insur 2; wellbalanc 1; knowledg 9; what 1; urban 2; chang 1; deepen 1; popul 3; 80 2; fung 3; financi 2; time 2; excit 1; jockei 5; stem 1; 20210224 1; employ 1; leader 4; 20210226 1; abreast 1; reach 1; program 16; entrepreneuri 6; critic 2; problem 1; faq 2; sight 1; technologi 4; greater 3; plan 4; between 1; profession 2; applic 1; give 1; hkustgz 1; work 1; push 2; studi 6; 20200407 1; futur 1; opportun 2; everchang 1; explor 2; engin 11; educ 7; pascal 3; resili 2; requir 1; our 3; gain 1; unknown 1; alumni 1; lot 1; web 2; get 4; event 3; 20210216 1; more 8; brain 1; prof 2; 27th 1; lifestyl 4; site 1; depth 1; dimba 1; perspect 1; psycholog 1; advanc 8; first 1; twentyfirst 2; alzheim 1; small 1; door 1; infinit 1; residenti 1; reveal 1; data 1; cooki 4; multidisciplinari 1; from 2; econom 1; depart 4; profil 2; edg 1; templat 2; market 1; transfer 3; campu 5; voyag 2; person 1; effect 1; ground 2; guidelin 8; navig 2; histori 1; exchang 3; sustain 4; achiev 2; option 1; scienc 14; execu 2; autonom 1; unveil 1; continu 2; award 2; public 11; browser 1; emergingtrend 1; herb 1; provid 2; benevol 1; facil 2; categori 2; follow 3; improv 1; differ 1; build 3; connec 2; fertil 1; further 1; visit 3; 
+Child Link 1: https://gz.ust.hk
+Child Link 2: https://calendar.ust.hk
+Child Link 3: https://giving.ust.hk/en/index.php
+Child Link 4: https://alum.ust.hk/
+Child Link 5: https://hkustcareers.ust.hk/
+Child Link 6: https://my.ust.hk/
+Child Link 7: https://hkust.edu.hk/
+Child Link 8: https://hkust.edu.hk/zh-hant
+Child Link 9: https://hkust.edu.hk/zh-hans
+Child Link 10: https://science.ust.hk/
+Child Link 11: https://www.seng.ust.hk
+Child Link 12: http://www.bm.ust.hk/en-us
+Child Link 13: https://www.shss.ust.hk/
+Child Link 14: https://ipo.ust.hk/
+Child Link 15: http://ipp.ust.hk/
+Child Link 16: https://join.ust.hk/
+Child Link 17: https://pg.ust.hk/prospective-students/home
+Child Link 18: https://join.ust.hk/admissions/visiting/
+Child Link 19: http://studyabroad.ust.hk
+Child Link 20: http://sfao.ust.hk
+Child Link 21: https://kt.ust.hk
+Child Link 22: https://urop.ust.hk
+Child Link 23: https://strategicplan.hkust.edu.hk
+Child Link 24: https://ccss.ust.hk/governance
+Child Link 25: https://stem.ust.hk/en/how-much-do-you-know-about-covid-19-vaccines/
+Child Link 26: https://covid19info.ust.hk/
+Child Link 27: https://strategicplan.hkust.edu.hk/
+Child Link 28: https://sao.ust.hk/eng/index.php
+Child Link 29: https://vprd.ust.hk/Research-Focus/Advanced-Materials
+Child Link 30: https://vprd.ust.hk/Research-Focus/Robotics
+Child Link 31: https://vprd.ust.hk/Research-Focus/Data-science
+Child Link 32: https://vprd.ust.hk/Research-Focus/Design-Thinking-and-Entrepreneurship
+Child Link 33: https://vprd.ust.hk/Research-Focus/Neuroscience
+Child Link 34: https://vprd.ust.hk/Research-Focus/Public-Policy
+Child Link 35: https://vprd.ust.hk/Research-Focus/Sustainability
+Child Link 36: https://vprd.ust.hk/Research-Focus/Emerging-Areas
+Child Link 37: http://www.seng.ust.hk/web/eng/
+Child Link 38: http://www.bm.ust.hk/web/en-US/
+Child Link 39: http://www.shss.ust.hk/
+Child Link 40: http://ias.ust.hk/web/ias/eng/
+Child Link 41: https://summer.ust.hk/
+Child Link 42: https://prog-crs.ust.hk/
+Child Link 43: https://pg.ust.hk/prospective-students/programs/continuing-education/continuing-and-professional-education
+Child Link 44: http://sports.ust.hk
+Child Link 45: https://counsel.ust.hk/
+Child Link 46: http://sen.ust.hk/
+Child Link 47: https://shrl.ust.hk/
+Child Link 48: https://www.ab.ust.hk/cso/restaurants.htm
+Child Link 49: https://www.ab.ust.hk/cso/transportation_ov.htm
+Child Link 50: http://sao.ust.hk/eng/detail.php?catid=15&sid=126
+Child Link 51: http://sao.ust.hk/eng/detail.php?catid=14&sid=116&tid=124
+Child Link 52: http://connect.ust.hk/
+Child Link 53: https://sight.ust.hk/
+Child Link 54: https://calendar.ust.hk/
+Child Link 55: https://www.instagram.com/p/CB5Jrg9h6N8/
+Child Link 56: https://www.instagram.com/p/CBzdlmPBNUe/
+Child Link 57: https://www.instagram.com/p/CBrvFkihBmL/
+Child Link 58: https://www.instagram.com/p/CBjwGuXhJtN/
+Child Link 59: https://www.instagram.com/p/CBSjxrOBSid/
+Child Link 60: https://www.instagram.com/p/CBKRTIaBatN/
+Child Link 61: https://www.instagram.com/p/CA9_WwHBJed/
+Child Link 62: https://www.instagram.com/p/CA7uqKvhTku/
+Child Link 63: https://www.instagram.com/p/CA0Nxduhpwp/
+Child Link 64: https://www.instagram.com/p/CAzEvs4BhlB/
+Child Link 65: https://www.seng.ust.hk/
+Child Link 66: http://www.bm.ust.hk
+Child Link 67: https://registry.ust.hk/calendar_dates/dates20-21confirmed.pdf
+Child Link 68: https://pao.ust.hk/Bdownload/HKUST_Brand_guideline.pdf
+Child Link 69: https://pao.ust.hk/Bdownload/HKUSTpowerpoint/HKUST_PPT_Corporate.zip
+Child Link 70: http://publish.ust.hk/univ/maps/Campus_Map_Color.pdf
+Child Link 71: https://pao.ust.hk/Bdownload/E-Board_guidelines.pdf
+Child Link 72: https://facultyprofiles.ust.hk/
+Child Link 73: https://pao.ust.hk/Bdownload/internal/Social_Media_Guidelines.pdf
+Child Link 74: https://pao.ust.hk/Bdownload/HKUST_website_guideline.pdf
+Child Link 75: http://library.ust.hk/
+Child Link 76: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 77: https://www.facebook.com/hkust
+Child Link 78: https://www.linkedin.com/school/hkust
+Child Link 79: https://www.instagram.com/hkust/
+Child Link 80: https://www.youtube.com/user/HKUST
+------------------------------------------------------------------
+Page Title: Prof. Pedro SANDER Expands on His Passion for Computer Graphics | HKUST School of Engineering
+URL: https://seng.ust.hk/news/20200707/prof-pedro-sander-expands-his-passion-computer-graphics
+Last Modification Date: null, Size of page: 78890
+potenti 1; year 1; intellig 1; biolog 1; tenni 2; academ 4; bai 1; oversea 1; skyscrap 1; offer 1; robot 2; these 1; fix 1; record 1; rank 2; visual 8; rang 2; trajectori 1; aerospac 1; ad 1; guilherm 1; stabil 2; raw 1; automat 2; cours 1; secur 1; version 1; covid19 4; senior 1; ar 1; at 3; az 1; dean 2; organ 2; sea 1; search 3; releas 2; spark 2; aspect 1; civil 1; hkust 16; direc 1; a 5; c 1; set 2; learn 2; eightsecond 1; i 7; photo 3; staff 4; right 3; figur 2; the 8; fly 1; photograph 2; infrastructur 2; meet 2; taught 3; thi 4; z 1; imag 3; thu 1; reserv 2; offic 1; contribut 1; dr 2; webbas 1; specif 1; kung 1; beauti 1; postgradu 7; contact 4; digit 1; area 2; en 1; massiv 1; integr 2; vision 4; cecia 1; emb 1; faculti 13; occasion 1; some 1; virtual 1; ensur 1; famili 1; univers 10; content 7; pedagog 1; cuisin 1; 2006 1; journei 1; load 1; await 1; combin 2; live 1; collabor 1; particip 2; peak 2; zoomedin 1; home 2; with 1; environment 1; togeth 1; form 1; publish 1; well 2; relat 1; 07072020 1; directori 1; he 2; assign 6; explain 1; big 1; hi 1; career 2; copyright 2; challeng 2; focus 1; corcovado 1; artifici 1; division 1; melt 1; promis 1; outbreak 1; rio 3; join 1; spatial 1; feat 1; algorithm 2; creat 2; similar 1; partnership 1; in 2; birth 1; classroom 3; it 5; hong 14; system 3; field 4; experi 1; john 2; cosmopolitan 1; introductori 1; issu 1; women 1; renown 2; viewer 1; wider 1; other 1; librari 2; natur 1; optim 2; skip 1; believ 1; remind 2; pictur 1; interfac 1; world 3; mak 1; share 4; camera 2; map 1; entrepreneurship 2; menu 2; phd 1; boat 1; prospect 3; multimedia 1; citi 4; li 1; fun 1; aixmarseil 1; main 1; motiv 1; while 1; that 2; download 1; academia 1; windsurf 1; commun 3; sitemap 2; all 2; new 12; level 1; mr 1; author 1; gigapixel 1; tool 2; chosen 1; uniqu 1; expand 1; professor 1; unit 1; panorama 7; task 1; dream 1; gigant 3; updat 1; position 1; bodi 1; harvard 1; footer 1; student 21; muse 1; best 1; media 8; everywher 1; hour 1; pedro 4; design 3; leadership 2; involv 2; possibl 1; row 1; dynam 1; fulfil 1; encourag 2; abroad 1; burn 1; social 2; mtpc 2; master 1; analyt 1; extrem 2; breadcrumb 1; sander 14; analyz 2; sport 3; inform 4; nation 2; about 3; led 1; lifehkust 1; cover 1; strateg 2; friend 1; foodi 1; press 2; onlin 2; recent 1; secondari 1; invigor 1; 14 1; undergradu 5; edit 1; gener 1; thei 2; hopkin 2; kong 14; mission 2; privaci 2; access 2; fact 2; global 1; long 1; announc 1; devis 2; current 6; realtim 1; pot 1; jobshkust 3; industri 2; anoth 1; 30 1; arm 1; graphic 4; email 1; apart 1; resourc 1; stitch 2; intern 1; decision 1; centr 1; appeal 1; innov 1; team 5; tour 1; stori 2; watch 1; to 1; chart 1; dataset 1; studentstaff 1; stai 1; eagerli 1; friendship 1; captur 2; strength 1; project 9; coteach 1; research 16; countri 5; school 2; loop 2; ati 1; up 1; passion 2; sector 1; us 3; town 1; recogni 1; outreach 1; develop 5; drone 1; overlap 1; 4k 1; investig 1; brazil 3; color 5; breakthrough 1; idea 4; attract 3; admin 1; video 13; life 2; we 2; peopl 6; comput 11; admis 1; central 1; interest 1; enabl 2; overview 2; associ 1; wide 1; pandem 2; center 4; teach 5; cindi 1; highresolu 2; grew 1; what 4; massachusett 1; time 1; excit 2; rise 1; base 1; abreast 1; trend 1; dragon 1; program 4; when 1; put 1; consist 1; glanc 2; far 1; displai 1; broad 1; electron 1; technologi 3; fonseca 1; greater 1; plan 1; phase 1; profession 1; applic 1; multipl 1; method 2; cherish 1; come 1; insight 1; studi 9; didnt 1; opportun 2; explor 4; philosophi 1; love 1; engin 18; educ 1; flag 2; bright 2; marlborough 1; our 4; alumni 7; lot 1; advisor 1; impress 1; mechan 1; statist 3; event 5; kayak 1; janeiro 2; wealth 1; stint 1; subscrib 1; more 1; observ 1; prof 14; expect 1; chan 1; travel 1; advanc 2; chemic 1; date 1; data 4; sound 1; hit 1; subscrip 1; talent 1; from 1; inspir 3; tag 4; titl 1; depart 8; group 1; elem 1; thumbnail 1; profil 2; daili 1; done 1; water 2; most 1; campu 3; enjoi 3; ground 1; exchang 1; job 1; irrespect 1; sustain 1; seng 3; scienc 10; largest 1; sail 1; link 1; interact 2; scale 2; highlight 2; award 2; public 2; satisfi 1; sai 5; steam 1; easi 2; process 4; motion 1; banner 1; zoom 1; follow 2; situat 2; surveil 1; connec 1; wallac 1; earn 1; front 1; 
+Child Link 1: https://hkust.edu.hk/news
+Child Link 2: https://hkust.edu.hk/academics/list
+Child Link 3: https://hkust.edu.hk/lifehkust
+Child Link 4: http://library.ust.hk
+Child Link 5: https://hkust.edu.hk/map-directions
+Child Link 6: https://hkustcareers.ust.hk
+Child Link 7: https://facultyprofiles.ust.hk
+Child Link 8: https://hkust.edu.hk/about-hkust
+Child Link 9: https://www.ust.hk
+Child Link 10: https://calendar.ust.hk/organizers/seng
+Child Link 11: https://hkustcareers.ust.hk/home
+Child Link 12: https://seng.ust.hk/sites/default/files/2020-06/Prof%20Pedro%20Sander_3to2_v3_0.jpg
+Child Link 13: https://github.com/CSSEGISandData/COVID-19
+Child Link 14: http://home.cse.ust.hk/~psander/coviewd/?x=13&y=1&s=8&u=0&c=AU,BR,CN,HK,DE,IR,IT,JP,KR,MX,NL,NZ,SG,ES,CH,GB,US&v=1  
+Child Link 15: https://www.cse.ust.hk
+Child Link 16: https://www.facebook.com/sharer/sharer.php?u=https%3A//seng.ust.hk/news/20200707/prof-pedro-sander-expands-his-passion-computer-graphics&t=Prof.%20Pedro%20SANDER%20Expands%20on%20His%20Passion%20for%20Computer%20Graphics
+Child Link 17: https://www.linkedin.com/shareArticle?mini=true&url=https%3A//seng.ust.hk/news/20200707/prof-pedro-sander-expands-his-passion-computer-graphics&title=Prof.%20Pedro%20SANDER%20Expands%20on%20His%20Passion%20for%20Computer%20Graphics
+Child Link 18: https://www.addtoany.com/add_to/wechat?linkurl=https%3A//seng.ust.hk/news/20200707/prof-pedro-sander-expands-his-passion-computer-graphics&linkname=Prof.%20Pedro%20SANDER%20Expands%20on%20His%20Passion%20for%20Computer%20Graphics
+Child Link 19: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/3961/Prof%20Pedro%20Sander.jpg?itok=g2wZACQt
+Child Link 20: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/2020-07/20200629_Visualization%20Chart3to2.jpg?itok=W4ek18WH
+Child Link 21: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/3961/Tennis_v2.jpg?itok=VCucHgzd
+Child Link 22: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/3961/Kayaking_v2.jpg?itok=cCekgwiO
+Child Link 23: https://cbe.ust.hk
+Child Link 24: http://www.ce.ust.hk
+Child Link 25: https://ece.hkust.edu.hk
+Child Link 26: https://ieda.ust.hk
+Child Link 27: https://www.mae.ust.hk
+Child Link 28: https://isd.ust.hk
+Child Link 29: https://facultyprofiles.ust.hk/
+Child Link 30: https://hkust.edu.hk/department
+Child Link 31: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 32: https://ptc.ust.hk/
+Child Link 33: https://www.facebook.com/hkustengineering
+Child Link 34: https://www.instagram.com/hkustengineering
+Child Link 35: https://www.linkedin.com/school/hkustengineering
+Child Link 36: https://www.youtube.com/user/sengpr
+------------------------------------------------------------------
+Page Title: Prof. CHEN Kai Designs Next-Generation AI Computing Hub and Sets New Paradigm | HKUST School of Engineering
+URL: https://seng.ust.hk/news/20201117/prof-chen-kai-designs-next-generation-ai-computing-hub-and-sets-new-paradigm
+Last Modification Date: null, Size of page: 76808
+parent 2; ultim 1; govern 6; year 2; ident 1; enlarg 1; intellig 5; biolog 1; intersec 1; academ 4; bai 1; diagnosi 2; fintech 2; skyscrap 1; robot 3; these 1; trip 1; rank 2; chicago 2; nextgener 4; soft 1; happen 1; aerospac 1; grow 1; solid 1; anhui 2; ag 2; impact 1; ai 11; scratch 1; senior 1; as 4; at 3; size 1; left 1; az 1; juli 1; handl 1; economi 1; drive 2; preserv 3; dean 2; observatori 1; be 1; scheme 1; durat 1; hot 1; pursu 3; search 3; bu 2; releas 2; aspect 1; civil 1; memor 1; hkust 9; direc 2; machin 4; quiet 1; a 4; address 2; set 8; learn 10; i 18; photo 3; staff 3; right 2; figur 2; the 8; influenti 1; infrastructur 7; meet 2; stage 1; taught 3; thi 3; fifth 1; z 1; dispatch 2; hardwork 1; hefei 1; reserv 2; offic 1; rural 2; contribut 2; acm 2; beij 1; later 1; beauti 1; postgradu 6; prior 1; contact 4; sampl 1; implement 1; talk 2; train 1; area 2; wherea 1; en 1; reduc 2; carri 1; diseas 1; massiv 1; graph 1; mainland 1; integr 1; take 1; vision 2; month 2; western 1; child 1; deploi 1; faculti 11; frame 1; bred 2; deep 1; neural 1; young 1; 2012 2; for 1; 2010 1; famili 2; univers 9; secondli 1; content 2; 2009 1; 2008 3; 2007 1; softwar 1; candid 1; rate 1; targetori 1; combin 2; sacrif 1; hard 2; timeconsum 1; promot 1; class 1; live 2; sold 1; collabor 2; hometown 1; societi 1; peac 1; asia 1; particip 1; perform 2; 2022 1; 2021 1; hksair 1; home 2; with 2; environment 1; 2017 1; 2016 1; china 4; hub 8; publish 2; relat 2; foundat 3; grant 2; directori 1; he 5; explain 1; big 3; hi 3; copyright 2; sensit 2; challeng 2; spatialtempor 1; degre 1; easili 1; hope 1; pioneer 1; artifici 4; division 1; outstand 1; leverag 2; model 4; join 1; write 1; algorithm 1; episod 1; partnership 1; in 2; fascin 1; is 1; it 4; hong 17; christma 1; system 5; field 2; 17112020 1; contrast 1; experi 3; spot 1; women 1; other 2; wait 1; librari 2; aim 1; optim 2; firstli 1; skip 1; articl 1; entiti 1; local 1; assum 1; stream 2; brainchild 1; locat 2; share 2; map 1; surround 1; asian 1; entrepreneurship 2; menu 2; phd 1; prospect 3; multimedia 1; framework 1; citi 16; encryp 2; exampl 1; instanc 1; return 2; internship 1; receiv 1; feel 1; main 1; lab 3; smile 2; villag 3; download 1; faster 1; conveni 2; lai 2; commun 2; sow 1; sitemap 2; traffic 2; all 2; new 14; read 2; todai 1; rememb 1; real 1; my 3; establish 1; professor 4; servic 1; unit 1; updat 1; position 1; bodi 1; collect 2; behind 1; no 1; footer 1; paradigm 4; student 10; medic 2; best 1; media 8; schedul 2; kai 3; execut 1; teacher 1; hour 3; design 6; leadership 2; privacypreserv 1; involv 1; capit 1; lane 1; encourag 1; on 3; social 2; bachelor 1; mtpc 2; transport 3; confer 3; master 1; doctor 1; huawei 1; analyt 2; extrem 2; breadcrumb 1; conduct 1; cse 2; walk 1; inform 4; cultur 1; disclos 1; hospit 5; graphbas 2; about 3; cuttingedg 1; lifehkust 1; concern 1; enhanc 2; environ 2; scene 1; cover 1; mobil 1; bank 1; mountain 2; flexibl 1; decad 2; strateg 2; jam 1; press 2; 11 1; secondari 1; encompass 1; undergradu 3; august 2; gener 1; taxi 2; them 1; benefit 1; accept 2; kong 17; node 1; mission 2; includ 1; northwestern 2; adopt 1; foresaw 1; privaci 5; convolu 1; qualiti 1; provinc 2; access 2; fact 2; seed 1; healthcar 1; practition 1; kei 1; announc 2; current 4; encrypt 1; dilig 1; jobshkust 3; industri 1; acceler 1; persist 1; so 1; 30 1; advantag 1; mix 1; popular 2; email 1; resourc 1; intern 1; decision 1; onc 1; innov 3; team 4; 11digit 1; stori 1; emerg 1; googl 1; shanghai 1; principl 1; to 3; atten 1; project 1; boast 1; research 22; late 2; school 6; entir 2; huge 1; up 2; bare 1; passion 1; us 6; town 1; laboratori 1; recogni 1; outreach 1; develop 2; effici 1; repres 1; warn 1; importantli 1; support 1; sinc 1; scientist 1; kid 1; admin 1; awar 1; effort 1; mileston 1; video 2; life 2; we 1; peopl 5; smarter 1; comput 19; rearrang 1; capac 1; nonstop 1; appli 3; now 1; enabl 2; middl 1; overview 2; associ 1; center 8; teach 1; start 1; distribut 1; highperform 3; grew 1; colour 1; urban 2; fund 1; refer 1; chang 1; paid 1; short 2; financi 1; time 6; excit 1; rise 1; mark 1; individu 2; abreast 1; when 1; theori 2; glanc 2; plai 1; children 1; road 1; electron 1; typhoon 1; attain 1; technologi 8; greater 1; plan 1; threemonth 1; applic 5; goal 4; wife 1; work 1; 1990 1; come 2; goat 2; sigcomm 2; junior 1; insight 1; teenag 1; studi 13; phone 1; futur 2; happi 1; explor 1; math 1; love 1; engin 15; educ 1; resili 1; requir 1; our 4; smart 19; alumni 5; lot 4; impress 1; fall 2; mechan 1; modern 1; power 1; protect 1; event 2; leav 1; alwai 1; nvidia 1; subscrib 1; more 1; born 3; brain 3; prof 12; lead 1; predic 1; excel 1; advanc 1; chemic 1; date 1; data 22; dad 1; vicepresid 1; dai 2; homegrown 1; cloud 5; subscrip 1; from 1; inspir 2; tag 4; titl 1; depart 7; hardwar 1; thumbnail 1; profil 2; prestigi 1; rais 1; anticip 1; blueprint 1; market 1; most 1; core 1; themebas 1; campu 1; council 1; person 1; effect 1; enjoi 1; topic 1; exchang 1; job 1; sustain 2; achiev 1; seng 3; here 1; scienc 11; week 1; continu 4; methodologi 1; platform 2; network 5; highlight 2; award 3; paper 7; public 3; 10km 1; aienabl 1; patient 1; steam 1; said 2; chen 12; process 2; passeng 1; flagship 1; wechat 1; banner 1; also 1; follow 3; improv 1; rush 1; unlik 1; build 10; connec 1; meat 1; visit 1; account 1; 
+Child Link 1: https://hkust.edu.hk/news
+Child Link 2: https://hkust.edu.hk/academics/list
+Child Link 3: https://hkust.edu.hk/lifehkust
+Child Link 4: http://library.ust.hk
+Child Link 5: https://hkust.edu.hk/map-directions
+Child Link 6: https://hkustcareers.ust.hk
+Child Link 7: https://facultyprofiles.ust.hk
+Child Link 8: https://hkust.edu.hk/about-hkust
+Child Link 9: https://www.ust.hk
+Child Link 10: https://calendar.ust.hk/organizers/seng
+Child Link 11: https://hkustcareers.ust.hk/home
+Child Link 12: https://seng.ust.hk/sites/default/files/2020-11/e_1.jpg
+Child Link 13: https://www.smartcity.gov.hk/
+Child Link 14: http://sing.cse.ust.hk/trs/
+Child Link 15: http://www.cse.ust.hk/~kaichen/papers/dac-sigcomm10.pdf
+Child Link 16: https://mp.weixin.qq.com/s/PsfUMqzWNd5m5kBGepPlpA
+Child Link 17: https://www.facebook.com/sharer/sharer.php?u=https%3A//seng.ust.hk/news/20201117/prof-chen-kai-designs-next-generation-ai-computing-hub-and-sets-new-paradigm&t=Prof.%20CHEN%20Kai%20Designs%20Next-Generation%20AI%20Computing%20Hub%20and%20Sets%20New%20Paradigm%20
+Child Link 18: https://www.linkedin.com/shareArticle?mini=true&url=https%3A//seng.ust.hk/news/20201117/prof-chen-kai-designs-next-generation-ai-computing-hub-and-sets-new-paradigm&title=Prof.%20CHEN%20Kai%20Designs%20Next-Generation%20AI%20Computing%20Hub%20and%20Sets%20New%20Paradigm%20
+Child Link 19: https://www.addtoany.com/add_to/wechat?linkurl=https%3A//seng.ust.hk/news/20201117/prof-chen-kai-designs-next-generation-ai-computing-hub-and-sets-new-paradigm&linkname=Prof.%20CHEN%20Kai%20Designs%20Next-Generation%20AI%20Computing%20Hub%20and%20Sets%20New%20Paradigm%20
+Child Link 20: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/9105/2n.jpg?itok=FIO8lQ7g
+Child Link 21: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/9105/3n_0.jpg?itok=yUSUjqTq
+Child Link 22: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/9105/4.JPG?itok=xgHuW81G
+Child Link 23: https://cbe.ust.hk
+Child Link 24: http://www.ce.ust.hk
+Child Link 25: https://www.cse.ust.hk
+Child Link 26: https://ece.hkust.edu.hk
+Child Link 27: https://ieda.ust.hk
+Child Link 28: https://www.mae.ust.hk
+Child Link 29: https://isd.ust.hk
+Child Link 30: https://facultyprofiles.ust.hk/
+Child Link 31: https://hkust.edu.hk/department
+Child Link 32: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 33: https://ptc.ust.hk/
+Child Link 34: https://www.facebook.com/hkustengineering
+Child Link 35: https://www.instagram.com/hkustengineering
+Child Link 36: https://www.linkedin.com/school/hkustengineering
+Child Link 37: https://www.youtube.com/user/sengpr
+------------------------------------------------------------------
+Page Title: Feb 2017-Feature Stories Part 2 | PG Newsletter
+URL: https://pgnews.ust.hk/feb-2017-feature-stories-part-2
+Last Modification Date: Thu, 18 Mar 2021 18, Size of page: 44
+german 4; potenti 7; institu 3; academ 6; complet 3; scenic 2; oversea 5; offer 7; path 2; sevenmonth 3; giant 2; visual 9; you 3; addition 4; soft 2; grow 1; serv 2; citat 1; impact 4; switzerland 3; cours 2; airport 2; extend 3; ar 12; befor 2; at 4; postdoc 3; drive 1; seri 2; cantoneseputonghua 2; object 6; organ 2; strong 5; role 2; ahead 1; 1000 1; blur 2; pathwai 3; elect 1; sea 2; logist 2; journal 1; by 2; franc 2; hkust 26; direc 2; machin 2; close 2; hiker 2; connect 2; hand 5; a 2; set 8; learn 7; quicker 2; wearabl 2; i 26; photo 2; right 2; the 14; partner 2; thi 7; paul 24; interview 2; did 1; reserv 2; offic 2; undertak 7; acm 1; advic 2; do 5; liais 2; fernandez 4; beauti 2; postgradu 2; startup 2; finish 3; talk 2; tall 2; pan 4; wow 2; impair 7; train 2; initi 2; practic 5; count 3; carri 2; list 3; mainland 4; respect 3; tlab 10; vision 8; success 4; activ 6; compet 1; ensur 5; for 6; compani 11; famili 2; univers 19; content 1; determin 1; softwar 2; germani 5; scope 5; skill 5; hard 2; liaison 2; timeconsum 2; live 3; settl 2; sit 2; sole 2; societi 3; asia 4; particip 3; perform 4; howev 2; better 5; 2018 2; china 6; 2013 2; publish 1; there 2; analyst 3; realm 2; hui 25; assign 3; straightforward 2; career 2; copyright 2; expert 3; challeng 2; poland 2; focus 3; devot 2; approach 4; beng 3; identifi 8; if 5; rapidli 4; algorithm 2; emotionsens 2; shape 1; in 4; it 8; hong 16; afford 2; system 7; field 2; experi 3; cosmopolitan 2; mphil 3; onlogist 1; other 2; brought 2; aim 2; nongovernment 2; widen 2; optim 3; amaz 2; skip 1; articl 1; believ 2; local 2; machineri 1; telekom 10; file 2; world 6; too 2; peer 2; member 3; share 2; speak 2; independ 2; product 4; discoveri 2; offload 2; themselv 2; entrepreneurship 4; draw 3; phd 14; framework 2; citi 2; regard 2; meanwhil 2; lh 4; relev 6; return 4; internship 3; receiv 1; feel 2; main 1; lab 25; spur 2; that 3; download 2; find 2; worthwhil 2; all 2; real 2; my 7; establish 2; tool 2; expand 2; professor 5; unit 2; task 2; background 3; basic 2; produc 5; collect 2; hurdl 2; patent 2; student 24; blend 2; busi 8; media 4; respons 5; head 3; transform 4; hour 2; and 5; design 6; deutsch 4; leadership 3; ngo 2; involv 2; dynam 3; met 3; encourag 5; on 5; cross 2; strategi 4; confer 1; highli 2; conduct 2; carlo 27; easier 2; walk 2; cultur 2; maintain 2; turkei 2; prev 1; cuttingedg 2; behalf 2; lee 4; enhanc 3; environ 2; mobil 10; onlin 2; recent 2; participatori 2; app 2; encompass 2; countrysid 2; undergradu 3; distinguish 1; 16 2; gener 4; 19 2; multiskil 2; realiti 4; fluent 2; them 2; benefit 2; each 3; kong 16; includ 6; creativ 2; privaci 2; roundup 1; qualiti 2; access 5; kei 5; devis 2; augment 9; realtim 2; firstclass 2; problemsolv 2; industri 12; so 2; advantag 3; arm 2; devic 12; think 2; intern 5; innov 9; team 21; entrepreneur 2; teamwork 2; ti 4; assist 4; oper 2; to 3; symlab 8; joint 2; strength 2; project 8; synerg 2; paceset 1; research 18; either 2; view 2; trivial 2; har 2; interviewe 2; up 2; sector 2; epfl 3; us 3; actual 2; glass 11; instantli 2; laboratori 6; outreach 2; adapt 2; develop 10; introduc 2; guid 2; know 1; support 5; coastal 2; sinc 2; visionari 1; next 1; arriv 2; blind 2; shop 4; eastwest 2; idea 6; scientist 1; commerci 2; focu 2; life 6; speed 2; we 1; peopl 11; scientif 1; comput 8; not 2; cloudridar 2; common 2; appli 4; now 2; overcom 2; ptc 2; wai 2; enabl 8; associ 1; center 2; exposur 3; start 7; greet 2; yet 2; graduat 3; coloc 2; fund 2; chang 2; multin 5; step 2; time 8; leader 5; individu 4; cambridg 6; whole 2; program 2; when 2; techniqu 1; feedback 3; incub 2; gestur 5; road 2; review 2; displai 2; greec 2; bermejo 4; technologi 8; prioriti 2; case 2; applic 2; work 2; iran 2; hkustdeutsch 4; studi 15; among 2; futur 11; happi 2; opportun 5; philosophi 3; care 2; engin 5; spain 4; educ 1; boss 2; leadingedg 1; our 1; smart 4; gain 8; lot 2; supermarket 4; impress 2; freedom 2; eas 2; theme 2; event 1; leav 2; berlin 3; regular 2; meant 2; prof 25; lead 7; excel 2; lifestyl 2; cycl 2; help 4; perspect 4; fellow 2; minimum 2; span 2; data 4; pakistan 2; dai 4; cloud 4; major 2; telecommun 5; simpl 3; talent 3; inspir 4; hardwar 2; daili 3; keen 10; campu 2; speaker 2; valuabl 2; achiev 2; dont 1; option 2; here 3; scienc 8; largest 1; note 5; link 6; interact 2; multicultur 2; platform 2; point 2; east 2; teammat 2; said 11; track 2; provid 4; player 2; process 4; cost 2; readi 2; intens 4; hail 2; improv 2; emploi 3; situat 2; extrovert 2; build 7; incloud 2; cooper 2; further 4; visit 6; user 2; 
+Child Link 1: https://www.facebook.com/hkustpg/
+Child Link 2: https://www.instagram.com/hkustpg/
+Child Link 3: https://www.youtube.com/channel/UCEdTCnlB6_BrqjY29RPturQ
+Child Link 4: node/204
+Child Link 5: node/202
+Child Link 6: https://www.ust.hk
+Child Link 7: https://pg.ust.hk
+Child Link 8: http://ptc.ust.hk
+------------------------------------------------------------------
+Page Title: A new remedy for an old medicine | Offbeat HK | China Daily
+URL: https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
+Last Modification Date: null, Size of page: 112511
+diagnost 7; govern 2; year 1; hasnt 1; defici 3; intellig 2; vivian 3; diagnosi 8; analysi 7; without 1; robot 1; these 4; accuraci 1; addition 1; hippi 1; ad 2; ai 8; grenvil 1; mainstream 1; an 1; 1 1; 2 1; as 1; 3 1; 4 1; 5 1; left 2; 8 1; detail 2; preserv 1; treatment 9; abnorm 1; be 2; prove 2; role 1; hk500million 1; icon 1; turn 2; suffici 1; constitu 1; polici 1; journal 1; by 3; term 3; after 1; a 3; set 1; photo 8; right 1; asean 1; food 2; o 1; slam 1; the 13; answer 1; thi 1; dcampu 2; endoscopi 1; kwok 1; standard 1; justif 1; featur 2; reserv 1; ach 1; movem 1; do 1; specif 1; tale 2; kung 2; sylvia 3; contact 1; rel 2; remedi 1; train 2; contradictori 1; chines 24; pat 1; practic 6; fantast 2; test 2; 1033 2; check 1; diseas 2; scholar 1; respect 1; lack 1; g7 1; integr 1; datadriven 1; excreta 1; ey 3; respir 1; success 2; blame 1; western 2; weekli 4; leng 1; some 1; for 2; contribu 1; univers 9; content 4; fu 2; wisdom 2; tang 1; rate 1; sanction 1; sin 1; promot 1; bruce 1; human 1; live 1; asia 13; custom 1; 2021 1; advert 1; enquir 2; howev 3; energi 1; home 1; with 1; 2018 2; pdf 2; china 18; form 2; complaint 1; publish 1; there 2; sweat 2; conjur 1; honorari 3; ulcer 1; grant 1; he 1; explain 2; copyright 1; hk 11; select 1; ho 1; chiho 3; easili 1; ignor 1; zhang 8; approach 3; artifici 2; biotechnologi 1; biz 1; corner 3; identifi 2; model 3; join 1; text 1; if 2; write 1; flow 1; propos 1; tseung 1; algorithm 2; creat 2; diagnos 3; in 4; inquiri 1; understand 1; dismiss 3; worldwid 1; it 1; epigastr 1; hong 22; pharmaceut 1; wive 1; experi 1; doc 2; nevin 3; bacteri 1; women 1; toni 1; anxieti 1; aim 1; ping 1; optim 1; tailor 3; valid 1; pictur 1; world 2; known 1; andr 1; locat 1; digest 2; share 1; tradition 7; urgent 2; map 1; columnist 1; centuri 1; product 1; discoveri 1; lianwen 3; multimedia 1; citi 3; discrep 1; regard 1; meanwhil 1; report 1; exampl 1; nonsens 1; kidnei 1; receiv 2; subject 2; honor 1; pleas 1; precision 5; mislead 1; sign 2; feel 1; directli 1; lab 2; cough 1; syndrom 10; that 1; etc 1; function 7; limit 2; commun 1; chronic 1; all 1; new 5; evid 1; author 3; heroic 1; difficult 1; survei 2; dry 1; revert 2; establish 4; tool 2; condition 1; professor 9; servic 1; vltchek 1; dyspepsia 7; tast 2; bunch 1; bodi 3; collect 1; lake 1; 201819 1; belong 1; infec 1; roundtabl 1; busi 3; fridai 2; medic 4; best 1; weve 3; respons 1; clumsi 2; breath 1; design 1; identif 1; land 1; theyr 1; involv 4; hear 1; on 2; clinician 2; conven 1; holist 1; manifest 1; cross 2; compound 3; doctor 1; analyt 1; equip 2; edmond 1; respond 1; sport 3; cluster 2; 02 2; inform 1; cultur 3; firstev 1; hospit 1; nation 3; upper 3; about 1; offbeat 4; lee 1; environ 1; len 1; decad 2; evidencebas 1; vari 2; friend 1; qi 1; separatist 1; app 1; genet 1; night 1; frozen 1; them 2; hike 1; inher 1; 360 1; profus 1; thei 2; kong 22; symptom 12; includ 5; epap 1; wander 2; privaci 1; access 1; cut 1; debat 1; healthcar 1; practition 2; expres 1; global 5; waterloo 1; experienc 1; notion 1; se 2; attach 1; chinesewestern 1; graphic 2; latest 1; think 1; art 5; launch 1; highqual 1; stori 1; bud 2; confirm 1; emerg 1; classif 3; speech 1; puls 4; assist 1; household 1; to 3; mani 1; open 1; but 2; palpat 2; through 2; monei 1; pastur 1; invest 1; speci 2; run 1; smell 1; view 2; structur 1; school 6; har 1; written 1; sovereign 1; us 5; budget 1; brush 1; tech 2; usual 1; laboratori 1; wong 6; develop 3; kwan 1; girl 3; drone 3; page 1; physic 1; support 3; book 1; concept 1; show 1; detect 3; edition 2; millennium 1; rule 4; cold 1; focu 5; video 5; pure 1; life 5; peopl 3; scientif 3; comput 3; appli 3; harmon 1; now 2; precis 1; presid 1; npc 1; pain 1; associ 4; wide 1; gba 2; xiao 1; mouth 1; urban 1; discomfort 1; fund 2; refer 2; chang 3; popul 1; succeed 1; yang 2; comment 1; step 1; basi 1; base 7; 粤icp备17165805号2 1; cdhk华北 1; leader 5; individu 3; sourc 1; trend 1; dragon 1; type 1; ye 1; when 1; theori 3; consist 1; inspec 1; plai 1; twitter 2; critic 2; problem 1; review 1; sight 2; proof 1; technologi 9; quirki 3; applic 2; method 3; work 3; come 1; obviou 1; okai 2; disord 1; statem 2; studi 2; latent 7; republish 1; phone 3; fabric 1; explor 2; philosophi 2; engin 3; muscl 1; januari 1; pattern 4; verifi 1; requir 2; weak 1; 1995 1; climat 1; premium 1; modern 1; physician 1; statist 2; accur 1; protect 2; yin 1; more 2; facebook 2; indepth 3; loksang 1; suggest 1; skeptic 1; observ 4; opinion 4; taam 3; lifestyl 1; expect 1; help 2; inaccur 1; site 1; struggl 1; chat 1; rage 1; garden 2; advanc 2; cooccurr 3; data 10; sound 1; diverg 1; dai 1; drug 1; subscrip 1; medicin 27; depart 3; island 1; daili 10; footbal 2; tree 5; water 1; core 1; campu 1; collec 2; acupunctur 2; effect 3; guidelin 1; send 1; achiev 1; scienc 6; tract 2; autonom 1; why 1; linkedin 2; subtler 1; vincent 3; chung 8; novemb 2; percent 1; can 1; tend 1; award 1; hku 1; car 1; patient 22; therapi 1; browser 1; said 3; herb 1; provid 4; sheep 1; tcm 25; limb 1; process 2; herbal 2; sar 1; movi 2; follow 1; improv 2; instead 1; meal 1; build 1; favor 1; earn 1; clinic 1; constel 1; account 1; efficaci 1; 
+Child Link 1: http://www.chinadaily.com.cn/
+Child Link 2: https://global.chinadaily.com.cn/
+Child Link 3: https://www.chinadailyhk.com/index.html
+Child Link 4: https://www.chinadailyhk.com/article/WebsiteAsia/Asia.html
+Child Link 5: https://cdroundtable.com/web
+Child Link 6: https://www.chinadailyhk.com/article/hong_kong/index.html
+Child Link 7: https://www.chinadailyhk.com/article/nation/index.html
+Child Link 8: https://www.chinadailyhk.com/article/asia/index.html
+Child Link 9: https://www.chinadailyhk.com/article/world/index.html
+Child Link 10: https://www.chinadailyhk.com/article/business/index.html
+Child Link 11: https://www.chinadailyhk.com/article/sports/index.html
+Child Link 12: https://www.chinadailyhk.com/article/hk_football/index.html
+Child Link 13: https://www.chinadailyhk.com/article/life_art/index.html
+Child Link 14: https://www.chinadailyhk.com/article/leaders/index.html
+Child Link 15: https://www.chinadailyhk.com/article/offbeat_hk/index.html
+Child Link 16: https://www.chinadailyhk.com/article/in_depth_china/index.html
+Child Link 17: https://www.chinadailyhk.com/article/eye_on_asia/index.html
+Child Link 18: https://www.chinadailyhk.com/article/quirky/index.html
+Child Link 19: https://www.chinadailyhk.com/article/photo/index.html
+Child Link 20: https://www.chinadailyhk.com/article/graphics/index.html
+Child Link 21: https://www.chinadailyhk.com/article/gba_pulse/gba_list.html
+Child Link 22: https://www.chinadailyhk.com/article/culture_hK/index.html
+Child Link 23: https://www.chinadailyhk.com/article/asia_weekly/index.html
+Child Link 24: https://www.chinadailyhk.com/article/opinion/index.html
+Child Link 25: https://www.chinadailyhk.com/article/special_subject_338/special_subject.html
+Child Link 26: https://www.chinadailyhk.com/article/special_subject_331/special_subject.html
+Child Link 27: https://www.chinadailyhk.com/article/special_subject_332/special_subject.html
+Child Link 28: https://www.chinadailyhk.com/article/special_subject_333/special_subject.html
+Child Link 29: https://www.chinadailyhk.com/article/special_subject_/special_subject.html
+Child Link 30: https://www.chinadailyhk.com/video/index.html
+Child Link 31: https://www.chinadailyhk.com/article/data/index.html
+Child Link 32: http://cdlifestylepremium.com/
+Child Link 33: https://search.chinadailyhk.com
+Child Link 34: https://www.chinadailyhk.com/
+Child Link 35: https://www.chinadailyhk.com/asia-download/download.html
+Child Link 36: https://www.chinadailyhk.com/public_resource/public/html/subscription.html
+Child Link 37: http://www.chinadailyasia.com/asia-weekly/
+Child Link 38: http://www.chinadailyasia.com/asean-weekly/
+Child Link 39: http://www.chinadailyasia.com/focus-hk/
+Child Link 40: http://www.cdroundtable.com/
+Child Link 41: http://campus.chinadailyasia.com
+Child Link 42: http://gs.chinadailyasia.com/subjects/globalsources/home.html
+Child Link 43: https://www.chinadailyhk.com/article/special_subject_316/special_subject.html
+Child Link 44: https://www.chinadailyhk.com/videoshows/download.html
+Child Link 45: http://www.miitbeian.gov.cn/
+------------------------------------------------------------------
+Page Title: Engineering Undergraduate Study Webinar | University Event Calendar - The Hong Kong University of Science and Technology
+URL: https://calendar.ust.hk/events/engineering-undergraduate-study-webinar
+Last Modification Date: null, Size of page: 58006
+cancel 2; dec 6; year 1; hall 9; intellig 2; biolog 1; institu 2; academ 1; robot 2; music 1; satap 1; forumexhibi 1; nonfin 1; you 1; facilitycocurricular 1; aerospac 1; thur 1; ai 1; advancementoffic 1; policyresidenti 1; centerenvironment 1; court 1; extend 1; ixug 1; suppliescentr 1; plant 1; hkdse 1; 9 2; az 1; detail 1; hkustgzsport 1; dean 5; organ 3; transferenviron 1; mentorship 1; engag 5; projectfirstyear 1; corpor 1; jupa 1; ivug 1; polici 1; gold 1; officepurchas 1; search 3; physicsdesign 1; secretariatth 1; civil 1; hkust 12; direc 1; term 1; studentsug 1; a 3; managementcareerscommun 1; deadlin 1; learn 1; officeindustri 1; right 2; facilityoffic 1; the 4; materi 2; thi 1; hkustgzgeotechn 1; officedepart 1; officerisk 1; engineeringdivi 1; standard 1; featur 2; reserv 2; offic 1; programscomput 1; extern 1; specif 1; inclusionengineeringentrepreneurship 1; post 1; postgradu 1; centerug 1; club 2; talk 1; advis 1; affairsgreat 1; train 1; add 2; area 1; brows 4; chines 1; alumnihkust 1; institutehealth 1; viiiundergradu 1; integr 1; vision 1; 2359 5; viug 1; centerth 1; internshipcent 1; programbiosci 1; iug 1; facilityglob 1; engineeringoffic 1; faculti 1; technologystud 1; 400pm 4; fok 1; young 1; session 3; researchcent 1; for 1; univers 6; content 1; symposium 1; technologysportsstaff 1; sustainabilityglob 1; formatperformanceseminar 1; human 2; engineeringschool 1; eng 2; manufactur 1; perform 1; 2020 4; lifestud 1; energi 1; home 1; publichkust 1; formatcommun 1; ying 1; environment 1; sciencenetworkingoth 1; china 3; hub 4; workcompetitionconfer 1; publish 1; studieshkust 1; grant 1; manufacturinghkust 1; tunnel 1; gift 1; big 1; career 1; copyright 2; hk 1; officemainland 1; httpsustaz1qualtricscomjfeformsvbcs7vdehw1nygeb 1; canadian 1; degre 1; convert 1; artifici 1; gatheringtour 1; hkustsocieti 1; decemb 2; fri 1; newli 2; schoolhkust 1; innovationcent 2; typealumnielderlyfaculti 1; invit 2; limitednanosystem 1; policydivi 1; facilityanim 1; it 1; manag 3; marin 1; guesthkust 1; hong 3; system 4; experi 1; silver 1; curricula 1; aid 1; beltroadmateri 1; developmentpubl 1; officeredbird 1; other 1; librari 1; officedivi 1; institut 4; skip 1; login 1; local 1; youtub 1; scienceschool 1; managementdepart 2; trackredbird 3; sciencedepart 1; facilitydevelop 1; share 1; map 1; businessoffic 1; programsight 1; provostoffic 1; researchclp 1; health 1; facilitymedia 1; menu 1; transferoffic 1; organizeracadem 1; talentedth 1; unitsystem 1; citi 1; tmddpentrepreneurship 1; accountingdepart 1; sciencesen 1; lifesci 1; vug 1; main 1; windwav 1; learninghistoryhuman 1; developmentstud 2; admissionshkust 1; connecthkust 1; commun 6; webinar 8; administr 1; all 2; privacysitemap 1; new 1; todai 2; film 1; bronz 1; servic 3; studyhkust 1; centerinform 1; updat 2; visitunivers 1; student 8; busi 7; centernano 1; talksoci 1; media 1; lectur 2; execut 1; hous 1; design 1; leadership 4; facilityexecut 1; limitedhkust 1; hear 1; qualif 1; social 5; corecent 1; wellnesscr 1; foshan 1; policyinstitut 1; breadcrumb 1; marketingdepart 1; administrationoffic 1; 02 1; 03 1; inform 1; tue 1; centerglob 1; 07 1; 08 2; about 1; 09 1; instagram 1; lifehkust 1; bauhau 1; chemistrydepart 1; environ 3; qa 1; engagementcent 1; character 1; environmentinterdisciplinari 1; audienc 2; languagebusi 1; english 1; presidentoffic 1; officefin 1; sciencedu 1; undergradu 4; gener 1; researchoffic 1; scienceoffic 2; officehkust 1; gsat 1; kong 3; subdegre 1; centercent 1; 600pm 1; 22 1; 23 3; 26 1; programconnect 1; 27 1; languag 2; global 3; recommend 1; creativityhkustgz 1; industri 2; email 1; resourc 1; calendar 2; institutehuman 1; iiiug 1; decision 1; activitiessustain 1; malaysian 1; innov 1; eventspubl 1; supportseng 1; emerg 1; officeschool 1; officecar 1; studiesoffic 1; engagehkust 1; oper 1; open 1; joint 2; prepar 1; research 9; ug 2; facilitybiotechnologi 1; school 3; centrifug 1; cater 1; laboratori 1; technologyfunc 1; platformresearch 1; develop 2; randd 1; financedepart 1; taiwan 1; 500pm 5; familypg 1; ocean 2; officefintech 1; fairfundraisinginform 1; mtpcdean 1; support 1; coastal 1; institutehkustkaisa 1; hkustgztechnologi 1; life 1; comput 3; admis 1; not 1; central 2; nov 4; appli 1; interest 1; officefacil 1; wonder 1; danc 1; associ 1; center 1; institutehkust 3; graduat 1; staffgener 1; cantones 2; linguisticscent 1; biomed 1; designdivi 1; knowledg 2; chang 1; financi 1; sciencedivi 1; time 3; jockei 1; registr 2; safeti 1; seminar 1; program 4; senat 1; humanitiesdivi 1; mon 1; when 1; learningoffic 1; institutecampu 1; sustainabilityhkustbdr 1; mathematicsdepart 1; electron 1; enter 1; technologi 5; greater 1; officejockei 1; orientationoth 1; contract 1; studi 4; fabric 1; futur 1; opportun 1; care 1; engin 12; educ 4; gender 1; south 1; bright 1; libraryhkust 1; ceremonyworkshop 1; our 1; smart 2; alumni 1; facilityatmospher 1; managementoffic 1; ibdp 1; mechan 1; artscent 1; sustainabilitydivi 1; wed 1; statist 1; power 1; centerinstitut 1; event 14; educationcent 1; indonesian 1; more 1; facebook 1; managementschool 1; servicedivers 1; prof 1; hkustgzinform 1; economicsdepart 1; teamhkust 1; advanc 3; indian 1; chemic 1; date 1; hallleadership 1; affairshkust 1; iiug 1; residenti 1; data 1; prefer 1; engineersadvanc 1; vicepresid 3; major 1; zone 1; registryacademi 1; viiug 1; xii 1; affair 1; analyticsdepart 1; econom 1; depart 1; areasart 1; 201920counsel 1; profil 1; format 2; market 1; transfer 1; campu 1; council 1; recruit 2; speaker 1; here 1; scienc 3; request 1; residencefrom 1; linkedin 1; tung 1; chung 1; novemb 2; gceial 1; drama 1; highlight 1; public 4; albert 1; arrang 1; programscholarship 1; packagingcent 1; programbiotechnologi 1; engineeringdepart 5; officeinform 1; follow 2; macau 1; ambassador 1; user 2; account 1; 
+Child Link 1: https://www.ust.hk/news
+Child Link 2: https://www.ust.hk/academics/list
+Child Link 3: https://www.ust.hk/lifehkust
+Child Link 4: http://library.ust.hk/
+Child Link 5: https://www.ust.hk/map-directions
+Child Link 6: https://hkustcareers.ust.hk
+Child Link 7: https://facultyprofiles.ust.hk/
+Child Link 8: https://www.ust.hk/about
+Child Link 9: https://engage.ust.hk
+Child Link 10: https://www.ust.hk
+Child Link 11: https://calendar.ust.hk/
+Child Link 12: https://calendar.ust.hk/sites/prod.ucal02.ust.hk/files/styles/juicebox_medium/public/2020-11/poster-2.jpg?itok=qwetczso
+Child Link 13: https://www.facebook.com/sharer/sharer.php?u=https://calendar.ust.hk/events/engineering-undergraduate-study-webinar
+Child Link 14: https://calendar.ust.hk/events/event-ics/27138
+Child Link 15: https://www.timeanddate.com/worldclock/converter.html?iso=20201111T100000&p1=921&p2=102
+Child Link 16: https://ust.az1.qualtrics.com/jfe/form/SV_bCS7vDeHW1NygEB
+Child Link 17: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 18: https://www.facebook.com/hkust/
+Child Link 19: https://www.linkedin.com/school/hkust/
+Child Link 20: https://www.instagram.com/hkust
+Child Link 21: https://www.youtube.com/user/hkust
+------------------------------------------------------------------
+Page Title: Prof. Raymond WONG Chi-Wing Awarded Michael G. Gale Medal for Distinguished Teaching | HKUST School of Engineering
+URL: https://seng.ust.hk/news/20210203/prof-raymond-wong-chi-wing-awarded-michael-g-gale-medal-distinguished-teaching
+Last Modification Date: null, Size of page: 70652
+inform 4; supervi 1; about 3; commit 1; biolog 1; exemplifi 1; led 1; academ 4; bai 1; lifehkust 1; environ 1; robot 1; shyi 1; strateg 2; annual 1; rank 2; visual 1; press 2; secondari 1; aerospac 1; alchemist 2; undergradu 5; distinguish 3; intellectu 1; citat 1; impact 1; them 1; cours 1; databas 1; kong 4; befor 1; mission 2; at 2; left 1; adopt 1; letter 1; az 1; privaci 2; inquirybas 1; dean 3; reallif 1; strong 1; access 2; be 1; fact 2; engag 2; announc 1; current 3; search 3; releas 2; aspect 1; civil 1; hkust 10; direc 1; jobshkust 3; industri 1; popular 1; email 1; resourc 1; mine 1; a 4; decision 3; learn 5; g 3; i 1; photo 3; staff 3; highqual 1; innov 1; right 3; m 1; figur 2; stori 1; the 5; infrastructur 2; meet 3; taught 3; impart 1; principl 1; z 1; to 2; chiw 4; eager 1; highachiev 1; reserv 2; offic 1; lie 1; research 10; hold 1; provost 1; postgradu 7; school 2; contact 4; tim 1; us 3; area 2; chines 1; recogni 3; outreach 1; wong 11; en 1; develop 2; gather 1; integr 1; 1942 1; vision 2; nomin 1; activ 2; yeung 1; support 1; faculti 12; for 1; admin 1; video 2; univers 8; content 2; life 1; peopl 2; 2008 1; comput 6; common 2; skill 1; medal 3; class 1; live 1; presid 1; overview 2; pandem 1; center 2; teach 12; raymond 7; 2020 2; home 1; michael 3; environment 1; knowledg 1; numer 2; publish 1; there 1; honorari 1; relat 2; time 1; directori 1; hi 1; career 1; copyright 2; abreast 1; challeng 2; program 1; approach 1; glanc 2; division 1; outstand 1; 03022021 1; electron 1; join 1; technologi 4; greater 1; comp 1; creat 1; partnership 1; understand 1; abil 1; classroom 2; it 1; hong 4; insight 2; studi 9; system 2; futur 1; explor 1; philosophi 1; care 3; women 1; recogn 1; engin 15; educ 3; other 2; librari 2; pursuit 1; 12year 1; skip 1; interac 1; our 4; mention 1; alumni 5; 1994 1; mechan 1; share 4; wei 1; event 2; map 1; regular 1; subscrib 1; more 1; entrepreneurship 2; menu 2; phd 1; prof 15; excel 3; prospect 3; help 1; multimedia 1; devotion 1; chemic 1; date 1; magic 1; data 3; lionel 1; receiv 3; honor 1; main 1; motiv 3; listen 3; simpli 1; download 1; subscrip 1; commun 1; from 1; inspir 2; tag 4; titl 1; depart 6; sitemap 2; all 2; new 12; thumbnail 1; profil 2; prestigi 1; establish 1; core 2; twice 1; unit 1; council 1; updat 1; ni 1; bodi 1; exchang 1; job 1; sustain 1; seng 3; appreci 1; scienc 8; footer 1; student 17; link 1; continu 1; interact 1; media 8; head 1; highlight 2; strive 1; award 8; teacher 1; public 2; dityan 1; design 4; leadership 2; uphold 1; steam 1; harder 1; gale 3; social 2; tenur 1; banner 1; mtpc 2; follow 2; highli 1; meal 1; analyt 1; breadcrumb 1; cse 1; connec 1; cheng 1; 
+Child Link 1: https://hkust.edu.hk/news
+Child Link 2: https://hkust.edu.hk/academics/list
+Child Link 3: https://hkust.edu.hk/lifehkust
+Child Link 4: http://library.ust.hk
+Child Link 5: https://hkust.edu.hk/map-directions
+Child Link 6: https://hkustcareers.ust.hk
+Child Link 7: https://facultyprofiles.ust.hk
+Child Link 8: https://hkust.edu.hk/about-hkust
+Child Link 9: https://www.ust.hk
+Child Link 10: https://calendar.ust.hk/organizers/seng
+Child Link 11: https://hkustcareers.ust.hk/home
+Child Link 12: https://seng.ust.hk/sites/default/files/2021-02/cover_c.JPG
+Child Link 13: http://qa.ust.hk/michael_gale_medal.html
+Child Link 14: https://www.facebook.com/sharer/sharer.php?u=https%3A//seng.ust.hk/news/20210203/prof-raymond-wong-chi-wing-awarded-michael-g-gale-medal-distinguished-teaching&t=Prof.%20Raymond%20WONG%20Chi-Wing%20Awarded%20Michael%20G.%20Gale%20Medal%20for%20Distinguished%20Teaching
+Child Link 15: https://www.linkedin.com/shareArticle?mini=true&url=https%3A//seng.ust.hk/news/20210203/prof-raymond-wong-chi-wing-awarded-michael-g-gale-medal-distinguished-teaching&title=Prof.%20Raymond%20WONG%20Chi-Wing%20Awarded%20Michael%20G.%20Gale%20Medal%20for%20Distinguished%20Teaching
+Child Link 16: https://www.addtoany.com/add_to/wechat?linkurl=https%3A//seng.ust.hk/news/20210203/prof-raymond-wong-chi-wing-awarded-michael-g-gale-medal-distinguished-teaching&linkname=Prof.%20Raymond%20WONG%20Chi-Wing%20Awarded%20Michael%20G.%20Gale%20Medal%20for%20Distinguished%20Teaching
+Child Link 17: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/9153/a.JPG?itok=uVmRPQRF
+Child Link 18: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/9153/b.jpg?itok=pUmKgMjV
+Child Link 19: https://seng.ust.hk/sites/default/files/styles/horizontal_gallery_image/public/news/9153/c.jpeg?itok=uysoub4B
+Child Link 20: https://cbe.ust.hk
+Child Link 21: http://www.ce.ust.hk
+Child Link 22: https://www.cse.ust.hk
+Child Link 23: https://ece.hkust.edu.hk
+Child Link 24: https://ieda.ust.hk
+Child Link 25: https://www.mae.ust.hk
+Child Link 26: https://isd.ust.hk
+Child Link 27: https://facultyprofiles.ust.hk/
+Child Link 28: https://hkust.edu.hk/department
+Child Link 29: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 30: https://ptc.ust.hk/
+Child Link 31: https://www.facebook.com/hkustengineering
+Child Link 32: https://www.instagram.com/hkustengineering
+Child Link 33: https://www.linkedin.com/school/hkustengineering
+Child Link 34: https://www.youtube.com/user/sengpr
+------------------------------------------------------------------
+Page Title: Academic Departments | The Hong Kong University of Science and Technology
 URL: https://hkust.edu.hk/academics/list
-Last Modification Date: , Size of page: 
-
-Keyword:
+Last Modification Date: null, Size of page: 130870
 govern 2; intellig 10; biolog 2; academ 11; bai 2; analysi 4; pollution 2; branch 6; fit 2; offer 1; robot 6; mathemat 2; rank 2; cemar 2; aerospac 2; serv 1; ag 2; bdbi 2; ai 2; hkustnaverlin 2; click 1; conserv 2; covid19 2; cdr 2; senior 2; az 4; drive 2; southern 2; treatment 2; engag 4; singlab 2; polici 10; chemistri 2; sixth 2; search 3; eboard 2; civil 2; hkust 48; machin 2; close 1; a 9; b 3; c 6; set 1; d 7; e 2; learn 4; bdi 2; g 4; h 4; i 5; staff 2; hkustni 2; right 2; co 2; l 2; m 3; n 2; figur 2; o 2; p 2; the 8; materi 10; r 2; s 6; infrastructur 2; t 4; v 2; w 3; imag 2; isd 2; polym 2; reserv 2; offic 9; itsc 2; postgradu 2; tanoto 2; contact 2; scholarship 2; club 6; abfy 2; ec 2; powerpoint 2; ssciia 2; info 1; area 2; brows 1; chines 8; initi 2; ei 2; test 2; diseas 2; consent 1; castl 2; cnerc 2; integr 6; vision 2; success 2; activ 2; faculti 4; fok 2; semiconductor 2; young 2; for 2; aerodynam 2; famili 2; univers 4; content 2; softwar 2; molecular 4; scut 2; human 11; interdisciplinari 7; live 4; eng 2; collabor 4; manufactur 6; ledfpd 2; energi 4; home 1; myport 2; ying 2; environment 8; gz 12; china 6; restor 2; directori 2; scholarli 2; big 8; career 1; copyright 2; select 2; challeng 2; spatialtempor 2; bio 4; artifici 4; hkustdidi 2; division 12; tissu 2; william 2; ia 6; if 1; cybersecur 2; metal 2; it 2; manag 12; marin 2; hong 12; system 18; experi 1; aid 2; other 1; circuit 2; librari 2; natur 2; crowdsourc 2; institut 46; skip 1; interac 2; cell 2; mae 2; metamateri 2; shenzhen 4; map 2; heavi 2; centuri 2; product 4; hkustbright 2; asian 2; health 6; entrepreneurship 6; photon 2; multimedia 2; citi 2; internship 2; cognit 2; pleas 2; main 1; lab 20; geotechn 2; guangdong 2; radio 2; ust 2; berc 2; commun 4; chronic 2; sitemap 2; traffic 1; administr 4; all 3; inven 2; new 8; read 1; glassblow 2; ideat 2; civl 2; servic 4; dream 2; tast 2; sensor 2; code 2; websit 2; student 12; busi 15; quantum 2; media 8; fundament 2; resolu 2; design 10; leadership 2; identif 2; financ 2; frism 2; social 17; control 5; foshan 4; hkustgzeventsvisitgivingalumnicar 1; strategi 2; super 2; analyt 4; breadcrumb 1; cse 2; analyz 1; optoelectron 2; reason 2; inform 8; cultur 2; hospit 2; nation 4; about 2; lifehkust 2; enhanc 2; environ 6; character 4; strateg 2; wechathkust 2; state 4; brand 4; app 2; undergradu 4; cair 2; huaweihkust 2; accept 1; kong 12; mission 2; rd 4; vislab 2; privaci 2; anim 4; suppli 4; access 2; fact 2; hkustkaisa 2; languag 2; global 10; kei 6; atmospher 2; industri 6; thompson 2; resourc 4; calendar 2; art 2; decision 2; neurosci 4; centr 2; bioscienc 4; innov 14; commerc 2; cwb 10; stori 4; emerg 2; reliabl 2; oper 2; rfid 2; symlab 2; joint 28; invest 2; prepar 4; research 64; technolog 2; school 26; centrifug 2; us 2; advertis 1; sino 2; cenwit 2; laboratori 32; outreach 2; ieda 2; develop 2; reconstruc 2; envfinalma 2; ocean 6; concentr 2; physic 4; acoust 2; mileston 2; focu 2; iei 2; life 6; we 1; peopl 2; button 1; scientif 2; comput 6; admis 6; central 6; appli 2; green 2; center 102; mong 2; moemsra 2; target 1; insur 2; knowledg 4; what 2; urban 2; popul 2; fung 2; financi 2; jockei 6; stem 2; gce 2; program 13; entrepreneuri 6; hkustxiaoi 2; displai 4; faq 2; electron 4; sight 2; technologi 28; greater 2; plan 2; case 2; give 1; hkustgz 1; icdc 2; studi 12; biologi 2; fabric 4; futur 2; opportun 2; humancomput 2; engin 33; educ 6; south 4; hkustdt 2; bright 2; epigenom 2; our 2; smart 6; alumni 1; hkustwebank 2; mechan 2; web 2; get 2; statist 2; event 1; chain 2; hcic 2; more 1; brain 4; great 2; academi 2; hkustnan 2; lifestyl 2; site 1; advanc 12; twentyfirst 2; chemic 2; data 12; cooki 4; guangzhou 6; medicin 2; econom 8; depart 38; group 6; profil 2; templat 2; spade 2; water 2; market 6; core 2; transfer 2; campu 6; person 1; guidelin 8; frequenc 2; exchang 2; sustain 4; seng 2; scienc 34; execu 2; hkustsiat 2; tongyi 2; autonom 2; continu 1; hkustshanghai 2; tung 2; network 2; award 2; public 10; hkustcil 2; hkustbgi 2; facil 32; process 4; cbe 2; categori 2; follow 2; macau 2; linguist 2; sinogerman 2; build 2; hkustdji 2; wireless 4; visit 3; account 2; 
-
 Child Link 1: https://gz.ust.hk
 Child Link 2: https://calendar.ust.hk
 Child Link 3: https://giving.ust.hk/en/index.php
@@ -197,36 +517,395 @@ Child Link 130: https://www.linkedin.com/school/hkust
 Child Link 131: https://www.instagram.com/hkust/
 Child Link 132: https://www.youtube.com/user/HKUST
 ------------------------------------------------------------------
-Page Title: 
-URL: https://www.cse.ust.hk/
-Last Modification Date: , Size of page: 
-
-Keyword:
-nowcast 2; about 5; academ 5; instagram 2; analysi 3; lifehkust 1; iot 2; music 2; ctf 2; jan 2; visual 2; approxim 2; runner 4; nextgener 2; pinpoint 3; 13 1; 14 1; undergradu 8; 15 1; distinguish 2; gener 3; 18 1; ai 2; realiti 2; secur 2; kong 6; 2 1; mission 2; 3 1; humanrobot 2; 7 2; spatiotempor 3; az 1; juli 1; privaci 2; 20 1; qualiti 2; 22 3; 23 3; 24 1; fact 2; 27 3; 28 3; ahead 1; engag 5; ambient 2; sun 1; elect 2; augment 3; technologymedi 2; how 2; 1st 2; by 1; hkust 6; direc 1; industri 2; machin 6; devic 2; a 8; set 2; learn 13; g 2; staff 4; right 2; team 2; facilit 3; the 4; qian 2; fast 2; partner 2; assist 3; imag 4; chiw 2; open 2; spotlight 1; thu 1; reserv 2; elearn 2; project 2; mepsbot 3; research 14; 3d 1; view 3; postgradu 8; school 2; contact 4; won 2; tim 2; remedi 2; talk 2; up 4; us 4; area 2; practic 2; last 1; test 3; wong 2; vision 3; activ 2; support 2; faculti 6; next 1; synthes 2; robolawy 3; mood 2; for 1; video 3; univers 3; peopl 4; smarter 2; comput 5; admis 2; nov 4; softwar 3; queri 2; medal 2; seeker 2; live 2; wai 1; center 2; teach 2; perform 2; 2021 7; graduat 2; raymond 2; 2020 14; earli 2; forum 8; michael 2; 2018 1; 2017 2; china 2; 2015 1; realm 2; step 2; employ 2; big 5; career 1; copyright 2; seminar 2; spatialtempor 2; visibl 2; program 2; zhang 2; mon 1; vulner 2; decemb 1; model 2; technologi 6; write 3; applic 2; in 1; contract 3; understand 6; modul 2; 28th 2; manag 2; destin 2; push 2; hong 6; studi 2; toward 3; system 3; light 4; indoor 2; pwc 2; feder 3; engin 6; librari 1; 20210205 1; januari 2; optim 4; crowdsourc 2; interac 2; local 2; smart 4; youtub 2; alumni 6; assur 2; world 2; mai 4; locat 4; peer 2; wed 1; member 2; event 4; map 2; biofeedback 2; chatbot 2; stress 2; more 3; facebook 4; 2nd 2; health 2; prof 6; academi 2; citi 2; fellow 2; foster 3; placem 2; fake 2; quick 2; firebird 2; data 5; prefer 3; lab 2; cloud 2; find 5; limit 2; medicin 2; enrich 2; hackadai 2; depart 2; net 1; sitemap 2; webinar 2; all 2; new 7; sens 4; profil 3; hkustcs 2; workshop 4; real 2; gigapixel 2; welcom 2; precipit 2; recruit 2; updat 1; sensor 2; position 2; job 4; scienc 4; code 3; student 4; coda 3; link 2; mental 2; linkedin 2; novemb 6; platform 2; simpler 2; network 2; transform 2; award 2; public 3; and 1; design 2; februari 2; of 2; predict 3; render 2; facil 2; process 2; gale 2; tackl 2; wechat 2; follow 2; panoram 3; analyt 2; cse 4; previou 1; build 2; pg 2; cheng 2; user 3; congreg 2; 
-
+Page Title: Life@HKUST | The Hong Kong University of Science and Technology
+URL: https://hkust.edu.hk/lifehkust
+Last Modification Date: null, Size of page: 64638
+studentact 1; inform 2; cultur 4; govern 2; maintain 2; about 2; academ 8; bai 2; your 1; lifehkust 4; wellround 1; leg 1; fit 3; offer 1; music 1; strateg 2; accommod 1; rank 2; livingoncampu 1; brand 4; app 2; happen 1; vibrant 1; serv 2; undergradu 4; ag 2; an 1; click 1; conserv 2; accept 1; artsandcultur 1; covid19 2; kong 3; senior 2; mission 2; creativ 4; az 4; privaci 2; organ 2; access 2; fact 2; global 4; stimul 1; civic 1; polici 4; search 3; eboard 2; hkust 21; close 1; connect 1; resourc 5; calendar 2; a 8; intimaci 1; mind 1; art 7; set 1; learn 5; staff 2; right 2; balanc 1; figur 2; stori 4; the 2; infrastructur 2; meet 1; essenti 1; communityoutreach 1; reserv 2; offic 6; good 1; research 10; technolog 2; postgradu 2; school 18; contact 2; scholarship 2; club 4; up 1; powerpoint 2; us 2; advertis 1; info 1; area 2; brows 1; cater 1; unlock 1; need 2; outreach 3; develop 6; diseas 2; consent 1; integr 1; vision 2; ey 1; aliv 1; success 2; activ 4; faculti 4; color 1; for 2; awar 1; mileston 2; focu 2; univers 3; content 2; life 10; we 3; button 1; admis 6; dine 1; appli 1; skill 1; sportshkust 1; promot 1; human 4; interdisciplinari 4; live 7; eng 2; healthi 1; center 1; gba 1; wellnesshkust 1; bond 3; home 1; target 1; insur 2; myport 2; special 1; wellbalanc 1; knowledg 5; what 1; form 1; urban 2; deepen 1; popul 2; well 1; financi 2; step 1; time 1; directori 2; jockei 4; scholarli 2; career 1; copyright 2; select 2; challeng 2; program 11; type 1; entrepreneuri 6; fullest 1; faq 2; ia 4; sight 1; technologi 2; greater 2; if 1; plan 2; between 1; give 1; hkustgz 1; partnership 1; work 1; classroom 2; manag 5; hong 3; studi 4; futur 1; experi 1; opportun 3; aid 2; engin 4; wider 1; educ 3; librari 2; aim 1; natur 2; institut 10; skip 1; our 2; alumni 1; world 1; web 2; get 2; event 1; guardian 1; leav 1; map 2; nourish 1; surround 1; centuri 2; more 2; entrepreneurship 4; comfort 1; lifestyl 4; prospect 1; multimedia 2; site 1; psycholog 1; advanc 6; first 1; twentyfirst 2; heritag 1; residenti 1; cooki 4; pleas 2; main 1; zone 1; divers 1; ust 2; enrich 1; commun 4; from 1; depart 4; chronic 2; embrac 1; sitemap 2; traffic 1; administr 4; all 2; inven 2; new 10; textbook 1; read 1; profil 2; ideat 2; templat 2; transfer 2; campu 6; imagin 1; person 2; effect 1; tast 2; guidelin 8; bodi 1; exchang 2; sustain 3; scienc 10; execu 2; fitnessandstyl 1; websit 2; arrai 1; student 24; busi 4; continu 1; why 3; media 4; award 2; public 7; hous 2; leadership 2; on 1; benevol 1; facil 2; social 9; control 3; transport 1; categori 2; follow 2; hkustgzeventsvisitgivingalumnicar 1; breadcrumb 1; build 1; amen 1; analyz 1; visit 3; sport 2; 
+Child Link 1: https://gz.ust.hk
+Child Link 2: https://calendar.ust.hk
+Child Link 3: https://giving.ust.hk/en/index.php
+Child Link 4: https://alum.ust.hk/
+Child Link 5: https://hkustcareers.ust.hk/
+Child Link 6: https://my.ust.hk/
+Child Link 7: https://hkust.edu.hk/
+Child Link 8: https://science.ust.hk/
+Child Link 9: https://www.seng.ust.hk
+Child Link 10: http://www.bm.ust.hk/en-us
+Child Link 11: https://www.shss.ust.hk/
+Child Link 12: https://ipo.ust.hk/
+Child Link 13: http://ias.ust.hk
+Child Link 14: http://ipp.ust.hk/
+Child Link 15: https://join.ust.hk/
+Child Link 16: https://pg.ust.hk/prospective-students/home
+Child Link 17: https://join.ust.hk/admissions/visiting/
+Child Link 18: http://studyabroad.ust.hk
+Child Link 19: http://sfao.ust.hk
+Child Link 20: https://kt.ust.hk
+Child Link 21: https://urop.ust.hk
+Child Link 22: https://strategicplan.hkust.edu.hk
+Child Link 23: https://ccss.ust.hk/governance
+Child Link 24: http://sports.ust.hk
+Child Link 25: https://counsel.ust.hk/
+Child Link 26: http://sen.ust.hk/
+Child Link 27: https://shrl.ust.hk/
+Child Link 28: https://cso.ust.hk/locations/restaurants
+Child Link 29: https://cso.ust.hk/tran/pt
+Child Link 30: http://sao.ust.hk/eng/detail.php?catid=15&sid=151
+Child Link 31: http://sao.ust.hk/eng/detail.php?catid=14&sid=116&tid=124
+Child Link 32: http://connect.ust.hk/
+Child Link 33: https://sight.ust.hk/
+Child Link 34: https://artsctr.ust.hk/
+Child Link 35: https://www.ic.shss.ust.hk/
+Child Link 36: https://musicalive.ust.hk/
+Child Link 37: http://sao.ust.hk/eng/detail.php?catid=7&sid=51
+Child Link 38: https://www.seng.ust.hk/
+Child Link 39: http://www.bm.ust.hk
+Child Link 40: http://www.shss.ust.hk/
+Child Link 41: http://ias.ust.hk/web/ias/eng/
+Child Link 42: https://registry.ust.hk/calendar_dates/dates20-21confirmed.pdf
+Child Link 43: https://pao.ust.hk/Bdownload/HKUST_Brand_guideline.pdf
+Child Link 44: https://pao.ust.hk/Bdownload/HKUSTpowerpoint/HKUST_PPT_Corporate.zip
+Child Link 45: http://publish.ust.hk/univ/maps/Campus_Map_Color.pdf
+Child Link 46: https://pao.ust.hk/Bdownload/E-Board_guidelines.pdf
+Child Link 47: https://facultyprofiles.ust.hk/
+Child Link 48: https://pao.ust.hk/Bdownload/internal/Social_Media_Guidelines.pdf
+Child Link 49: https://pao.ust.hk/Bdownload/HKUST_website_guideline.pdf
+Child Link 50: http://library.ust.hk/
+Child Link 51: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 52: https://www.facebook.com/hkust
+Child Link 53: https://www.linkedin.com/school/hkust
+Child Link 54: https://www.instagram.com/hkust/
+Child Link 55: https://www.youtube.com/user/HKUST
+------------------------------------------------------------------
+Page Title: HKUST Library
+URL: https://library.ust.hk/
+Last Modification Date: null, Size of page: 89974
+03 1; inform 2; about 5; offcampu 1; unstabl 1; institu 3; northeastern 1; academ 3; bai 1; lifehkust 2; eresourc 1; lee 1; these 1; dvd 1; jan 1; favorit 1; onlin 2; coordin 1; you 1; qr 1; apr 1; newslett 2; undergradu 1; 15 1; realiti 1; cours 8; photographi 1; databas 7; kong 5; ar 2; mission 1; 7 1; az 2; privaci 2; detail 1; seri 3; coronaviru 1; 20 1; retriev 2; 24 1; 25 1; access 4; 26 1; 28 1; engag 1; scan 3; global 2; kee 1; outcomebas 1; mainten 1; noissnisbngenreformcours 1; announc 1; polici 4; augment 1; search 12; rss 2; 97011055 1; hkall 4; hkust 15; direc 2; jobshkust 2; 11am 1; audio 1; behavior 1; popular 1; email 1; devic 1; hand 1; resourc 6; a 3; cd 1; b 2; c 2; d 2; docum 2; e 2; learn 1; f 2; g 2; h 2; i 2; librarian 3; dataspacehkust 1; j 2; staff 4; k 2; right 2; l 2; yau 1; m 2; march 1; n 2; tour 2; commerc 1; monster 1; o 2; stori 1; call 1; p 2; the 6; libraryusthk 1; q 1; r 1; s 2; t 2; u 2; v 2; tk 1; w 2; ask 2; x 1; borrow 5; y 1; z 1; imag 1; paul 1; interview 1; open 1; chiu 1; venu 2; reserv 6; elearn 2; wordpress 1; project 1; philip 1; research 10; hold 1; lin 1; 3d 3; catalogprimo 1; postgradu 1; contact 2; rare 1; liu 1; talk 1; us 6; digit 1; brows 1; chines 1; ejourn 3; develop 1; scholar 2; vision 1; roleplai 1; libqual 1; name 2; guid 11; support 5; faculti 3; courseembed 1; whatsapp 1; arriv 2; loan 4; virtual 2; import 1; android 1; book 5; for 1; show 1; rule 2; video 4; antiqu 3; univers 8; content 2; recal 1; peopl 1; comput 6; kowloon 1; central 1; instruc 2; nov 1; softwar 2; interlibrari 3; class 1; human 2; wordphraseauthortitlesubjectcal 1; battl 1; powersearch 2; europ 1; asia 1; teach 6; start 1; 2021 5; 2020 1; anthoni 1; room 4; special 3; 2019 1; deliveri 2; print 5; what 1; china 5; form 1; renew 1; vanessa 1; directori 1; career 1; copyright 2; pui 1; catalog 1; ho 1; program 1; awardwin 1; galleri 1; glanc 1; output 1; browzin 1; antimicrobi 1; ic 1; informationsmart 3; id 1; join 3; technologi 4; plan 4; between 1; cordial 1; exhibi 6; ig 1; creat 1; item 2; chow 1; goal 1; in 1; invit 1; cream 1; manag 2; hong 5; studi 5; system 2; phone 1; explor 1; coach 1; librari 35; ceremoni 2; selfservic 1; skip 1; copi 1; aurora 1; youtub 2; alumni 3; mai 1; stream 1; dataspac 1; share 1; statist 2; place 2; event 2; map 5; mar 2; vacanc 2; avail 2; ko 1; more 3; facebook 2; italk 3; 劉元帥教授 1; help 1; 23586772 2; ezon 1; repositori 3; shau 1; feb 1; data 3; usb 1; subject 3; newsclip 1; main 1; blog 1; othersid 2; locker 1; space 6; trial 2; nameinstructor 1; download 1; chamber 1; marshal 1; talent 1; xyz 1; logo 3; wordphras 1; depart 2; group 1; all 5; literaci 1; entri 1; new 6; contest 3; upcom 1; profil 4; ms 1; spd 3; workshop 4; todai 1; orcid 1; thai 1; film 1; my 4; ezproxi 2; water 1; professor 2; servic 9; campu 1; collec 8; instructor 1; marker 1; histori 1; job 2; visitor 1; achiev 1; scienc 4; no 1; request 1; game 4; student 1; bridg 2; becom 3; linkedin 1; media 1; schedul 1; respons 1; lectur 1; point 1; highlight 2; hour 2; paper 1; public 1; 何寶琪女士 1; department 1; floor 2; on 1; facil 1; headset 1; clear 1; zoom 1; transport 1; follow 1; shuen 1; confer 2; situat 1; analyt 1; equip 3; archiv 1; wireless 1; user 2; account 3; 
+Child Link 1: https://www.ust.hk/news
+Child Link 2: https://www.ust.hk/academics/list
+Child Link 3: https://www.ust.hk/lifehkust
+Child Link 4: https://library.ust.hk
+Child Link 5: https://www.ust.hk/map-directions
+Child Link 6: https://www.ab.ust.hk/hro/PubDoc/careers/main.html?btn1=btn_nav_06&main=welcome.html
+Child Link 7: https://facultyprofiles.ust.hk/
+Child Link 8: https://www.ust.hk/about-hkust
+Child Link 9: https://www.ust.hk/
+Child Link 10: index.html
+Child Link 11: http://lbdiscover.ust.hk
+Child Link 12: https://library.ust.hk/collections-resources/databases/
+Child Link 13: https://library.ust.hk/collections-resources/databases/all-databases/
+Child Link 14: https://library.ust.hk/collections-resources/databases/alumni-database-access/
+Child Link 15: https://library.ust.hk/collections-resources/databases/e-resources-trial/
+Child Link 16: https://library.ust.hk/collections-resources/databases/ezproxy/
+Child Link 17: https://lbapps.ust.hk/newarrivals/
+Child Link 18: https://library.ust.hk/collections-resources/guides-to-resources/
+Child Link 19: http://libguides.ust.hk
+Child Link 20: https://library.ust.hk/collections-resources/guides-to-resources/course-guides/
+Child Link 21: https://library.ust.hk/collections-resources/guides-to-resources/database-guides/
+Child Link 22: http://lbapps.ust.hk/highlights/
+Child Link 23: https://library.ust.hk/collections-resources/hkust-research-output/
+Child Link 24: https://repository.ust.hk/ir
+Child Link 25: http://lbezone.ust.hk/rse/electronic-theses
+Child Link 26: https://dataspace.ust.hk/
+Child Link 27: https://library.ust.hk/collections-resources/archives/
+Child Link 28: http://digitalimages.ust.hk/gallery/
+Child Link 29: http://lbcube.ust.hk/newsclip/searchDb.php
+Child Link 30: http://lbcone.ust.hk/hkustpub/
+Child Link 31: https://library.ust.hk/collections-resources/special-collections/
+Child Link 32: http://lbezone.ust.hk/rse/
+Child Link 33: http://lbezone.ust.hk/rse/antique-maps
+Child Link 34: http://lbezone.ust.hk/rse/rare-books
+Child Link 35: https://library.ust.hk/collections-resources/special-collections/lin/
+Child Link 36: https://library.ust.hk/services/borrowing/
+Child Link 37: https://library.ust.hk/services/borrowing/course-reserve/
+Child Link 38: https://library.ust.hk/services/borrowing/document-delivery/
+Child Link 39: https://library.ust.hk/services/borrowing/hkall/
+Child Link 40: https://library.ust.hk/services/borrowing/interlibrary-loan/
+Child Link 41: https://library.ust.hk/services/borrowing/no-hkall-request-available/
+Child Link 42: https://library.ust.hk/services/facilities/
+Child Link 43: https://library.ust.hk/services/facilities/3d/
+Child Link 44: https://library.ust.hk/services/facilities/3d-scanning/
+Child Link 45: https://library.ust.hk/services/facilities/computers/
+Child Link 46: https://library.ust.hk/services/facilities/lockers/
+Child Link 47: https://library.ust.hk/services/facilities/items-for-loan/
+Child Link 48: http://lbbooking.ust.hk/
+Child Link 49: https://library.ust.hk/services/accessibility/
+Child Link 50: https://library.ust.hk/services/learning-support/
+Child Link 51: https://library.ust.hk/services/learning-support/library-workshops/
+Child Link 52: http://lbcone.ust.hk/elearning/
+Child Link 53: https://library.ust.hk/services/learning-support/informationliteracy/
+Child Link 54: https://library.ust.hk/services/research-support/
+Child Link 55: https://library.ust.hk/services/research-support/dmp/
+Child Link 56: https://library.ust.hk/services/research-support/library-coordinators/
+Child Link 57: https://library.ust.hk/services/teaching-support/
+Child Link 58: https://library.ust.hk/services/teaching-support/outcome-based-library-instruction/collaboration-faculty/
+Child Link 59: https://library.ust.hk/services/teaching-support/outcome-based-library-instruction/
+Child Link 60: https://library.ust.hk/services/teaching-support/placing-course-reserve/
+Child Link 61: https://library.ust.hk/services/facilities/library-teaching-venues/
+Child Link 62: https://lbcube.ust.hk/ce/
+Child Link 63: http://lbcone.ust.hk/booktalk/
+Child Link 64: https://library.ust.hk/services/research-support/researchers-series/
+Child Link 65: http://library.ust.hk/about-us/user-engagement/my-favorite-lectures/
+Child Link 66: http://library.ust.hk/events/conferences/
+Child Link 67: http://library.ust.hk/events/staff-workshops/
+Child Link 68: https://library.ust.hk/help-for/undergraduates/
+Child Link 69: https://library.ust.hk/help-for/postgraduates/
+Child Link 70: https://library.ust.hk/help-for/faculty-and-staff/
+Child Link 71: https://library.ust.hk/help-for/alumni/
+Child Link 72: https://library.ust.hk/help-for/visitors/
+Child Link 73: https://library.ust.hk/about-us/contact-us/
+Child Link 74: https://library.ust.hk/about-us/contact-us/ask-a-librarian-form/
+Child Link 75: https://library.ust.hk/about-us/contact-us/staff-directory/
+Child Link 76: https://library.ust.hk/about-us/contact-us/subject-librarians/
+Child Link 77: https://library.ust.hk/about-us/contact-us/transportation/
+Child Link 78: http://lbcone.ust.hk/floorplans/home/index
+Child Link 79: https://library.ust.hk/about-us/hours/
+Child Link 80: https://library.ust.hk/about-us/hours/service-points-hours/
+Child Link 81: https://library.ust.hk/about-us/mission/
+Child Link 82: https://library.ust.hk/about-us/news/
+Child Link 83: http://library.ust.hk/blog/
+Child Link 84: https://library.ust.hk/about-us/news/job-vacancies-staff/
+Child Link 85: https://library.ust.hk/about-us/news/job-vacancies-student-helpers/
+Child Link 86: https://library.ust.hk/about-us/user-engagement/
+Child Link 87: https://library.ust.hk/about-us/user-engagement/logo-contest-2021/
+Child Link 88: http://lbcone.ust.hk/booktalk
+Child Link 89: https://library.ust.hk/about-us/user-engagement/libqual2019/
+Child Link 90: https://library.ust.hk/about-us/user-engagement/otherside/
+Child Link 91: https://library.ust.hk/about-us/forms/
+Child Link 92: https://library.ust.hk/about-us/policies-and-rules/
+Child Link 93: https://library.ust.hk/about-us/policies-and-rules/important-information/
+Child Link 94: https://library.ust.hk/about-us/policies-and-rules/access-policy/
+Child Link 95: https://library.ust.hk/about-us/policies-and-rules/borrowing-policy/
+Child Link 96: https://library.ust.hk/about-us/policies-and-rules/responsible-use-online-resources/
+Child Link 97: https://library.ust.hk/about-us/policies-and-rules/user-behavior/
+Child Link 98: https://library.ust.hk/about-us/projects/
+Child Link 99: https://library.ust.hk/about-us/statistics/
+Child Link 100: https://library.ust.hk/about-us/statistics/at-a-glance/
+Child Link 101: https://library.ust.hk/about-us/statistics/analytics/
+Child Link 102: http://browzine.com/libraries/230/subjects
+Child Link 103: https://library.ust.hk/collections-resources/guides-to-resources/database-guides
+Child Link 104: https://library.ust.hk/collections-resources/guides-to-resources/course-guides
+Child Link 105: https://lbbooking.ust.hk/
+Child Link 106: http://hkall.julac.org
+Child Link 107: https://lbcone.ust.hk/music-costumes/opening/
+Child Link 108: https://lbcone.ust.hk/booktalk/?p=189
+Child Link 109: http://globalchinacenter.shss.ust.hk/events/smuggling-and-state-power-modern-china
+Child Link 110: https://my.matterport.com/show/?m=5zUbNgUv9aS
+Child Link 111: https://libguides.ust.hk/powersearch/request
+Child Link 112: http://libguides.ust.hk/c.php?g=207925&p=1372174
+Child Link 113: https://repository.ust.hk/ir/
+Child Link 114: https://illiad.ust.hk/
+Child Link 115: http://www.facebook.com/hkust.library
+Child Link 116: http://www.youtube.com/user/HKUSTLIB
+Child Link 117: http://www.ust.hk
+Child Link 118: https://library.ust.hk/about-us/policies-and-rules/privacy-policy/
+Child Link 119: https://www.instagram.com/libraryathkust/
+Child Link 120: https://www.linkedin.com/school/hkust/
+------------------------------------------------------------------
+Page Title: Visit | The Hong Kong University of Science and Technology
+URL: https://hkust.edu.hk/visit
+Last Modification Date: null, Size of page: 92272
+fare 1; parent 1; govern 2; bag 1; academ 8; bai 7; scenic 1; b1 3; b2 1; fit 2; offer 1; rank 2; parkingrel 1; 150acr 1; rang 1; you 4; serv 1; pass 1; ag 2; click 1; secur 1; c1 1; conserv 2; lion 1; airport 3; c2 1; covid19 2; senior 2; ar 1; at 1; 5 1; left 1; az 4; drive 3; object 1; harbour 1; southern 4; hang 6; engag 1; polici 4; how 1; search 3; bu 8; eboard 2; 91m 3; hkust 32; direc 1; hotel 1; merchand 1; after 1; dear 1; close 1; a 7; set 1; staff 3; right 3; figur 2; o 1; straight 2; the 9; infrastructur 2; thi 1; featur 1; reserv 2; offic 6; contribut 1; stun 1; preregist 1; red 1; kung 4; post 1; postgradu 2; bird 1; contact 3; scholarship 2; club 4; tin 1; powerpoint 2; info 1; area 2; brows 2; keng 1; tiu 1; memento 1; check 1; diseas 2; consent 1; take 3; vision 2; success 2; activ 2; faculti 4; leng 1; princ 1; 792m 2; for 4; univers 10; content 2; choi 6; kowloon 3; sik 3; rate 1; exclus 1; ga 1; human 4; interdisciplinari 4; live 4; eng 2; armillari 1; asia 1; treasur 1; home 1; myport 2; ying 1; china 1; 2014 1; there 1; avoid 2; selec 1; directori 2; tunnel 3; gift 1; scholarli 2; career 1; copyright 2; hk 3; select 2; challeng 2; ho 3; easili 1; toll 1; minibu 7; bicycl 1; ia 4; leverag 1; if 2; tseung 1; in 1; termin 1; understand 2; it 1; manag 4; hong 8; lung 2; exit 9; 400 1; experi 1; kwun 1; aid 2; southeast 1; tong 1; librari 2; aim 1; natur 2; institut 10; skip 1; local 1; sphere 1; locat 2; tradition 1; map 4; centuri 2; famous 1; question 1; lover 1; entrepreneurship 4; notic 1; prospect 1; multimedia 2; citi 3; exampl 1; pleas 2; sign 6; edward 1; main 3; function 1; ust 2; lam 3; logo 1; commun 4; oneworldfountain 1; chronic 2; sitemap 2; traffic 1; administr 4; all 3; inven 2; new 9; read 1; mr 6; tate 1; rout 1; 23586483 1; ideat 2; heart 1; uniqu 1; welcom 1; tast 2; websit 2; student 12; busi 4; buse 3; media 4; head 2; leadership 2; dynam 1; lane 1; roundabout 1; haven 1; social 8; cross 2; control 4; transport 1; hkustgzeventsvisitgivingalumnicar 1; territori 1; outdoor 1; breadcrumb 1; 104 1; sculptur 1; offici 1; analyz 1; walk 1; po 2; inform 6; cultur 2; prev 4; about 3; lifehkust 2; strateg 2; brand 4; onlin 1; 11 2; app 2; 12 2; countrysid 1; undergradu 4; gener 1; taxi 5; them 1; then 1; accept 1; kong 8; mission 2; includ 1; creativ 1; privaci 2; minut 1; access 3; fact 2; shatin 1; global 4; 11m 1; popular 1; resourc 4; calendar 2; art 2; intern 2; clearwat 4; holder 1; innov 1; store 1; julac 1; stori 4; peninsula 1; charm 1; to 2; 40 1; stai 1; apparel 1; express 1; research 10; technolog 2; school 18; cheung 2; 50 1; hau 6; us 12; advertis 1; eastern 1; outreach 2; kwan 1; entranc 6; occupi 1; support 1; apolog 1; next 4; arriv 1; shop 3; hidden 1; mileston 2; focu 2; life 2; we 3; button 1; admis 6; ting 3; 75 1; wai 1; wide 1; cairn 1; center 4; overlook 1; sundial 1; busminibu 1; target 1; insur 2; knowledg 4; urban 2; popul 2; financi 2; time 1; jockei 4; program 10; entrepreneuri 6; road 9; displai 1; faq 2; 91 1; enter 1; technologi 3; greater 2; plan 2; give 1; terminu 1; item 1; hkustgz 1; pristin 1; nonhkust 1; studi 4; consid 1; opportun 2; card 2; engin 4; educ 2; our 3; alumni 4; rock 1; caus 1; modern 1; web 2; get 4; event 1; leav 1; souvenir 3; yip 1; more 1; interchang 2; refurbish 2; highwai 1; lifestyl 3; help 1; site 1; foster 1; travel 1; advanc 6; board 1; twentyfirst 2; cooki 4; kok 1; piazza 2; circl 1; from 14; depart 4; ngau 1; profil 2; island 1; implem 1; tau 1; mtr 14; templat 2; water 1; most 1; transfer 2; campu 11; person 1; hung 6; guidelin 8; exchang 2; visitor 7; sustain 2; achiev 1; option 1; scienc 10; execu 2; interwoven 1; continu 3; interact 1; point 1; highlight 1; award 2; public 7; car 1; station 13; sai 4; park 2; cost 1; clear 1; categori 2; follow 7; inconveni 1; a1 1; a2 1; facepac 1; situat 1; visit 6; congreg 1; 
+Child Link 1: https://gz.ust.hk
+Child Link 2: https://calendar.ust.hk
+Child Link 3: https://giving.ust.hk/en/index.php
+Child Link 4: https://alum.ust.hk/
+Child Link 5: https://hkustcareers.ust.hk/
+Child Link 6: https://my.ust.hk/
+Child Link 7: https://hkust.edu.hk/
+Child Link 8: https://science.ust.hk/
+Child Link 9: https://www.seng.ust.hk
+Child Link 10: http://www.bm.ust.hk/en-us
+Child Link 11: https://www.shss.ust.hk/
+Child Link 12: https://ipo.ust.hk/
+Child Link 13: http://ias.ust.hk
+Child Link 14: http://ipp.ust.hk/
+Child Link 15: https://join.ust.hk/
+Child Link 16: https://pg.ust.hk/prospective-students/home
+Child Link 17: https://join.ust.hk/admissions/visiting/
+Child Link 18: http://studyabroad.ust.hk
+Child Link 19: http://sfao.ust.hk
+Child Link 20: https://kt.ust.hk
+Child Link 21: https://urop.ust.hk
+Child Link 22: https://strategicplan.hkust.edu.hk
+Child Link 23: https://ccss.ust.hk/governance
+Child Link 24: https://studyabroad.ust.hk/inbound/hong-kong/study-in-hong-kong
+Child Link 25: https://studyabroad.ust.hk/inbound/hkust
+Child Link 26: https://souvenir.ust.hk
+Child Link 27: http://www.hongkongairport.com/eng/transport/to-from-airport/airport-express.html
+Child Link 28: http://25a.ust.hk/eng/location_map.pdf
+Child Link 29: http://www.mtr.com.hk/archive/en/services/maps/chh.pdf
+Child Link 30: http://www.mtr.com.hk/archive/ch/services/maps/hah.pdf
+Child Link 31: http://www.mtr.com.hk/archive/en/services/maps/tik.pdf
+Child Link 32: http://www.kmb.hk/chi/map.php?file=SA01-T-1000-0
+Child Link 33: http://www.mtr.com.hk/archive/en/services/maps/hah.pdf
+Child Link 34: http://www.mtr.com.hk/archive/en/services/maps/poa.pdf
+Child Link 35: http://www.mtr.com.hk/archive/en/services/maps/ntk.pdf
+Child Link 36: https://alum.ust.hk/services-and-benefits/on-campus
+Child Link 37: https://www.seng.ust.hk/
+Child Link 38: http://www.bm.ust.hk
+Child Link 39: http://www.shss.ust.hk/
+Child Link 40: http://ias.ust.hk/web/ias/eng/
+Child Link 41: https://registry.ust.hk/calendar_dates/dates20-21confirmed.pdf
+Child Link 42: https://pao.ust.hk/Bdownload/HKUST_Brand_guideline.pdf
+Child Link 43: https://pao.ust.hk/Bdownload/HKUSTpowerpoint/HKUST_PPT_Corporate.zip
+Child Link 44: http://publish.ust.hk/univ/maps/Campus_Map_Color.pdf
+Child Link 45: https://pao.ust.hk/Bdownload/E-Board_guidelines.pdf
+Child Link 46: https://facultyprofiles.ust.hk/
+Child Link 47: https://pao.ust.hk/Bdownload/internal/Social_Media_Guidelines.pdf
+Child Link 48: https://pao.ust.hk/Bdownload/HKUST_website_guideline.pdf
+Child Link 49: http://library.ust.hk/
+Child Link 50: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 51: https://www.facebook.com/hkust
+Child Link 52: https://www.linkedin.com/school/hkust
+Child Link 53: https://www.instagram.com/hkust/
+Child Link 54: https://www.youtube.com/user/HKUST
+------------------------------------------------------------------
+Page Title: Home | CAREERS AT HKUST
+URL: https://hkustcareers.ust.hk/
+Last Modification Date: null, Size of page: 42419
+employ 3; career 4; copyright 2; inclus 2; year 1; about 7; commit 2; compris 1; academ 4; bai 6; cuttingedg 1; instagram 1; program 1; lifehkust 1; enhanc 1; environ 1; robot 2; critic 1; construc 2; faq 2; english 1; rank 4; enter 1; join 2; technologi 2; runner 1; uncompromis 1; greater 1; plan 2; subsidiari 2; qs 1; 6000 1; multipl 1; undergradu 2; gener 1; work 4; impact 3; ai 2; worldwid 1; come 2; manag 1; kong 14; hong 14; 1 1; mission 1; at 3; system 2; undertaken 1; 4 1; among 1; creativ 1; az 1; drive 1; engin 1; educ 4; other 3; strong 2; librari 1; valu 2; enrol 1; 29 1; pursuit 1; languag 1; retain 1; global 5; institut 3; skip 1; proactiv 1; privacysitemapcontact 1; our 3; seek 1; local 3; smart 2; youtub 1; how 2; current 4; search 3; found 1; world 2; freedom 1; 1991 1; hkust 28; member 1; direc 1; term 3; map 1; resourc 3; a 3; think 1; chip 2; intern 5; learn 2; within 1; more 1; facebook 1; spirit 1; staff 1; innov 1; right 2; menu 1; 27th 1; lead 1; emerg 2; excel 3; the 4; materi 2; 700 1; 10000 1; societ 2; to 2; advanc 4; li 1; open 6; receiv 1; reserv 2; offic 4; guangzhou 6; main 1; research 2; no1 2; postgradu 2; school 1; divers 3; talent 1; limit 6; commun 1; depart 1; diversifi 1; us 3; administr 2; all 2; new 1; initi 1; level 1; profil 1; recogni 1; worldclass 1; develop 1; diseas 2; neurodegen 2; presenc 1; water 6; establish 1; heart 1; respect 1; integr 1; core 1; vision 2; welcom 1; campu 12; recruit 4; histori 1; produc 1; faculti 5; higher 1; scienc 4; 10th 1; student 3; young 1; busi 1; mass 1; deliv 1; effort 1; linkedin 1; univers 11; content 1; we 1; central 1; appli 2; uphold 1; promot 1; human 4; interdisciplinari 1; live 2; facil 1; collabor 1; social 1; center 6; teach 3; clear 6; 2020 1; follow 1; dedic 1; 2019 1; knowledg 1; china 1; short 1; disciplin 1; cando 1; time 1; outlook 1; 
+Child Link 1: https://www.ust.hk/news
+Child Link 2: https://www.ust.hk/academics/list
+Child Link 3: https://www.ust.hk/lifehkust
+Child Link 4: http://library.ust.hk/
+Child Link 5: https://www.ust.hk/map-directions
+Child Link 6: https://hkustcareers.ust.hk
+Child Link 7: https://facultyprofiles.ust.hk/
+Child Link 8: https://www.ust.hk/about
+Child Link 9: https://hro.hkust.edu.hk
+Child Link 10: https://www.ust.hk
+Child Link 11: https://gz.ust.hk/
+Child Link 12: https://hrmsxprod.psft.ust.hk:8044/psp/hrmsxprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL
+Child Link 13: https://login.psft.ust.hk/cas/login?method=POST&service=https%3A//hrmsprod.psft.ust.hk/psp/hrmsprod/EMPLOYEE/HRMS/c/HRS_HRAM_EMP.HRS_CE.GBL%3F%26cmd%3Dlogin%26languageCd%3DENG%26userid%3DCASPROXY%26pwd%3Dz
+Child Link 14: http://www.nami.org.hk/en/nami/careers.html
+Child Link 15: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 16: https://www.facebook.com/hkust/
+Child Link 17: https://www.instagram.com/hkust
+Child Link 18: https://www.linkedin.com/school/hkust/
+Child Link 19: https://www.youtube.com/user/hkust
+------------------------------------------------------------------
+Page Title: Faculty Profiles | The Hong Kong University of Science and Technology
+URL: https://facultyprofiles.ust.hk/
+Last Modification Date: null, Size of page: 14296
+date 1; scienc 2; correctli 1; copyright 2; librari 1; reserv 2; offic 2; about 2; global 1; institu 2; academ 1; your 1; lifehkust 1; univers 3; research 2; polici 1; search 1; view 1; browser 3; hkust 3; direc 1; jobshkust 1; technologi 2; depart 1; map 1; all 2; a 3; new 1; profil 1; more 1; right 2; follow 1; kong 2; hong 2; the 2; az 1; privaci 1; updat 2; oirusthk 2; faculti 1; 
+Child Link 1: https://www.ust.hk/news
+Child Link 2: https://www.ust.hk/academics/list
+Child Link 3: https://www.ust.hk/lifehkust
+Child Link 4: http://library.ust.hk/
+Child Link 5: https://www.ust.hk/map-directions
+Child Link 6: https://www.ab.ust.hk/hro/PubDoc/careers/main.html?btn1=btn_nav_06&main=welcome.html
+Child Link 7: https://www.ust.hk/about-hkust
+Child Link 8: ./search.php
+Child Link 9: http://www.ust.hk
+Child Link 10: ./facultylisting.php
+Child Link 11: https://www.ust.hk/privacy-policy/
+Child Link 12: https://www.facebook.com/hkust
+Child Link 13: https://www.instagram.com/hkust/
+Child Link 14: https://www.linkedin.com/school/hkust/
+Child Link 15: https://www.youtube.com/hkust
+------------------------------------------------------------------
+Page Title: About | The Hong Kong University of Science and Technology
+URL: https://hkust.edu.hk/about
+Last Modification Date: null, Size of page: 144940
+13th 1; 16195 1; govern 5; year 3; bring 1; academ 10; bai 2; fit 2; offer 1; shyi 1; these 1; ugc 1; mathemat 2; nervou 1; rank 20; posit 1; serv 1; ag 2; agreem 1; bill 1; court 1; click 1; conserv 2; airport 1; covid19 2; senior 3; 1 5; steven 1; 800 1; 9 1; az 4; juli 6; seri 1; object 1; 12th 1; scheme 1; hon 3; icon 1; roll 1; polici 4; result 1; search 3; eboard 2; fook 1; aacsb 1; ecofriendli 1; hkust 61; celebr 5; close 1; a 7; c 1; set 2; tsang 1; f 1; staff 3; k 1; right 2; anniversari 7; march 5; figur 4; straight 3; the 25; materi 2; june 7; s 1; infrastructur 2; t 1; paul 1; polym 1; reserv 2; offic 6; chingwu 1; 57th 1; dr 6; nansha 2; postgradu 2; woo 2; contact 2; scholarship 2; club 7; tim 1; talk 2; signal 1; powerpoint 2; digit 1; info 1; area 5; brows 1; groundbreak 5; initi 2; 2001 4; 2000 2; toptier 1; diseas 2; consent 1; andrew 1; mainland 1; chu 2; vision 4; risen 1; success 2; final 1; octob 12; prochancellor 1; activ 2; hk400 1; faculti 6; auditorium 1; fok 4; 10th 2; young 1; rusal 1; 2012 4; for 2; 2011 4; contribu 1; 2010 5; univers 25; content 2; 2009 3; 2008 3; 2007 4; 2006 4; accomplish 1; 2005 2; laser 1; sik 1; decor 1; 2003 3; 2002 2; molecular 2; gb 3; human 4; sir 1; interdisciplinari 4; internation 1; live 4; eng 2; collabor 1; societi 1; asia 4; home 1; forum 1; myport 2; 2019 3; ying 4; 2018 4; 2017 5; gz 1; 2016 11; china 2; form 1; 2015 7; 2014 5; 2013 7; phonon 1; gate 1; foundat 2; grant 6; directori 2; deposi 1; scholarli 2; career 1; copyright 2; donat 3; hk 2; select 2; challeng 2; ho 1; 1187 1; collegi 1; ia 6; decemb 6; if 1; secretariat 1; rapidli 1; propor 1; sky 1; chow 1; 20th 1; in 1; worldwid 4; costeffect 1; manag 5; hong 10; system 2; seventh 1; cma 1; experi 1; inaugur 6; john 1; aid 2; begin 1; jointli 2; toni 1; other 1; librari 3; valu 1; szeyuan 1; enrol 1; natur 2; ceremoni 18; jp 3; institut 14; skip 1; cell 1; world 9; mai 5; member 1; shenzhen 2; accredit 1; map 2; centuri 2; discoveri 1; asian 2; chairman 5; entrepreneurship 5; trigger 1; mba 1; photon 1; multimedia 2; shau 3; shaw 1; olympiad 3; lo 1; receiv 1; pleas 2; chiawei 2; sign 2; main 1; kellogghkust 9; ust 2; host 3; limit 2; logo 1; relentless 1; commun 2; lap 1; chronic 2; sitemap 2; traffic 1; administr 5; all 2; inven 2; new 9; read 54; mr 2; meter 1; survei 2; film 1; ideat 2; establish 5; tast 2; basic 1; produc 1; hawk 1; no 5; patent 1; websit 2; student 12; busi 6; media 4; 690 1; lectur 2; total 1; execut 1; hk1500 1; leadership 3; social 8; control 3; hkustgzeventsvisitgivingalumnicar 1; strategi 1; committe 6; breadcrumb 1; offici 2; analyz 1; ninth 1; optoelectron 1; sport 2; inform 4; cultur 2; exerc 1; prev 1; about 4; concert 1; led 1; lifehkust 2; lee 3; construc 3; strateg 3; state 2; brand 4; app 2; undergradu 5; distinguish 1; gener 1; accept 1; kong 10; chochak 1; mission 4; privaci 2; access 2; fact 3; global 9; kee 3; kei 2; announc 1; sc 1; 1st 1; found 1; liao 1; industri 2; systemonachip 1; resourc 4; calendar 2; art 2; intern 5; neurosci 2; sy 1; launch 2; stori 5; marvin 1; kick 1; shiu 1; appoint 8; oper 1; fourth 4; open 8; professorship 3; project 1; arena 1; research 22; uc 1; no1 5; technolog 2; school 22; cheung 1; windshear 1; 52 1; us 3; advertis 1; laboratori 2; recogni 3; outreach 2; develop 3; warn 1; tube 1; name 6; physic 1; support 2; higher 1; next 1; book 1; emba 8; effort 1; mileston 3; focu 2; summit 1; life 2; we 1; button 1; admis 6; 04nm 1; ier 1; ting 1; 75 1; presid 7; associ 2; center 6; teach 1; graduat 4; commenc 1; neurodisord 1; target 1; insur 2; knowledg 4; urban 2; fund 3; popul 2; financi 10; revolu 1; time 13; jockei 7; stem 1; employ 4; septemb 12; sourc 1; held 6; program 20; senat 2; awardwin 1; april 7; entrepreneuri 6; techniqu 1; carbon 1; 90 1; displai 1; faq 2; attain 1; enter 1; technologi 7; yu 3; greater 3; plan 3; phase 1; give 1; hkustgz 1; contract 1; 1990 2; 1987 2; 1986 3; disord 1; studi 6; futur 3; opportun 3; 1988 3; recogn 1; engin 5; educ 5; januari 6; bright 1; our 6; 16th 1; alumni 1; 1997 2; 1996 2; 1995 2; 1994 2; mechan 1; 1993 3; web 2; 1991 3; get 2; wei 1; event 3; regular 1; 1999 4; more 1; prof 7; academi 1; excel 5; lifestyl 2; singlewal 1; site 1; assess 1; diamet 1; prometheu 1; chan 2; advanc 11; first 1; twentyfirst 2; cooki 4; kok 1; guangzhou 3; drug 1; theater 1; depart 4; tai 1; profil 2; templat 2; water 1; core 1; themebas 1; transfer 2; campu 7; council 8; person 1; speaker 1; guidelin 8; exchang 2; visitor 1; sustain 2; 14th 1; scienc 12; execu 2; deliv 1; continu 1; vincent 1; tung 7; chung 2; novemb 8; east 1; strive 1; award 6; public 6; februari 4; 25th 4; rockblast 1; built 1; chek 1; stephen 1; eighth 1; categori 2; follow 2; diamond 1; third 1; build 7; cheng 3; visit 3; retir 1; congreg 1; 
+Child Link 1: https://gz.ust.hk
+Child Link 2: https://calendar.ust.hk
+Child Link 3: https://giving.ust.hk/en/index.php
+Child Link 4: https://alum.ust.hk/
+Child Link 5: https://hkustcareers.ust.hk/
+Child Link 6: https://my.ust.hk/
+Child Link 7: https://hkust.edu.hk/
+Child Link 8: https://science.ust.hk/
+Child Link 9: https://www.seng.ust.hk
+Child Link 10: http://www.bm.ust.hk/en-us
+Child Link 11: https://www.shss.ust.hk/
+Child Link 12: https://ipo.ust.hk/
+Child Link 13: http://ias.ust.hk
+Child Link 14: http://ipp.ust.hk/
+Child Link 15: https://join.ust.hk/
+Child Link 16: https://pg.ust.hk/prospective-students/home
+Child Link 17: https://join.ust.hk/admissions/visiting/
+Child Link 18: http://studyabroad.ust.hk
+Child Link 19: http://sfao.ust.hk
+Child Link 20: https://kt.ust.hk
+Child Link 21: https://urop.ust.hk
+Child Link 22: https://strategicplan.hkust.edu.hk
+Child Link 23: https://ccss.ust.hk/governance
+Child Link 24: https://www.ust.hk/news/institutional-advancement/opening-tsang-shiu-tim-sports-center-promotes-holistic-education
+Child Link 25: https://www.ust.hk/news/greater-bay-development/hkust-signs-collaboration-agreements-guangzhou-government-and
+Child Link 26: https://25a.ust.hk/eng/celebration_detail.php?id=119
+Child Link 27: https://25a.ust.hk/eng/multimedia_detail.php?catid=2
+Child Link 28: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa060615-1582.pdf
+Child Link 29: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa060519-1580.pdf
+Child Link 30: https://www.ust.hk/eng/news/archive/e_pa050726-1545.pdf
+Child Link 31: http://www.bm.ust.hk/en-us/press_releases/detail/38
+Child Link 32: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa030905-745.pdf
+Child Link 33: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa020506-24.pdf
+Child Link 34: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa011109-154.pdf
+Child Link 35: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa010926-49.pdf
+Child Link 36: https://www.ust.hk/eng/news/archive/e_pa010423-99.pdf
+Child Link 37: https://www.ust.hk/press_release_archive/eng/news/archive/e_pa001102-68.pdf
+Child Link 38: http://www.bm.ust.hk/en-us/press_releases/detail/3
+Child Link 39: https://ccss.ust.hk/
+Child Link 40: https://president.hkust.edu.hk/
+Child Link 41: https://www.seng.ust.hk/
+Child Link 42: http://www.bm.ust.hk
+Child Link 43: http://www.shss.ust.hk/
+Child Link 44: http://ias.ust.hk/web/ias/eng/
+Child Link 45: https://registry.ust.hk/calendar_dates/dates20-21confirmed.pdf
+Child Link 46: https://pao.ust.hk/Bdownload/HKUST_Brand_guideline.pdf
+Child Link 47: https://pao.ust.hk/Bdownload/HKUSTpowerpoint/HKUST_PPT_Corporate.zip
+Child Link 48: http://publish.ust.hk/univ/maps/Campus_Map_Color.pdf
+Child Link 49: https://pao.ust.hk/Bdownload/E-Board_guidelines.pdf
+Child Link 50: https://facultyprofiles.ust.hk/
+Child Link 51: https://pao.ust.hk/Bdownload/internal/Social_Media_Guidelines.pdf
+Child Link 52: https://pao.ust.hk/Bdownload/HKUST_website_guideline.pdf
+Child Link 53: http://library.ust.hk/
+Child Link 54: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 55: https://www.facebook.com/hkust
+Child Link 56: https://www.linkedin.com/school/hkust
+Child Link 57: https://www.instagram.com/hkust/
+Child Link 58: https://www.youtube.com/user/HKUST
+------------------------------------------------------------------
+Page Title: HKUST ENGINEERING | HKUST School of Engineering
+URL: https://seng.ust.hk/
+Last Modification Date: null, Size of page: 119933
+viru 2; govern 1; intellig 4; biolog 7; academ 3; offer 2; robot 8; shyi 1; complex 1; sci 1; rank 4; visual 1; nextgener 3; rang 1; scifi 1; aerospac 4; descrip 5; serv 2; ag 3; impact 2; ai 1; taskforc 1; an 1; jiguang 2; covid19 23; extend 1; as 2; at 4; globe 1; az 1; seri 1; coronaviru 1; dean 2; treatment 1; deal 1; 1000 1; elect 2; how 2; vaccin 6; search 3; releas 2; civil 3; hkust 24; direc 1; measur 1; surfac 1; profes 1; hand 1; sweep 1; a 10; set 4; bioinformat 1; learn 25; ming 1; wearabl 1; i 3; photo 2; j 2; staff 4; right 2; mathematician 1; versatil 1; food 1; figur 3; the 5; halt 1; materi 3; robocon 2; infrastructur 4; meet 3; taught 4; abu 1; z 1; novel 1; polym 2; de 1; longterm 2; reserv 2; offic 1; contribut 2; forg 1; webbas 1; spring 1; trail 1; postgradu 8; contact 4; rare 1; scholarship 1; won 2; pan 1; info 1; area 3; richard 1; gari 1; transpar 1; strathclyd 1; kinglun 1; electrochem 1; diseas 1; mainland 1; integr 3; vision 3; ey 2; adjust 1; runnerup 1; yeung 1; interven 1; faculti 14; delai 1; 10th 1; inbound 1; semiconductor 1; young 1; contribu 2; univers 9; disinfect 1; content 1; accomplish 1; journei 1; laser 1; medal 1; human 2; interdisciplinari 1; collabor 2; societi 1; ambit 1; contin 1; particip 1; perform 2; 2020 4; disinfec 3; energi 4; home 2; nonpharmaceut 1; forum 1; environment 3; 2017 1; china 2; form 1; hub 1; publish 1; well 1; cancer 2; realm 1; relat 1; foundat 1; vanessa 1; directori 1; hui 1; hi 1; career 1; copyright 2; hk 1; challeng 3; cord19 1; ho 1; heteroepitaxi 1; properti 1; easili 1; hope 1; pioneer 1; artifici 4; lightemit 1; division 3; outstand 1; autom 1; myth 2; promis 1; identifi 2; action 1; outbreak 4; thomson 1; join 1; cordial 1; propos 1; period 2; shape 1; porou 2; metal 1; understand 1; crazi 1; it 2; hong 6; debunk 2; system 6; field 1; diod 1; becam 1; aid 1; women 1; other 1; humanoid 1; librari 2; woman 1; natur 2; against 3; ping 1; jr 1; skip 1; air 2; cell 1; local 2; world 2; mai 4; share 4; urgent 2; map 1; avail 1; product 1; desalin 1; health 2; entrepreneurship 4; menu 2; coconven 1; prospect 3; multimedia 1; citi 4; report 2; purifi 2; strongest 1; li 1; royal 2; internship 1; shed 1; receiv 1; rmb 1; screen 1; main 1; geotechn 1; second 1; that 1; solution 3; find 1; marshal 1; commun 6; sitemap 2; webinar 1; all 2; border 1; matthew 2; escap 1; inven 3; lau 3; new 10; postcovid19 1; contest 1; evid 1; level 1; aspir 1; film 1; establish 2; coat 3; professor 6; servic 1; unit 2; task 1; ng 1; updat 1; batteri 3; footer 1; paradigm 2; student 11; medic 1; media 7; switch 1; kai 3; total 1; recipi 2; dissolu 1; distanc 1; design 12; leadership 3; of 1; immun 1; fight 5; qing 2; social 3; tackl 1; mtpc 2; control 1; hksar 1; transport 1; compound 1; highli 1; super 2; comprehens 1; analyt 3; extrem 1; conduct 1; offici 1; gasperm 1; zhiyong 1; storag 1; inform 5; firstev 1; inclus 1; nation 1; about 4; led 6; cure 1; cuttingedg 1; lifehkust 2; environ 1; mobil 1; mountain 1; lithiumsulfur 1; sprai 3; decad 1; strateg 4; submodul 2; championship 1; press 2; onlin 1; secondari 1; 12 1; undergradu 4; distinguish 1; gener 2; 19 1; invent 1; evolv 2; kong 6; mission 3; wang 2; marri 1; privaci 2; raeng 1; safeguard 1; detec 1; 25 1; access 2; fact 3; healthcar 3; global 3; recommend 2; kei 4; devis 1; current 3; firstofitskind 1; mckai 2; realtim 1; jobshkust 3; industri 3; implic 1; relationship 1; so 1; email 1; devic 1; resourc 2; think 3; intern 2; decision 4; star 1; map1 2; centr 1; innov 4; suppress 1; team 10; call 1; face 1; charl 1; watch 3; assist 1; quarantin 1; to 1; dataset 1; open 1; friendship 1; joint 1; strength 1; prepar 1; quest 1; research 27; school 3; liu 2; up 1; bial 1; five 1; us 3; last 1; recogni 2; outreach 1; adapt 1; bold 1; develop 12; effici 1; contamin 1; thin 1; covidep 1; semest 1; name 2; tirelessli 1; support 1; geofenc 2; idea 2; scientist 3; concept 1; mass 1; commerci 1; admin 1; mutat 2; effort 3; mileston 1; cole 2; video 3; speed 1; wave 2; peopl 2; scientif 1; comput 11; gao 1; appli 2; stronger 1; iet 1; cathod 2; mask 2; presid 1; overview 2; pandem 2; center 2; teach 3; start 1; target 2; deliveri 2; biomed 1; silicon 1; what 1; popul 1; fung 2; fiinspir 1; financi 1; time 2; osa 1; base 1; abreast 1; reach 1; type 1; significantli 1; when 1; glanc 2; fan 1; road 1; holonyak 1; 90 1; displai 1; electron 9; antimicrobi 1; technologi 5; tianshou 1; virusslai 2; glasgow 1; counsel 1; multipl 1; method 2; come 1; stainless 1; suitabl 1; panelist 1; studi 13; biologi 1; light 1; futur 1; wangwai 1; lift 1; explor 1; math 1; broadcast 1; recogn 1; engin 41; steel 1; educ 1; vehicl 2; pascal 2; wear 2; fever 2; solar 1; our 6; smart 7; alumni 7; nick 1; mechan 4; blaze 1; alumna 2; waterproof 1; wei 1; event 2; membran 1; festiv 1; subscrib 1; chair 1; more 32; suggest 1; brain 1; agenda 1; prof 24; academi 2; lead 1; excel 1; help 4; fellow 2; chan 1; advanc 4; first 2; chemic 7; data 3; testam 1; dai 1; multidisciplinari 1; trek 1; deadliest 1; hiv 2; major 1; subscrip 1; econom 1; inspir 1; titl 6; depart 7; percol 1; sens 1; profil 2; poki 1; campu 1; effect 3; exchang 1; job 1; sustain 4; seng 8; scienc 12; crossov 1; autonom 6; continu 1; interact 1; lineup 1; platform 2; network 1; highlight 2; award 4; public 4; car 1; patient 2; signatur 1; tangibl 1; messag 1; protec 3; chen 4; ratchet 1; zhao 1; passeng 1; categori 1; follow 2; improv 2; kingdom 1; spread 2; carrier 1; connec 1; ambassador 1; disciplin 1; 
 Child Link 1: https://hkust.edu.hk/news
 Child Link 2: https://hkust.edu.hk/academics/list
 Child Link 3: https://hkust.edu.hk/lifehkust
-Child Link 4: https://library.ust.hk/
-Child Link 5: https://hkust.edu.hk/visit
-Child Link 6: https://hkustcareers.ust.hk/
-Child Link 7: https://facultyprofiles.ust.hk/
-Child Link 8: https://hkust.edu.hk/about
-Child Link 9: https://seng.ust.hk/
-Child Link 10: https://hkust.edu.hk/
-Child Link 11: https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
-Child Link 12: https://pgnews.ust.hk/feb-2017-feature-stories-part-2
-Child Link 13: https://seng.ust.hk/news/20201117/prof-chen-kai-designs-next-generation-ai-computing-hub-and-sets-new-paradigm
-Child Link 14: https://seng.ust.hk/news/20200707/prof-pedro-sander-expands-his-passion-computer-graphics
-Child Link 15: https://epublish.ust.hk/cgi-bin/eng/story.php?id=96&catid=97&keycode=88b7aae0ae45ddb0e6e000ee2682721a&token=17b43a00aeb0f8f8f08df16ae664909f
-Child Link 16: https://www.techinasia.com/weseer-smarter-censorship-china
-Child Link 17: https://calendar.ust.hk/events/engineering-undergraduate-study-webinar
-Child Link 18: https://livevideo.ust.hk/home/index_s08.html
-Child Link 19: https://seng.ust.hk/news/20210203/prof-raymond-wong-chi-wing-awarded-michael-g-gale-medal-distinguished-teaching
-Child Link 20: https://seng.ust.hk/news/20210112/dean-engineering-and-chair-professors-elected-fellows-hong-kong-academy-engineering
-Child Link 21: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
-Child Link 22: https://www.facebook.com/hkust/
-Child Link 23: https://www.instagram.com/hkust/
-Child Link 24: https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
-Child Link 25: https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+Child Link 4: http://library.ust.hk
+Child Link 5: https://hkust.edu.hk/map-directions
+Child Link 6: https://hkustcareers.ust.hk
+Child Link 7: https://facultyprofiles.ust.hk
+Child Link 8: https://hkust.edu.hk/about-hkust
+Child Link 9: https://www.ust.hk
+Child Link 10: https://calendar.ust.hk/organizers/seng
+Child Link 11: https://hkustcareers.ust.hk/home
+Child Link 12: https://bit.ly/2JC1m1j
+Child Link 13: https://www.weforum.org/agenda/2020/03/how-can-universities-fight-coronavirus/
+Child Link 14: https://seng.ust.hk/news/20200324/hkust-researchers-develop-smart-fever-screening-system-offering-more-efficient
+Child Link 15: https://www.facebook.com/404186675494/posts/10163525665020495/
+Child Link 16: https://covid19info.ust.hk
+Child Link 17: https://www.chp.gov.hk/en/index.html
+Child Link 18: https://pg.ust.hk/prospective-students/programs/short-term-study/pg-visiting-internship-students
+Child Link 19: https://sfao.ust.hk/
+Child Link 20: https://counsel.ust.hk/
+Child Link 21: https://cbe.ust.hk
+Child Link 22: http://www.ce.ust.hk
+Child Link 23: https://www.cse.ust.hk
+Child Link 24: https://ece.hkust.edu.hk
+Child Link 25: https://ieda.ust.hk
+Child Link 26: https://www.mae.ust.hk
+Child Link 27: https://isd.ust.hk
+Child Link 28: https://facultyprofiles.ust.hk/
+Child Link 29: https://library.ust.hk/
+Child Link 30: https://hkust.edu.hk/department
+Child Link 31: https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
+Child Link 32: https://ptc.ust.hk/
+Child Link 33: https://www.facebook.com/hkustengineering
+Child Link 34: https://www.instagram.com/hkustengineering
+Child Link 35: https://www.linkedin.com/school/hkustengineering
+Child Link 36: https://www.youtube.com/user/sengpr
 ------------------------------------------------------------------
