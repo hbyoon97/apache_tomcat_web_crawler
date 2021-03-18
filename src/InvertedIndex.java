@@ -121,6 +121,19 @@ public class InvertedIndex
         }
     }
     
+    public void forward(String url, String word, int count) throws RocksDBException{
+    	String str = "forward_" + url;
+    	byte[] content = db.get(str.getBytes());
+    	if(content != null){
+            //append
+            content = (new String(content) + " " + word + String.valueOf(count)).getBytes();
+        } else {
+            //create new key value pair
+            content = (word + String.valueOf(count)).getBytes();
+        }   
+        db.put(str.getBytes(), content);
+    }
+    
     public static void main(String[] args)
     {
         try
