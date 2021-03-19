@@ -80,7 +80,7 @@ public class Crawler {
 			 if(res.hasHeader("location")) {
 				 String actual_url = res.header("location");
 				 if (this.urls.contains(actual_url)) {
-					throw new RevisitException();
+					return null;
 				 }
 				 else {
 					 this.urls.add(actual_url);
@@ -94,7 +94,6 @@ public class Crawler {
 		}
 		/* Get the metadata from the result */
 		String lastModified = res.header("last-modified");
-		if(lastModified == null) lastModified = "null";
 		int size = res.bodyAsBytes().length;
 		String title = res.parse().title();
 		String htmlLang = res.parse().select("html").first().attr("lang");
@@ -191,12 +190,16 @@ public class Crawler {
 		
 		while(!this.URLqueue.isEmpty()) {
 			Link focus = this.URLqueue.remove(0);
-			if (count++ == 30) break; // stop criteria
 			/* start to crawl on the page */
 			try {
 				Response res = this.getResponse(focus, index);
 				Document doc = res.parse();
-
+				
+				//handle status codes and empty page
+				if(res.parse().title().isEmpty() || res.statusCode() == 301 || res.statusCode() == 302) continue;
+				
+				if (count++ == 30) break; // stop criteria
+				
 				Vector<String> words = this.extractWords(doc);
 				Vector<String> links = this.extractLinks(doc);
 				
@@ -232,8 +235,7 @@ public class Crawler {
 				parentChild(focus.url, links, index);
 				
 			} catch (Exception e){ 
-				System.out.println(e);
-				System.out.println(focus.url);
+				continue;
 			}
 		}
 		
