@@ -80,12 +80,12 @@ public class Crawler {
 			 if(res.hasHeader("location")) {
 				 String actual_url = res.header("location");
 				 if (this.urls.contains(actual_url)) {
-					return null;
+					throw new RevisitException();
 				 }
 				 else {
 					 this.urls.add(actual_url);
 				 }
-			 }
+			 } 
 			 else {
 				 this.urls.add(focus.url);
 			 }
@@ -99,6 +99,7 @@ public class Crawler {
 		String htmlLang = res.parse().select("html").first().attr("lang");
 		String bodyLang = res.parse().select("body").first().attr("lang");
 		String lang = htmlLang + bodyLang;
+
 		
 		try {
 			index.metadata(focus.url, title, lastModified, size, lang, focus.level);
@@ -136,7 +137,7 @@ public class Crawler {
         Elements links = doc.select("a[href]");
         for (Element link: links) {
         	String linkString = link.attr("href");
-        	// filter out emails and empty/valueless hrefs
+        	// filter out emails and empty and valueless hrefs
         	if (linkString.contains("mailto:") || linkString.contains("#") || linkString.contains("javascript:") 
         			|| (linkString.length() > 0 && linkString.charAt(0) == '/') || linkString.equals("")) {
         		continue;
@@ -149,6 +150,7 @@ public class Crawler {
 	/** Print all info about the focused page
 	 */
 	public void printPageInfo(Response res, Document doc, Link focus, int count) {
+		System.out.println(count);
 		System.out.println("Page title: " + doc.title());
 		System.out.println("URL: " + focus.url);
 		System.out.printf("Last Modified: %s\t", res.header("last-modified"));
@@ -192,13 +194,13 @@ public class Crawler {
 			Link focus = this.URLqueue.remove(0);
 			/* start to crawl on the page */
 			try {
+				if (count++ == 30) break; // stop criteria
 				Response res = this.getResponse(focus, index);
 				Document doc = res.parse();
 				
-				//handle status codes and empty page
-				if(res.parse().title().isEmpty() || res.statusCode() == 301 || res.statusCode() == 302) continue;
-				
-				if (count++ == 30) break; // stop criteria
+				if(res.parse().title().isEmpty() || res.statusCode() == 301 || res.statusCode() == 302) {
+					continue;
+				}
 				
 				Vector<String> words = this.extractWords(doc);
 				Vector<String> links = this.extractLinks(doc);
@@ -235,6 +237,7 @@ public class Crawler {
 				parentChild(focus.url, links, index);
 				
 			} catch (Exception e){ 
+				count--;
 				continue;
 			}
 		}
@@ -339,13 +342,10 @@ public class Crawler {
 	public String getInfo(Crawler crawler,InvertedIndex index) {
 
 		String result = "";
-//		int count = 0;
 		try {
 			HashSet<String> urls = crawler.urls;
 			for(String url: urls) {
-//				count++;
 				Vector<String> metadata = index.getMetadata(url);
-//				result = result + String.valueOf(count) + "\n";
 				
 				// get the page title
 				if(metadata.size()!=0)
@@ -382,8 +382,7 @@ public class Crawler {
 		    BufferedWriter writer = new BufferedWriter(new FileWriter("./spider_result.txt"));
 		    writer.write(content);
 		    writer.close();
-		    System.out.println("Result txt file output successfully");
-
+		    System.out.println("Output spider_result.txt successfully");
 		}
 		catch(IOException e)
 		{
@@ -402,18 +401,10 @@ public class Crawler {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("\nSuccessfully Returned");
 		String final_output = crawler.getInfo(crawler,index);
 		crawler.outputTXT(final_output);
-		
-		// Print out links in crawler.urls
-		System.out.println("========== !!!!!! ============");
-	
-		int a = 0;
-		for(String link:crawler.urls) {
-			a++;
-			System.out.println(String.valueOf(a) + ": " + link + "\n");
-		}
+
+		System.out.println("\nSuccessfully Returned");
 	}
 		
 }

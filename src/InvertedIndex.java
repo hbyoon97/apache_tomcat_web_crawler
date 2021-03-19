@@ -88,12 +88,18 @@ public class InvertedIndex
     {
         // Print all the data in the hashtable
         // ADD YOUR CODES HERE
+//        RocksIterator iter = db.newIterator();
+//        String constriant = "metadata" + "_";
+//        for(iter.seekToFirst(); iter.isValid(); iter.next()){
+//        	if(new String(iter.key()).contains(constriant)) {
+//        		System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
+//            }
+//        }
+    	// Print all the data in the hashtable
+        // ADD YOUR CODES HERE
         RocksIterator iter = db.newIterator();
-        String constriant = "metadata" + "_";
         for(iter.seekToFirst(); iter.isValid(); iter.next()){
-        	if(new String(iter.key()).contains(constriant)) {
-        		System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
-            }
+            System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
         }
     }    
     
