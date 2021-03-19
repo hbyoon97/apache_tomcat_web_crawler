@@ -89,16 +89,23 @@ public class InvertedIndex
         // Print all the data in the hashtable
         // ADD YOUR CODES HERE
         RocksIterator iter = db.newIterator();
+        String constriant = "metadata" + "_";
         for(iter.seekToFirst(); iter.isValid(); iter.next()){
-            System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
+        	if(new String(iter.key()).contains(constriant)) {
+        		System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
+            }
         }
     }    
     
     // Get the docID by the URL (e.g. https://www.cse.ust.hk/ returns "doc0")
-    public String getDocID(String url) throws RocksDBException {
+    public String getDocIDbyURL(String url) throws RocksDBException {
+    	String result = "";
     	String new_url = "docMapping_" + url;
     	byte[] content = db.get(new_url.getBytes());
-    	return new String(content);
+    	if(content != null) {
+    		result = new String(content);
+    	}
+    	return result;
     }
     
     public String getURLbyDocID(String docID) throws RocksDBException{
@@ -161,8 +168,8 @@ public class InvertedIndex
     }
     
     public void addPCRelation(String p_url, String c_url) throws RocksDBException{
-    	String parentID = "PCR_" + getDocID(p_url);
-    	String childID = getDocID(c_url);
+    	String parentID = "PCR_" + getDocIDbyURL(p_url);
+    	String childID = getDocIDbyURL(c_url);
     	byte[] content = db.get(parentID.getBytes());
     	if(content != null){
             //append
@@ -180,7 +187,7 @@ public class InvertedIndex
     
     public String getPCRelation(String p_url) throws RocksDBException{
     	String result = new String();
-    	String parentID = "PCR_" + getDocID(p_url);
+    	String parentID = "PCR_" + getDocIDbyURL(p_url);
     	byte[] content = db.get(parentID.getBytes());
     	if(content != null){
     		String new_content = new String(content);
@@ -205,7 +212,7 @@ public class InvertedIndex
     }
     
     public void forward(String url, String word, int count) throws RocksDBException{
-    	String str = getDocID(url);
+    	String str = getDocIDbyURL(url);
     	str = "forward_" + str;
     	byte[] content = db.get(str.getBytes());
     	if(content != null){
@@ -219,7 +226,7 @@ public class InvertedIndex
     }
     
     public String getForward(String url)throws RocksDBException{
-    	String str = getDocID(url);
+    	String str = getDocIDbyURL(url);
     	str = "forward_" + str;
     	byte[] content = db.get(str.getBytes());
     	String result = "";
@@ -237,7 +244,7 @@ public class InvertedIndex
     }
     
     public void invert(String url, String word, int freq) throws RocksDBException {
-    	String docID = getDocID(url);
+    	String docID = getDocIDbyURL(url);
     	String wordID = getWordID(word);
     	String str = "inverted_" + wordID;
     	
@@ -253,7 +260,7 @@ public class InvertedIndex
     }
     
    public void metadata(String url, String title, String lm, int size, String lang, int level) throws RocksDBException{
-	   String str = "metadata_" + getDocID(url);
+	   String str = "metadata_" + getDocIDbyURL(url);
 	   byte[] content = db.get(str.getBytes());
 	   if(content != null) {
    		//append
@@ -267,7 +274,7 @@ public class InvertedIndex
    
    public Vector<String> getMetadata(String url) throws RocksDBException{
 	   Vector<String> result = new Vector<String>();
-	   String str = "metadata_" + getDocID(url);
+	   String str = "metadata_" + getDocIDbyURL(url);
 	   byte[] content = db.get(str.getBytes());
 	   if(content != null) {
 		   String data = new String(content);

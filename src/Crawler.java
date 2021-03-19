@@ -336,25 +336,31 @@ public class Crawler {
 		 return index;
 	}
 	
-	public String getInfo(InvertedIndex index) {
+	public String getInfo(Crawler crawler,InvertedIndex index) {
 
 		String result = "";
+//		int count = 0;
 		try {
-			Vector<String> urls = index.getURLList();
+			HashSet<String> urls = crawler.urls;
 			for(String url: urls) {
+//				count++;
 				Vector<String> metadata = index.getMetadata(url);
+//				result = result + String.valueOf(count) + "\n";
 				
 				// get the page title
-				result = result + "Page Title: " + metadata.get(0) + "\n";
+				if(metadata.size()!=0)
+					result = result + "Page Title: " + metadata.get(0) + "\n";
 		
 				// get the url
 				result = result + "URL: " + url + "\n";
 		
 				// get last modification date
-				result = result + "Last Modification Date: " + metadata.get(1);
+				if(metadata.size()!=0)
+					result = result + "Last Modification Date: " + metadata.get(1);
 		
 				// get page size
-				result = result + ", Size of page: " + metadata.get(2) + "\n";
+				if(metadata.size()!=0)
+					result = result + ", Size of page: " + metadata.get(2) + "\n";
 				
 				// get forward indexing keyword freq
 				result = result + index.getForward(url);
@@ -397,8 +403,18 @@ public class Crawler {
 			e.printStackTrace();
 		}
 		System.out.println("\nSuccessfully Returned");
-		String final_output = crawler.getInfo(index);
+		String final_output = crawler.getInfo(crawler,index);
 		crawler.outputTXT(final_output);
+		
+		// Print out links in crawler.urls
+		System.out.println("========== !!!!!! ============");
+	
+		int a = 0;
+		for(String link:crawler.urls) {
+			a++;
+			System.out.println(String.valueOf(a) + ": " + link + "\n");
+		}
 	}
+		
 }
 
