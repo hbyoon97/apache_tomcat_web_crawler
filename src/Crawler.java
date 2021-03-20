@@ -92,6 +92,7 @@ public class Crawler {
 		} catch (HttpStatusException e) {
 			throw e;
 		}
+		
 		/* Get the metadata from the result */
 		String lastModified = res.header("last-modified");
 		int size = res.bodyAsBytes().length;
@@ -100,7 +101,6 @@ public class Crawler {
 		String bodyLang = res.parse().select("body").first().attr("lang");
 		String lang = htmlLang + bodyLang;
 
-		
 		try {
 			index.metadata(focus.url, title, lastModified, size, lang, focus.level);
 		} catch (RocksDBException e) {
@@ -147,17 +147,16 @@ public class Crawler {
         return result;
 	}
 	
-	/** Print all info about the focused page
+	/** Print all info about the focused page to console
 	 */
-	public void printPageInfo(Response res, Document doc, Link focus, int count) {
-		System.out.println(count);
+	public void printPageInfo(Response res, Document doc, Link focus) {
 		System.out.println("Page title: " + doc.title());
 		System.out.println("URL: " + focus.url);
 		System.out.printf("Last Modified: %s\t", res.header("last-modified"));
 		System.out.printf("Page Size: %d Bytes\n", res.bodyAsBytes().length);
 	}
 	
-	/** Print all info about the focused page
+	/** Print page's words and links
 	 */
 	public void printWordsAndLinks(Link focus, Set<Entry<String, Integer>> keywordFreqPair, Vector<String> links) {	
 		System.out.println("\nWords:");
@@ -174,9 +173,7 @@ public class Crawler {
 			}
 			this.URLqueue.add(new Link(link, focus.level + 1)); // add links
 		}
-
 		System.out.println("-------------------------------------------------------------------------------------------");
-		
 	}
 	
 	/** Use a URLqueue to manage crawl tasks.
@@ -220,8 +217,9 @@ public class Crawler {
 		        Collections.sort(words);
 		        
 		        Set<Entry<String, Integer>> keywordFreqPair = forwardIndex(focus.url, words, index);
-				
-				printPageInfo(res, doc, focus, count);
+					
+		        //Print spider_result fashion output to console
+				printPageInfo(res, doc, focus);
 				printWordsAndLinks(focus, keywordFreqPair, links);
 				
 				// Creating URL and docID Mapping
@@ -290,7 +288,7 @@ public class Crawler {
 		}
 	}
 	
-	/** forward indexer
+	/** initialize Set with Entry<keyword, frequency>
 	 */
 	public Set<Entry<String, Integer>> forwardIndex(String url, Vector<String> words, InvertedIndex index) {
 		//forward_docID -> (word, freq)
@@ -403,7 +401,6 @@ public class Crawler {
 		}
 		String final_output = crawler.getInfo(crawler,index);
 		crawler.outputTXT(final_output);
-
 		System.out.println("\nSuccessfully Returned");
 	}
 		

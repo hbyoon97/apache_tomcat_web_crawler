@@ -62,46 +62,12 @@ public class InvertedIndex
         db.put(word.getBytes(), content);
     }
 
-    public void addEntry(String word, int x, int y) throws RocksDBException
-    {
-        // Add a "docX Y" entry for the key "word" into hashtable
-        // ADD YOUR CODES HERE
-        byte[] content = db.get(word.getBytes());
-        if(content != null){
-            //append
-            content = (new String(content) + " doc" + x + " " + y).getBytes();
-        } else {
-            //create new key value pair
-            content = ("doc" + x + " " + y).getBytes();
-        }   
-        db.put(word.getBytes(), content);
-    }
-
     public void delEntry(String word) throws RocksDBException
     {
         // Delete the word and its list from the hashtable
         // ADD YOUR CODES HERE
         db.remove(word.getBytes());
-    } 
-
-    public void printAll() throws RocksDBException
-    {
-        // Print all the data in the hashtable
-        // ADD YOUR CODES HERE
-//        RocksIterator iter = db.newIterator();
-//        String constriant = "metadata" + "_";
-//        for(iter.seekToFirst(); iter.isValid(); iter.next()){
-//        	if(new String(iter.key()).contains(constriant)) {
-//        		System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
-//            }
-//        }
-    	// Print all the data in the hashtable
-        // ADD YOUR CODES HERE
-        RocksIterator iter = db.newIterator();
-        for(iter.seekToFirst(); iter.isValid(); iter.next()){
-            System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
-        }
-    }    
+    }  
     
     // Get the docID by the URL (e.g. https://www.cse.ust.hk/ returns "doc0")
     public String getDocIDbyURL(String url) throws RocksDBException {
@@ -136,14 +102,14 @@ public class InvertedIndex
     }
     
     // Get last-modified
-//    public String getLastModified(String url) throws RocksDBException{
-//    	String str = "metadata_" + getDocID(url);
-//    	byte[] content = db.get(str.getBytes());
-//    	String contentStr = content.toString();
-//    	System.out.println("contentStr" + contentStr);
-//    	String[] parts = contentStr.split(":");
-//    	return parts[0];
-//    }
+    public String getLastModified(String url) throws RocksDBException{
+    	String str = "metadata_" + getDocIDbyURL(url);
+    	byte[] content = db.get(str.getBytes());
+    	String contentStr = content.toString();
+    	System.out.println("contentStr" + contentStr);
+    	String[] parts = contentStr.split(":");
+    	return parts[0];
+    }
     
     public Vector<String> getURLList()throws RocksDBException {
     	Vector<String> urlsList = new Vector<String>();
@@ -208,13 +174,6 @@ public class InvertedIndex
     		return "";
     	}
 
-    }
-    
-    public void clear() throws RocksDBException {
-    	RocksIterator iter = db.newIterator();
-        for(iter.seekToFirst(); iter.isValid(); iter.next()){
-            db.remove(new String(iter.key()).getBytes());
-        }
     }
     
     public void forward(String url, String word, int count) throws RocksDBException{
@@ -292,6 +251,22 @@ public class InvertedIndex
 	   
 	   return result;
    }
+
+   public void clear() throws RocksDBException {
+   	RocksIterator iter = db.newIterator();
+       for(iter.seekToFirst(); iter.isValid(); iter.next()){
+           db.remove(new String(iter.key()).getBytes());
+       }
+   }
+   
+   public void printAll() throws RocksDBException {
+   	// Print all the data in the hashtable
+       // ADD YOUR CODES HERE
+       RocksIterator iter = db.newIterator();
+       for(iter.seekToFirst(); iter.isValid(); iter.next()){
+           System.out.println(new String(iter.key()) + " = " + new String(iter.value()));
+       }
+   }   
    
     public static void main(String[] args)
     {
@@ -301,26 +276,9 @@ public class InvertedIndex
             RocksDB.loadLibrary();
             
             // modify the path to your database
-            String path = "/Users/anthonykwok/Documents/Academic/HKUST/Year 2020-2021 (DSCT Yr 3)/2021 Spring Semester Course/COMP4321/Project/comp4321-project/db";
+            String path = "/db";
 
             InvertedIndex index = new InvertedIndex(path);
-    
-//            index.addEntry("cat", 2, 6);
-//            index.addEntry("dog", 1, 33);
-//            System.out.println("First print");
-//            index.printAll();
-//            
-//            index.addEntry("cat", 8, 3);
-//            index.addEntry("dog", 6, 73);
-//            index.addEntry("dog", 8, 83);
-//            index.addEntry("dog", 10, 5);
-//            index.addEntry("cat", 11, 106);
-//            System.out.println("Second print");
-//            index.printAll();
-//            
-//            index.delEntry("dog");
-//            System.out.println("Third print");
-//            index.printAll();
             index.clear();
         }
         catch(RocksDBException e)
