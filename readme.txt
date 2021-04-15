@@ -13,7 +13,11 @@ TSUI, Yuen Yau			SID:20607488	(yytsuiab@connect.ust.hk)
 
 ## Instructions to build the spider program:
 
-0.Instructions are designed for COMP4321 CentOS VM environment, or any other UNIX-based OS such as Linux and Mac OS X (Please use the correspondingly appropriate jar files for compilation)
+Note: Instructions are designed for COMP4321 CentOS VM environment, or any other UNIX-based OS such as Linux and Mac OS X (Please use the correspondingly appropriate jar files for compilation)
+
+0.Clone this repo. 
+
+git clone git@github.com:yhb1010/comp4321-project.git
 
 1.Open terminal and change directory to comp4321-project
 
