@@ -22,7 +22,8 @@ public class InvertedIndex
     private Options options;
     private int wordNextID;
     private int docNextID;
-
+    
+    // 
     InvertedIndex(String dbPath) throws RocksDBException
     {
         // the Options class contains a set of configurable DB options

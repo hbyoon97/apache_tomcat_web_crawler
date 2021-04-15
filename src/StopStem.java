@@ -30,23 +30,28 @@ public class StopStem {
         }
     }
 
+    // Stem the word
     public String stem(String str) {
         return porter.stripAffixes(str);
     }
 
+    // Import the source for word stemming
     public void importSource(Vector<String> source) {
         this.source = source;
     }
-
+    
+    // Print out the source for word stemming
     public void printSource() {
         System.out.println("\nSource Words: " + this.source + "\n");
     }
-
+    
+    // Print out the stemmed word
     public void printStemmedWord() {
     	Collections.sort(this.stemmedWords);
         System.out.println("\nStemmed Words: " + this.stemmedWords + "\n");
     }
 
+    // Stem the word
     public Vector<String> StemWord() {
         for (String word : this.source) {
             if (this.isStopWord(word)) {
@@ -62,7 +67,9 @@ public class StopStem {
         }
         return this.stemmedWords;
     }
-
+    
+    
+    // Main Program in Stop Stem
     public static void main(String[] arg) {
 
         StopStem stopStem = new StopStem("stopwords-en.txt");
