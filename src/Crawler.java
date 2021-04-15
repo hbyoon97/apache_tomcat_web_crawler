@@ -139,7 +139,7 @@ public class Crawler {
         	String linkString = link.attr("href");
         	// filter out emails and empty and valueless hrefs
         	if (linkString.contains("mailto:") || linkString.contains("#") || linkString.contains("javascript:") 
-        			|| (linkString.length() > 0 && linkString.charAt(0) == '/') || linkString.equals("")) {
+        			|| linkString.equals("")) {
         		continue;
         	} 
             result.add(link.attr("href"));
